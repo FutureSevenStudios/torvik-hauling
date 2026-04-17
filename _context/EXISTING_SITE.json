@@ -1,0 +1,99 @@
+{
+  "url": "https://torvikhauling.com",
+  "analyzedAt": "2026-04-17",
+
+  "structure": {
+    "pages": [
+      { "url": "/", "title": "Home", "type": "home" },
+      { "url": "/services-1", "title": "Services", "type": "services" },
+      { "url": "/about", "title": "About", "type": "about" },
+      { "url": "/contact", "title": "Contact", "type": "contact" },
+      { "url": "/appointments", "title": "Free Quote", "type": "booking" }
+    ],
+    "navLinks": ["Services", "About", "Contact", "Free Quote"],
+    "hasContactForm": true,
+    "hasBlog": false,
+    "hasServicePages": true
+  },
+
+  "content": {
+    "servicesFound": [
+      "Residential junk removal",
+      "Garage, basement & attic cleanouts",
+      "Shed & deck removal",
+      "Fence & playset removal",
+      "Estate & property cleanouts",
+      "Construction debris removal",
+      "Single-item pickup"
+    ],
+    "serviceAreasFound": [
+      "Hawthorn Woods",
+      "Lake Zurich",
+      "Kildeer",
+      "Long Grove",
+      "Barrington",
+      "Deer Park",
+      "Palatine",
+      "Arlington Heights",
+      "Buffalo Grove",
+      "Schaumburg",
+      "Mundelein"
+    ],
+    "testimonialsFound": [],
+    "faqsFound": [],
+    "ctasFound": ["FREE QUOTE", "Learn more"],
+    "phone": "224-456-6607",
+    "email": "TorvikHauling@Gmail.com",
+    "address": "Hawthorn Woods, IL"
+  },
+
+  "quality": {
+    "designScore": 3,
+    "mobileScore": 4,
+    "conversionScore": 2,
+    "seoScore": 2,
+    "overallScore": 3,
+    "designNotes": "Clean Squarespace template; functional but generic. Limited differentiation from competitors.",
+    "mobileNotes": "Responsive nav with hamburger menu, decent mobile layout.",
+    "conversionNotes": "No social proof (testimonials/reviews), no trust badges visible on homepage, no response-time promise, no clear process explanation. Primary CTA present but weak context around it.",
+    "seoNotes": "Title tag present but weak. No visible city pages, no service pages beyond a single /services-1 page, no schema markup indicators, no FAQs, no blog."
+  },
+
+  "salvageable": {
+    "content": [
+      "Core service list (expandable)",
+      "Phone number and email",
+      "Local ownership messaging"
+    ],
+    "structure": [
+      "Home → Services → About → Contact → Quote nav pattern"
+    ],
+    "seo": [
+      "Domain torvikhauling.com (primary ranking asset — keep)",
+      "Google Business Profile (already active with reviews)"
+    ]
+  },
+
+  "issues": {
+    "critical": [
+      "No testimonials / social proof despite having 3 strong Google reviews available",
+      "No city-specific landing pages (leaving Google local leads on the table)"
+    ],
+    "important": [
+      "No FAQ section",
+      "No process/how-it-works section",
+      "No service area map",
+      "No before/after photos",
+      "No trust badges or eco-friendly disposal messaging",
+      "Services page is a single catch-all instead of individual service pages"
+    ],
+    "minor": [
+      "Generic Squarespace template aesthetic",
+      "Limited brand personality",
+      "Mixed-case email rendering"
+    ]
+  },
+
+  "recommendation": "rebuild",
+  "recommendationReason": "Existing site is a basic Squarespace template with weak conversion elements and almost no SEO footprint. Client has strong assets (3 glowing Google reviews, Google Ads already running, clear brand voice, extensive service list, eco positioning) that aren't being leveraged. A custom rebuild on the standard localbiz stack will give Torvik city pages, service pages, testimonials, trust signals, and a proper lead-capture hero — all of which directly convert the Google Ads traffic they're already paying for. Domain and email stay; everything else rebuilt."
+}

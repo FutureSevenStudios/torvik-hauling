@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "clientId": "torvik-hauling",
+    "createdAt": "2026-04-17",
+    "sources": {
+      "hasForm": true,
+      "hasAssets": false,
+      "hasExistingSite": true,
+      "assetFiles": []
+    },
+    "overallConfidence": "high"
+  },
+
+  "business": {
+    "name": { "value": "Torvik Hauling", "source": "form", "confidence": "high" },
+    "type": { "value": "junk removal", "source": "form", "confidence": "high" },
+    "category": { "value": "home-improvement", "source": "inferred", "confidence": "high", "notes": "Mapped from business-type-profiles.json" },
+    "niche": { "value": "junk removal and light demolition", "source": "form", "confidence": "high" },
+    "tagline": { "value": "Family Owned. Community Focused.", "source": "form", "confidence": "high" },
+    "description": {
+      "value": "Torvik Hauling is a local, family-owned junk removal and light demolition company serving the Northwest suburbs of Chicago. We handle everything from single-item pickups to full property cleanouts, always showing up on time and getting the job done right. Our goal is simple: leave every space cleaner than we found it while making the process easy for our neighbors.",
+      "source": "form",
+      "confidence": "high"
+    },
+    "yearsInBusiness": { "value": 1, "source": "form", "confidence": "high" },
+    "uniqueSellingPoints": {
+      "value": [
+        "Family-owned and community-focused",
+        "Fast response time (1-2 hours)",
+        "Eco-friendly disposal — recycle and donate when possible",
+        "Handles single items through full property cleanouts AND light demolition under one roof",
+        "Willing to take on difficult jobs others decline (per testimonial)",
+        "Always leaves the space cleaner than we found it"
+      ],
+      "source": "form",
+      "confidence": "high"
+    },
+    "customerObjections": {
+      "value": [
+        "Will they show up on time?",
+        "Can they handle unusual/heavy items?",
+        "Will they clean up after themselves?",
+        "Is this going to be expensive?",
+        "Are they insured / legit?"
+      ],
+      "source": "inferred",
+      "confidence": "medium"
+    },
+    "targetCustomer": {
+      "value": "Homeowners in the Northwest Chicago suburbs (Lake County and NW Cook County) needing junk removal, property cleanouts, or light demolition. Also property managers, realtors handling estate/foreclosure cleanouts, and small commercial clients.",
+      "source": "inferred",
+      "confidence": "medium"
+    }
+  },
+
+  "contact": {
+    "phone": { "value": "(224) 456-6607", "source": "form", "confidence": "high" },
+    "email": { "value": "torvikhauling@gmail.com", "source": "form", "confidence": "high" },
+    "address": {
+      "value": {
+        "street": null,
+        "city": "Hawthorn Woods",
+        "state": "IL",
+        "zip": null,
+        "formatted": "Hawthorn Woods, IL (service area only — no storefront)"
+      },
+      "source": "existing-site",
+      "confidence": "medium",
+      "notes": "Form says 'No - service area only' but existing site lists Hawthorn Woods as base. Use Hawthorn Woods as business origin city for local SEO schema; do not publish a storefront address."
+    },
+    "serviceAreas": {
+      "value": [
+        "Lake Zurich",
+        "Hawthorn Woods",
+        "Kildeer",
+        "Long Grove",
+        "Barrington",
+        "Barrington Hills",
+        "Deer Park",
+        "Palatine",
+        "Arlington Heights",
+        "Buffalo Grove",
+        "Wheeling",
+        "Prospect Heights",
+        "Mount Prospect",
+        "Rolling Meadows",
+        "Vernon Hills",
+        "Libertyville",
+        "Mundelein",
+        "Wauconda",
+        "Round Lake",
+        "Round Lake Beach",
+        "Round Lake Park",
+        "Grayslake",
+        "Gurnee",
+        "Lindenhurst",
+        "Lake Villa",
+        "Crystal Lake",
+        "Cary",
+        "Fox River Grove",
+        "Algonquin",
+        "Lake in the Hills"
+      ],
+      "source": "form",
+      "confidence": "high",
+      "notes": "Full service area list provided. Client explicitly called out 6-10 core cities for homepage, full list for a 'View Full Service Area' SEO page."
+    },
+    "primaryCity": { "value": "Lake Zurich", "source": "form", "confidence": "high", "notes": "Listed first in client's 'how to say it' hero copy; also largest named core city. Hawthorn Woods is operational base." }
+  },
+
+  "social": {
+    "facebook": "pending-url",
+    "instagram": "pending-url",
+    "google": "https://share.google/LHKNG3oyAecUf0itD",
+    "yelp": null,
+    "linkedin": null
+  },
+
+  "services": {
+    "primary": [
+      { "name": "Junk Removal", "slug": "junk-removal", "description": "Full residential & commercial junk removal, single-item pickup (couches, mattresses, appliances), furniture and appliance removal.", "source": "form", "hasOwnPage": true },
+      { "name": "Property Cleanouts", "slug": "property-cleanouts", "description": "Full home, estate, foreclosure, hoarder, move-in/move-out, and rental turnover cleanouts.", "source": "form", "hasOwnPage": true },
+      { "name": "Light Demolition", "slug": "light-demolition", "description": "Shed, deck, fence, playset, hot tub, above-ground pool removal. Interior non-structural demo — cabinets, vanities, flooring, drywall.", "source": "form", "hasOwnPage": true },
+      { "name": "Garage, Basement & Attic Cleanouts", "slug": "cleanouts", "description": "Clear out any room top-to-bottom, including storage units.", "source": "form", "hasOwnPage": true },
+      { "name": "Outdoor & Yard Cleanup", "slug": "yard-cleanup", "description": "Yard waste, brush & branches, storm debris, dirt/rock/concrete haul-away, landscaping debris.", "source": "form", "hasOwnPage": true },
+      { "name": "Construction & Renovation Debris", "slug": "construction-debris", "description": "Construction debris, renovation cleanup, concrete removal (heavy loads), scrap metal.", "source": "form", "hasOwnPage": true }
+    ],
+    "secondary": [
+      { "name": "Furniture Removal", "slug": "furniture-removal", "source": "form", "hasOwnPage": false },
+      { "name": "Appliance Removal", "slug": "appliance-removal", "source": "form", "hasOwnPage": false },
+      { "name": "Hot Tub Removal", "slug": "hot-tub-removal", "source": "form", "hasOwnPage": false },
+      { "name": "Shed Removal", "slug": "shed-removal", "source": "form", "hasOwnPage": false },
+      { "name": "Deck Removal", "slug": "deck-removal", "source": "form", "hasOwnPage": false },
+      { "name": "Fence Removal", "slug": "fence-removal", "source": "form", "hasOwnPage": false },
+      { "name": "Estate Cleanouts", "slug": "estate-cleanouts", "source": "form", "hasOwnPage": false },
+      { "name": "Foreclosure Cleanouts", "slug": "foreclosure-cleanouts", "source": "form", "hasOwnPage": false },
+      { "name": "Office & Commercial Cleanouts", "slug": "commercial-cleanouts", "source": "form", "hasOwnPage": false }
+    ],
+    "offers": [],
+    "priceRange": { "value": "$$", "source": "inferred", "confidence": "low", "notes": "Testimonial mentions affordability; no pricing provided by client." }
+  },
+
+  "brand": {
+    "colors": {
+      "preferred": ["dark blue", "light blue", "white"],
+      "avoided": ["orange", "yellow", "green"],
+      "styleNotes": "Professional, trustworthy, local, eco-conscious. Bold & powerful. Avoid stereotypical junk-removal orange/green.",
+      "source": "form"
+    },
+    "tone": { "value": "Professional & trustworthy, bold & powerful, neighborly", "source": "form", "confidence": "high" },
+    "style": { "value": "clean, modern, professional with local warmth", "source": "inferred", "confidence": "medium" },
+    "logo": {
+      "files": [],
+      "hasLogo": false
+    }
+  },
+
+  "trustSignals": {
+    "reviews": {
+      "google": { "count": null, "rating": 5 },
+      "yelp": { "count": null, "rating": null },
+      "source": "form"
+    },
+    "testimonials": [
+      {
+        "quote": "I had a great experience with this hauling company! They helped me move two sofas and were incredibly professional, timely, and efficient from start to finish. I really appreciated how careful and considerate they were with the space—they made sure everything was moved out without any damage, which gave me peace of mind. Matt was great to work with. He was very responsive and accommodating—I needed the sofas removed within 24 hours, and he made it happen seamlessly. He was also very understanding of my budget and still made sure I received excellent service, which I truly appreciated. I highly recommend this business, especially if you're looking to support a reliable local company. Great service all around!",
+        "author": "Hajira Mohammed",
+        "rating": 5,
+        "source": "form"
+      },
+      {
+        "quote": "Super fast and professional. They took a rather challenging job that I have had others deny in the past. They were well equipped with tools to demo and remove an existing steel furnace drum that was original to a hundred year old house. Glad to finally have my space back in my basement. Torvik will be my go to contractor in my personal and professional projects.",
+        "author": "Matt M.",
+        "rating": 5,
+        "source": "form"
+      },
+      {
+        "quote": "Prompt, speedy, affordable and a pleasure to work with. Showed up and removed our hot tub and made sure the area was all cleaned up when he was done.",
+        "author": "Isabelle",
+        "rating": 5,
+        "source": "form"
+      }
+    ],
+    "certifications": [],
+    "awards": [],
+    "insurance": null,
+    "license": null,
+    "yearsInBusiness": 1
+  },
+
+  "content": {
+    "faqs": [],
+    "processSteps": [
+      "Contact — Call, text, or fill out the form for a fast, free estimate (1-2 hour response).",
+      "Quote & Schedule — We confirm pricing and book a pickup that fits your schedule.",
+      "Haul or Demo — We show up on time, do the heavy lifting, and handle the demo if needed.",
+      "Clean & Done — We leave your space cleaner than we found it. You pay only when you're satisfied."
+    ],
+    "existingCopy": [
+      {
+        "page": "about",
+        "content": "Torvik Hauling was built on a simple idea: show up, work hard, and do the job right. After years in corporate America, I knew I wanted to build something of my own — not just for myself, but to show my daughter that anything is possible with effort and consistency. What started as helping friends and neighbors quickly turned into something more. There's nothing better than seeing the look on someone's face after a space is cleared out — that sense of relief and a fresh start. That's what drives me every day. We're not just hauling junk, we're helping people take back their space and feel good about it.",
+        "source": "form"
+      }
+    ]
+  },
+
+  "assets": {
+    "logos": [],
+    "photos": [],
+    "videos": [],
+    "documents": [],
+    "other": []
+  },
+
+  "references": {
+    "exampleSites": [],
+    "competitors": [],
+    "styleNotes": "Professional, trustworthy, local, eco-conscious. Dark blue + light blue + white. Explicitly avoid the orange/yellow/green aesthetic typical of junk-removal brands.",
+    "designDislikes": "Orange, yellow, green color palettes"
+  },
+
+  "goals": {
+    "primaryGoal": "generate leads — convert existing Google Ads traffic and local organic search into booked jobs",
+    "mustHavePages": ["Home", "About", "Services (with individual service pages)", "Service Areas (with city pages)", "Contact"],
+    "mustHaveFeatures": [
+      "Hero lead form (Name, Service type dropdown, City/Area)",
+      "Closing lead form on homepage",
+      "Service area map",
+      "Google reviews button + star rating display",
+      "Eco-friendly disposal section",
+      "How It Works section",
+      "FAQ section",
+      "Free estimates callout"
+    ],
+    "urgency": "flexible",
+    "targetLaunchDate": null
+  },
+
+  "existingSite": null,
+
+  "issues": {
+    "missing": [
+      {
+        "field": "logo files",
+        "severity": "important",
+        "impact": "Can't brand the site without the logo — header, favicon, OG image, about section all need it.",
+        "question": "Can you share the Torvik Hauling logo files? The form says they're uploaded but we haven't received them yet."
+      },
+      {
+        "field": "photos",
+        "severity": "important",
+        "impact": "Photos of team, trucks, before/after, and jobs-in-progress are critical for hero imagery, trust, and converting traffic. Without them we'd have to use stock.",
+        "question": "Can you send over the photos (hero shots, truck, team, before/after, jobs)? They're referenced as uploaded but we don't have them."
+      },
+      {
+        "field": "video content",
+        "severity": "optional",
+        "impact": "Video in the hero or on About drives engagement and trust.",
+        "question": "Can you share the video content you mentioned uploading?"
+      },
+      {
+        "field": "Facebook URL",
+        "severity": "optional",
+        "impact": "Footer social icons need the actual URL, not just 'yes'.",
+        "question": "What is the full URL of your Facebook page?"
+      },
+      {
+        "field": "Instagram URL",
+        "severity": "optional",
+        "impact": "Footer social icons need the actual URL, not just 'yes'.",
+        "question": "What is the full URL of your Instagram profile?"
+      },
+      {
+        "field": "insurance / licensing",
+        "severity": "important",
+        "impact": "Trust badges like 'Licensed & Insured' are conversion drivers for junk/demo work. If they exist, we should display them.",
+        "question": "Are you licensed and/or insured? If so, we'd like to add a 'Licensed & Insured' trust badge."
+      },
+      {
+        "field": "Google review count",
+        "severity": "optional",
+        "impact": "A live review count next to the star rating is stronger social proof than just stars.",
+        "question": "Roughly how many Google reviews do you have today? (We can also pull this live from Google.)"
+      },
+      {
+        "field": "FAQ content",
+        "severity": "important",
+        "impact": "Client said yes to an FAQ section but didn't provide the actual Q&As. We'll draft them from the service list and common junk-removal objections unless you have specific ones.",
+        "question": "Do you have specific FAQs you want answered, or should we draft them based on common questions (pricing, what you take, timing, etc.)?"
+      },
+      {
+        "field": "pricing guidance",
+        "severity": "optional",
+        "impact": "Customers search 'junk removal cost' — a pricing/estimate page or starting-at figure helps conversion.",
+        "question": "Any pricing you'd want displayed (minimum, starting-at, 'quarter truck' rates, etc.), or keep it all quote-based?"
+      }
+    ],
+    "contradictions": [
+      {
+        "field": "serviceAreas",
+        "valueA": "Existing site lists Schaumburg",
+        "sourceA": "existing-site",
+        "valueB": "Client's full service area list does not include Schaumburg",
+        "sourceB": "form",
+        "resolution": "Defer to client's intake list (Schaumburg dropped). Confirm before publishing."
+      },
+      {
+        "field": "physicalAddress",
+        "valueA": "No - service area only",
+        "sourceA": "form",
+        "valueB": "Hawthorn Woods, IL (base location)",
+        "sourceB": "existing-site",
+        "resolution": "Use Hawthorn Woods as business origin city for LocalBusiness schema (required for local SEO) but do NOT publish a street address on the public site."
+      }
+    ],
+    "overallConfidence": "high",
+    "readyToGenerateSpec": true
+  }
+}
