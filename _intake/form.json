@@ -1,0 +1,139 @@
+{
+  "businessName": "Torvik Hauling",
+  "businessType": "junk removal and light demolition",
+  "tagline": "Family Owned. Community Focused.",
+
+  "phone": "2244566607",
+  "email": "torvikhauling@gmail.com",
+  "address": null,
+  "city": "Lake Zurich",
+  "state": "IL",
+  "zip": null,
+  "physicalAddressYn": "No - service area only",
+  "serviceAreas": "Lake County IL, Cook County (Northwest Suburbs), McHenry County (select areas). Core cities: Lake Zurich, Hawthorn Woods, Barrington, Kildeer, Long Grove, Palatine, Arlington Heights, Buffalo Grove. Extended: Barrington Hills, Deer Park, Wheeling, Prospect Heights, Mount Prospect, Rolling Meadows, Vernon Hills, Libertyville, Mundelein, Wauconda, Round Lake, Round Lake Beach, Round Lake Park, Grayslake, Gurnee, Lindenhurst, Lake Villa, Crystal Lake, Cary, Fox River Grove, Algonquin, Lake in the Hills",
+
+  "primaryServices": "Junk Removal (flagship), Light Demolition, Property Cleanouts. Junk Removal: full junk removal (residential & commercial), single item pickup (couches, mattresses, appliances), furniture removal, appliance removal, garage cleanouts, basement cleanouts, attic cleanouts, storage unit cleanouts. Property Cleanouts: full home, estate, foreclosure, hoarder, move-in/move-out, rental turnovers. Light Demolition: shed removal (wood/metal), deck removal, fence removal, playset removal, hot tub removal, above-ground pool removal, interior demo (non-structural - cabinets, vanities, flooring, drywall). Outdoor/Yard: yard waste, brush & branch, storm debris, dirt/rock/concrete haul-away, landscaping debris. Specialty/Heavy: construction debris, renovation cleanup, concrete removal, scrap metal, office cleanouts, retail/commercial space cleanouts. Responsible Disposal: recycling, donation drop-offs, proper disposal at local transfer stations.",
+  "flagshipService": "Junk Removal",
+  "secondaryServices": null,
+
+  "facebook": "yes",
+  "instagram": "yes",
+  "googleBusiness": "https://share.google/LHKNG3oyAecUf0itD",
+  "googleBusinessUrl2": "https://www.google.com/search?client=mobilesearchapp&sca_esv=1706ac29faa211ec&bih=878&biw=430&channel=iss&cs=1&hl=en&rlz=1MDAPLA_enUS1137US1138&v=416.4.894748588&sxsrf=ANbL-n7be8eY0ON6oCQiMeSSyPNM5S2MIQ%3A1776444004630&kgmid=%2Fg%2F11z0z55b95&q=Torvik%20Hauling&shndl=30&source=sh%2Fx%2Floc%2Fact%2Fm1%2F5&kgs=d68f9871bba20673",
+  "yelp": null,
+  "linkedin": null,
+
+  "yearsInBusiness": 1,
+  "trustBadges": "Eco-Friendly Disposal",
+  "teamSize": 2,
+  "businessHours": "24/7",
+
+  "colorPreferences": "Dark blue, light blue and white",
+  "colorDislikes": "Orange, yellow, green",
+  "tonePreferences": "Professional & trustworthy, Bold & powerful. Professionals, trustworthy, local, eco-conscious",
+  "stylePreferences": null,
+  "fontPreferences": null,
+
+  "exampleSites": null,
+
+  "existingSiteUrl": "torvikhauling.com",
+
+  "description": "Torvik Hauling is a local, family-owned junk removal and light demolition company serving the Northwest suburbs of Chicago. We handle everything from single-item pickups to full property cleanouts, always showing up on time and getting the job done right. Our goal is simple: leave every space cleaner than we found it while making the process easy for our neighbors.",
+
+  "originStory": "Torvik Hauling was built on a simple idea: show up, work hard, and do the job right. After years in corporate America, I knew I wanted to build something of my own — not just for myself, but to show my daughter that anything is possible with effort and consistency. What started as helping friends and neighbors quickly turned into something more. There's nothing better than seeing the look on someone's face after a space is cleared out — that sense of relief and a fresh start. That's what drives me every day. We're not just hauling junk, we're helping people take back their space and feel good about it.",
+
+  "heroHeadline": "Junk Removal & Demolition in Chicago's Northwest Suburbs",
+  "heroSubheadline": "Serving our neighbors with honest work and dependable service",
+  "primaryCta": "Get a Free Estimate",
+  "secondaryCtaYn": "No",
+  "heroFormYn": "Yes",
+  "heroFormFields": ["Name", "Service type (dropdown)", "City / Area"],
+  "responseTime": "1-2 hours",
+  "locationTagYn": "Yes",
+
+  "howItWorksYn": "Yes",
+  "processSteps": "Use standard 3-4 step process (Contact/Quote → Schedule → Haul/Demo → Clean & Done)",
+
+  "itemsSectionYn": "No",
+
+  "showStarRating": "Yes",
+  "googleReviewsBtn": "Yes",
+  "testimonials": [
+    {
+      "author": "Hajira Mohammed",
+      "quote": "I had a great experience with this hauling company! They helped me move two sofas and were incredibly professional, timely, and efficient from start to finish. I really appreciated how careful and considerate they were with the space—they made sure everything was moved out without any damage, which gave me peace of mind. Matt was great to work with. He was very responsive and accommodating—I needed the sofas removed within 24 hours, and he made it happen seamlessly. He was also very understanding of my budget and still made sure I received excellent service, which I truly appreciated. I highly recommend this business, especially if you're looking to support a reliable local company. Great service all around!",
+      "rating": 5,
+      "platform": "Google"
+    },
+    {
+      "author": "Matt M.",
+      "quote": "Super fast, and professional. They took a rather challenging job that I have had others deny in the past. They were well equipped with tools to demo and remove an existing steel furnace drum that was original to a hundred year old house. Glad to finally have my space back in my basement. Torvik will be my go to contractor in my personal and professional projects.",
+      "rating": 5,
+      "platform": "Google"
+    },
+    {
+      "author": "Isabelle",
+      "quote": "Prompt, speedy, affordable and a pleasure to work with. Showed up and removed our hot tub and made sure the area was all cleaned up when he was done.",
+      "rating": 5,
+      "platform": "Google"
+    }
+  ],
+
+  "ecoSectionYn": "Yes",
+  "ecoPractices": "We recycle materials whenever possible, We donate usable items to local organizations",
+
+  "serviceAreaMap": "Yes",
+  "freeEstimatesArea": "Yes",
+
+  "faqYn": "Yes",
+  "faqsRaw": null,
+
+  "closingHeadline": "Ready to Clear It Out?",
+  "closingSubheadline": "Get a fast, no-hassle quote today. We'll handle everything from pickup to cleanup.",
+  "closingFormYn": "Yes",
+
+  "aboutPageYn": "Yes",
+  "teamSectionYn": "No",
+
+  "logoStatus": "Yes, uploaded to Photos folder (not yet received by Jaron)",
+  "photosStatus": "Yes, uploaded to Photos folder (not yet received by Jaron)",
+  "beforeAfterPhotos": "Yes, uploaded to Photos folder (not yet received by Jaron)",
+  "videoContent": "Yes, uploaded to Photos folder (not yet received by Jaron)",
+  "videoLink": null,
+
+  "adsRunning": "Yes - Google Ads",
+  "socialProfiles": ["Facebook", "Instagram"],
+
+  "domainYn": "Yes",
+  "domainName": "torvikhauling.com",
+  "hostingYn": "Yes",
+  "hostingProvider": "Squarespace",
+
+  "seoKeywordsPrimary": [
+    "junk removal near me",
+    "junk removal northwest suburbs Chicago",
+    "junk removal Chicago suburbs",
+    "junk hauling near me",
+    "same day junk removal",
+    "furniture removal near me",
+    "couch removal near me",
+    "mattress removal near me",
+    "appliance removal near me",
+    "cleanout services near me",
+    "house cleanout services",
+    "estate cleanout near me",
+    "shed removal near me",
+    "deck removal near me",
+    "fence removal near me",
+    "hot tub removal near me",
+    "light demolition near me",
+    "demolition services near me",
+    "junk removal Lake Zurich",
+    "junk removal Barrington",
+    "junk removal Palatine",
+    "junk removal Arlington Heights",
+    "junk removal Buffalo Grove"
+  ],
+
+  "submittedAt": "2026-04-17"
+}
