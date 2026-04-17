@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-04-17",
+  "aesthetic": "warm-trades (palette-substituted, cool-blue)",
+  "picks": [
+    {
+      "role": "hero-section",
+      "source": "21st.dev",
+      "slug": "hero-with-group-of-images-text-and-two-buttons",
+      "url": "https://21st.dev/?q=hero+form+capture",
+      "preview": null,
+      "rationale": "Left-aligned headline with badge accent + two CTAs; right grid can be swapped to a lead-form card, matching the desired hero layout.",
+      "fit": "strong",
+      "notes": "Replace the right-side image grid with a 3-field lead-capture card. Swap PhoneCall icon color to navy, use Recoleta for h1. Strip the Badge 'We're live!' or reuse for the 1-2 hr response-time promise."
+    },
+    {
+      "role": "hero-section",
+      "source": "21st.dev",
+      "slug": "hero-with-image-text-and-two-buttons",
+      "url": "https://21st.dev/?q=hero+image+text",
+      "preview": null,
+      "rationale": "Cleaner split hero — left copy + CTAs, right full-bleed image slot. Good alternative if lead form should live lower in the section.",
+      "fit": "medium",
+      "notes": "Use this if we keep the hero visual-first and push the form to a sticky sidebar or below-the-fold card."
+    },
+    {
+      "role": "navigation",
+      "source": "21st.dev",
+      "slug": "header-1",
+      "url": "https://21st.dev/?q=sticky+navbar",
+      "preview": null,
+      "rationale": "Thin sticky top bar with wordmark left, inline nav items, and button CTAs — converts cleanly to a phone-pill CTA on the right. Full-width with scroll-triggered backdrop blur fits grounded/tactile aesthetic.",
+      "fit": "strong",
+      "notes": "Replace 'Sign In/Get Started' with a single navy phone-pill CTA (e.g., '(847) XXX-XXXX'). Keep the wordmark slot for Torvik logo. Disable the backdrop-blur if it reads too techy — a solid cream background with 1px border is more on-brief."
+    },
+    {
+      "role": "navigation",
+      "source": "21st.dev",
+      "slug": "floating-header",
+      "url": "https://21st.dev/?q=floating+header",
+      "preview": null,
+      "rationale": "Compact rounded floating nav — alternative if the client prefers a modern floating pill over a full-width bar.",
+      "fit": "medium",
+      "notes": "Likely too 'tech-startup' for warm-trades feel; include as fallback only. Avoid if brief drifts toward family-owned trades energy."
+    },
+    {
+      "role": "services-grid",
+      "source": "21st.dev",
+      "slug": "features-1",
+      "url": "https://21st.dev/?q=services+grid",
+      "preview": null,
+      "rationale": "Three-card-per-row grid using shadcn Card with soft shadow and 1px border — maps directly onto a 6-item services layout (2 rows x 3 cols). Icon above heading above copy is ideal for service-card content.",
+      "fit": "strong",
+      "notes": "Extend from 3 to 6 cards. Replace Lucide AI/tech icons (Zap, Sparkles) with hauling-appropriate Lucide icons: Truck, Wrench, Leaf, Trash2, Building2, Home. Strip the CardDecorator's grid-dot background — too techy."
+    },
+    {
+      "role": "services-grid",
+      "source": "21st.dev",
+      "slug": "features-4",
+      "url": "https://21st.dev/?q=features+grid+divided",
+      "preview": null,
+      "rationale": "Divided 6-cell grid with hairline borders — very tactile/newspaper feel matches warm-trades aesthetic better than card shadows.",
+      "fit": "strong",
+      "notes": "Uses divide-x divide-y border — exactly the tactile 1px border detail called for in the brief. Swap icons to hauling set, use Recoleta for h3."
+    },
+    {
+      "role": "how-it-works",
+      "source": "21st.dev",
+      "slug": "steps-horizontal",
+      "url": "https://21st.dev/?q=steps+horizontal",
+      "preview": null,
+      "rationale": "Horizontal numbered steps with indicator circles and connector lines — 4-step layout ready-made (Steps.Root count=4). Stacks vertically on mobile via ark-ui's orientation prop.",
+      "fit": "strong",
+      "notes": "Recolor indicator to navy #0B2E5B (currently blue-600). Pair each step with a Recoleta heading (Contact / Quote & Schedule / Haul or Demo / Clean & Done) and 1-sentence caption. Consider the Steps-Label variant to inline the title."
+    },
+    {
+      "role": "how-it-works",
+      "source": "21st.dev",
+      "slug": "steps-vertical-titles",
+      "url": "https://21st.dev/?q=steps+vertical",
+      "preview": null,
+      "rationale": "Vertical variant of the same component family — useful for mobile breakpoint or if the section reads better stacked.",
+      "fit": "medium",
+      "notes": "Same component; change orientation prop. Keep as mobile fallback only; desktop should remain horizontal."
+    },
+    {
+      "role": "testimonials",
+      "source": "21st.dev",
+      "slug": "testimonials-stars",
+      "url": "https://21st.dev/?q=testimonials+stars",
+      "preview": null,
+      "rationale": "Three-column grid with star ratings, quote, avatar + name + role attribution — maps exactly to Torvik's 3 verbatim Google reviews. Soft 1px ring border matches the tactile palette.",
+      "fit": "strong",
+      "notes": "Replace 'role' with 'via Google' attribution. Swap Star fill-primary color to the accent light-blue (#6FA8DC) or keep gold stars (amber-500) — gold is acceptable since it's in a star glyph context, not a design accent color. Verify with client if gold stars conflict with the no-yellow rule."
+    },
+    {
+      "role": "testimonials",
+      "source": "21st.dev",
+      "slug": "testimonials-1",
+      "url": "https://21st.dev/?q=testimonials+cards",
+      "preview": null,
+      "rationale": "Alternative card-based testimonial layout with stars and avatar footer — useful if we want 2-col layout with more breathing room per quote.",
+      "fit": "medium",
+      "notes": "Testimonials-stars is the stronger default; use this only if reviews are long and need more card real estate."
+    },
+    {
+      "role": "contact-form",
+      "source": "21st.dev",
+      "slug": "contact-form",
+      "url": "https://21st.dev/?q=contact+form",
+      "preview": null,
+      "rationale": "shadcn Card + Input + Select + Button form with clean vertical layout. Already supports Select component for the service-type dropdown.",
+      "fit": "strong",
+      "notes": "Trim fields to 3: Full Name, Service Type (Select: Junk Removal / Demolition / Hauling / Cleanouts / Other), City. Replace the Country/Region select with Service. Add a '1-2 hr response time' caption below the Submit button. Submit button should be navy."
+    },
+    {
+      "role": "contact-form",
+      "source": "21st.dev",
+      "slug": "contact-2",
+      "url": "https://21st.dev/?q=contact+form+split",
+      "preview": null,
+      "rationale": "Split layout — left column for phone/email/web contact details, right column for the form. Good fit for the /contact page itself (not the hero form).",
+      "fit": "strong",
+      "notes": "Use this for the dedicated /contact page. Keep the 3-field version (contact-form slug above) for the hero lead-capture. Swap default Input/Textarea to include Select for service type."
+    },
+    {
+      "role": "footer",
+      "source": "21st.dev",
+      "slug": "footer",
+      "url": "https://21st.dev/?q=multi+column+footer",
+      "preview": null,
+      "rationale": "5-column layout with description + social icons + link groups + bottom legal bar — exactly the information architecture needed (services, areas, company, legal).",
+      "fit": "strong",
+      "notes": "Columns: Services / Service Areas / Company (About, Contact, Reviews) / Legal (Privacy, Terms). Use navy (#0B2E5B) background with cream text. Strip the 'Corporates & Universities' + Newsletter cards — not relevant. Keep phone + email in the description column. Social icons: Facebook, Instagram, Google Business."
+    },
+    {
+      "role": "footer",
+      "source": "21st.dev",
+      "slug": "footer-section",
+      "url": "https://21st.dev/?q=footer+links",
+      "preview": null,
+      "rationale": "Simpler 5-column grid with socials baked into the first column — lighter-weight alternative if the dedicated 5-col footer feels too heavy for a local business.",
+      "fit": "medium",
+      "notes": "Good fallback; the primary footer pick has richer IA. This one is better if Torvik's service pages number only 4-5 rather than 6+."
+    },
+    {
+      "role": "trust-bar",
+      "source": "21st.dev",
+      "slug": "testimonial-badge",
+      "url": "https://21st.dev/?q=trust+badge+avatars",
+      "preview": null,
+      "rationale": "Pill-shaped rounded badge with stacked avatars + 'Trusted by X' text — can be adapted into a 4-icon horizontal trust bar (Clock, Star, Leaf, Home) with short text beside each icon.",
+      "fit": "medium",
+      "notes": "The component itself is a single pill, not a 4-slot bar. Use it as a design reference for the rounded-full, hairline-border, soft-shadow styling and replicate 4 of them inline. Substitute avatar-stack for Lucide icons (Clock for response time, Star for rating, Leaf for eco, Home for family-owned)."
+    },
+    {
+      "role": "cta-band",
+      "source": "21st.dev",
+      "slug": "call-to-action",
+      "url": "https://21st.dev/?q=cta+section",
+      "preview": null,
+      "rationale": "Centered CTA with large headline, muted-foreground subtitle, and two buttons (primary + outline). Clean section that drops between services/testimonials and footer.",
+      "fit": "strong",
+      "notes": "Replace 'Get Started / Book Demo' with 'Get a Free Quote' (primary, navy) and 'Call (847) XXX-XXXX' (outline). Use Recoleta for the h2. Set background to bg-muted (warm cream) or invert to navy bg with cream text for the closing CTA variant."
+    },
+    {
+      "role": "cta-band",
+      "source": "21st.dev",
+      "slug": "call-to-action-info",
+      "url": "https://21st.dev/?q=cta+info+inline",
+      "preview": null,
+      "rationale": "Left-aligned two-line heading + subtitle + two compact buttons on a muted bg — alternative if we want the closing CTA to feel more like an inline prompt than a hero-adjacent band.",
+      "fit": "medium",
+      "notes": "Use either this or the centered variant; avoid having both on the same page. Chevron+Calendar icons should be swapped for Phone+ArrowRight."
+    }
+  ],
+  "gaps": [
+    {
+      "role": "service-area-map",
+      "note": "21st.dev does not offer a strong local-business map component. Build custom with Mapbox GL JS or Leaflet + GeoJSON of the 30 service-area cities in Lake County and NW Cook County. Cheaper alternative: render a styled static SVG of the two-county region with the covered cities highlighted in the accent light-blue (#6FA8DC). Include a simple searchable list of all 30 cities beside the map for SEO and accessibility."
+    }
+  ]
+}

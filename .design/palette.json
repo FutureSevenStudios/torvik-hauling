@@ -1,0 +1,10 @@
+{
+  "primary":    { "hex": "#0B2E5B", "role": "trust, headlines, primary CTAs, nav backgrounds" },
+  "secondary":  { "hex": "#3E7CB1", "role": "links, secondary buttons, hover states" },
+  "accent":     { "hex": "#6FA8DC", "role": "highlights, eco-friendly callouts, limited-use flourishes" },
+  "background": { "hex": "#F7F5F0", "role": "page background — warm paper off-white" },
+  "surface":    { "hex": "#FFFFFF", "role": "cards, forms, elevated surfaces" },
+  "text":       { "hex": "#1A2033", "role": "body copy, headlines on light backgrounds" },
+  "muted":      { "hex": "#5B6470", "role": "secondary text, captions, placeholders" },
+  "border":     { "hex": "#E4E4DD", "role": "dividers, form borders, subtle card edges" }
+}
