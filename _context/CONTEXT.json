@@ -4,9 +4,20 @@
     "createdAt": "2026-04-17",
     "sources": {
       "hasForm": true,
-      "hasAssets": false,
+      "hasAssets": true,
       "hasExistingSite": true,
-      "assetFiles": []
+      "assetFiles": [
+        "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Black.png",
+        "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_White.png",
+        "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Solo.png",
+        "_intake/assets/logos/Torvik_Hauling_Logo_Exact-01.png",
+        "_intake/assets/logos/Torvik_Hauling_Logo.ai",
+        "_intake/assets/photos/IMG_9175 (1).jpeg",
+        "_intake/assets/photos/IMG_9241.jpeg",
+        "_intake/assets/photos/IMG_9417.jpeg",
+        "_intake/assets/photos/IMG_9424.jpeg",
+        "_intake/assets/photos/IMG_9434.jpeg"
+      ]
     },
     "overallConfidence": "high"
   },
@@ -109,11 +120,12 @@
   },
 
   "social": {
-    "facebook": "pending-url",
-    "instagram": "pending-url",
+    "facebook": "https://www.facebook.com/share/1DtYvhKofi/?mibextid=wwXIfr",
+    "instagram": "https://www.instagram.com/torvikhauling?igsh=MXJ1ZDUxcWRvZ2Y4eg%3D%3D&utm_source=qr",
     "google": "https://share.google/LHKNG3oyAecUf0itD",
     "yelp": null,
-    "linkedin": null
+    "linkedin": null,
+    "_notes": "Instagram/Facebook are share-link URLs with tracking params provided by client 2026-04-24. Replace with canonical profile URLs (https://www.instagram.com/torvikhauling/ and canonical FB page URL) before publish."
   },
 
   "services": {
@@ -137,7 +149,9 @@
       { "name": "Office & Commercial Cleanouts", "slug": "commercial-cleanouts", "source": "form", "hasOwnPage": false }
     ],
     "offers": [],
-    "priceRange": { "value": "$$", "source": "inferred", "confidence": "low", "notes": "Testimonial mentions affordability; no pricing provided by client." }
+    "priceRange": { "value": "$$", "source": "form", "confidence": "high", "notes": "Client confirmed 2026-04-24: 'Free estimates — quotes typically starting around $125'. Display this line on hero/pricing area." },
+    "startingPrice": { "value": 125, "currency": "USD", "source": "form", "confidence": "high", "notes": "Typical quote starts around $125. Provided 2026-04-24." },
+    "estimatesPolicy": { "value": "Free estimates — quotes typically starting around $125", "source": "form", "confidence": "high" }
   },
 
   "brand": {
@@ -150,8 +164,15 @@
     "tone": { "value": "Professional & trustworthy, bold & powerful, neighborly", "source": "form", "confidence": "high" },
     "style": { "value": "clean, modern, professional with local warmth", "source": "inferred", "confidence": "medium" },
     "logo": {
-      "files": [],
-      "hasLogo": false
+      "files": [
+        { "path": "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Black.png", "variant": "full-black", "format": "png", "useFor": "light backgrounds (header on white, footer on light)" },
+        { "path": "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_White.png", "variant": "full-white", "format": "png", "useFor": "dark backgrounds (dark-blue footer, hero overlay)" },
+        { "path": "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Solo.png", "variant": "mark-only", "format": "png", "useFor": "favicon, app icon, square OG, tight spaces" },
+        { "path": "_intake/assets/logos/Torvik_Hauling_Logo_Exact-01.png", "variant": "primary", "format": "png", "useFor": "primary marketing usage" },
+        { "path": "_intake/assets/logos/Torvik_Hauling_Logo.ai", "variant": "source", "format": "ai", "useFor": "source file — vectorize to SVG before publish for crisp scaling" }
+      ],
+      "hasLogo": true,
+      "_notes": "Received 2026-04-24. No SVG provided; extract vector from .ai or regenerate for web. Use 2x PNG as interim."
     }
   },
 
@@ -183,8 +204,9 @@
     ],
     "certifications": [],
     "awards": [],
-    "insurance": null,
-    "license": null,
+    "insurance": { "value": true, "label": "Fully Insured", "source": "form", "confidence": "high", "notes": "Confirmed by client 2026-04-24: 'Yes, fully licensed and insured!'" },
+    "license": { "value": true, "label": "Fully Licensed", "source": "form", "confidence": "high", "notes": "Confirmed by client 2026-04-24." },
+    "trustBadge": "Licensed & Insured",
     "yearsInBusiness": 1
   },
 
@@ -206,11 +228,25 @@
   },
 
   "assets": {
-    "logos": [],
-    "photos": [],
+    "logos": [
+      "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Black.png",
+      "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_White.png",
+      "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Solo.png",
+      "_intake/assets/logos/Torvik_Hauling_Logo_Exact-01.png",
+      "_intake/assets/logos/Torvik_Hauling_Logo.ai",
+      "_intake/assets/logos/Torvik_Hauling_Logo.zip"
+    ],
+    "photos": [
+      "_intake/assets/photos/IMG_9175 (1).jpeg",
+      "_intake/assets/photos/IMG_9241.jpeg",
+      "_intake/assets/photos/IMG_9417.jpeg",
+      "_intake/assets/photos/IMG_9424.jpeg",
+      "_intake/assets/photos/IMG_9434.jpeg"
+    ],
     "videos": [],
     "documents": [],
-    "other": []
+    "other": [],
+    "_notes": "Logos + photos received 2026-04-24. Photo content not yet reviewed — need to categorize into hero / gallery / before-after."
   },
 
   "references": {
@@ -238,6 +274,11 @@
   },
 
   "existingSite": null,
+
+  "operations": {
+    "crm": { "value": "none", "planned": "Jobber (likely Core tier, ~$39/mo)", "source": "form", "confidence": "high", "notes": "Confirmed by client 2026-04-24. Lead form should submit to torvikhauling@gmail.com initially; plan to wire to Jobber lead intake once active." }
+  },
+
 
   "issues": {
     "missing": [

@@ -18,8 +18,15 @@ When implementing with `frontend-design`, reference this folder in the skill's c
 
 ## Known gaps & flags
 - **service-area-map** — no strong 21st.dev match. Build custom with Mapbox GL JS or Leaflet + GeoJSON of the 30 service-area cities, or a styled static SVG of Lake County + NW Cook County with highlighted cities.
-- **Logo files, photos, video** — client referenced uploads that haven't arrived. See `/Users/lucassenechal/Projects/jaron-websites/torvik-hauling/_context/QUESTIONS.md` for the full list.
-- **Licensed & Insured** — unknown; if confirmed, add as a trust badge in the hero trust bar.
+- **Logo files** — ✅ delivered 2026-04-24, see `_intake/assets/logos/` (4 PNG variants + `.ai` source).
+- **Photos** — ✅ 5 delivered 2026-04-24, see `_intake/assets/photos/`. Still need content review to categorize hero/gallery/before-after; may need 3-5 more mid-build if gallery feels thin.
+- **Video** — not delivered; skip video hero/blocks.
+- **Licensed & Insured** — ✅ confirmed 2026-04-24. Add as trust badge in hero trust bar.
+- **Pricing** — ✅ confirmed 2026-04-24: "Free estimates — quotes typically starting around $125".
+- **Social URLs** — ✅ delivered 2026-04-24 (Instagram, Facebook) but as share-links with tracking params; swap to canonical URLs before publish.
+
+## Brief revision log
+- **2026-04-24** — updated `brief.md` with delivered logo/photos, Licensed & Insured confirmation, $125 starting price, no-video directive, and Jobber-ready form design note. Mockups, palette, typography, components NOT regenerated (no visual direction changes — only asset + copy deltas).
 
 ## Parallel-MCP caveat for future runs
 Stage 4 (21st.dev Magic) hit zod validation errors when the subagent tried to run 4+ parallel `21st_magic_component_inspiration` calls. Sequential calls worked. Future `stage-4-components.md` prompt should say "sequential, not parallel."

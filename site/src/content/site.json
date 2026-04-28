@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "businessName": "Torvik Hauling",
+    "tagline": "Family Owned. Community Focused.",
+    "description": "Torvik Hauling is a local, family-owned junk removal and light demolition company serving the Northwest suburbs of Chicago. We handle everything from single-item pickups to full property cleanouts, always showing up on time and getting the job done right.",
+    "shortDescription": "Family-owned junk removal & light demolition serving Lake Zurich and the Northwest Chicago suburbs. Licensed, insured, 1-2 hour response.",
+    "phone": "(224) 456-6607",
+    "phoneHref": "tel:+12244566607",
+    "email": "torvikhauling@gmail.com",
+    "address": {
+      "city": "Hawthorn Woods",
+      "state": "IL",
+      "country": "US",
+      "formatted": "Hawthorn Woods, IL"
+    },
+    "primaryCity": "Lake Zurich",
+    "primaryRegion": "Lake County & Northwest Cook County, Illinois",
+    "priceRange": "$$",
+    "startingPrice": 125,
+    "estimatesPolicy": "Free estimates — quotes typically starting around $125",
+    "yearsInBusiness": 1,
+    "hours": {
+      "monday":    "7:00 AM – 7:00 PM",
+      "tuesday":   "7:00 AM – 7:00 PM",
+      "wednesday": "7:00 AM – 7:00 PM",
+      "thursday":  "7:00 AM – 7:00 PM",
+      "friday":    "7:00 AM – 7:00 PM",
+      "saturday":  "8:00 AM – 5:00 PM",
+      "sunday":    "Text for emergencies"
+    },
+    "social": {
+      "facebook":  "https://www.facebook.com/share/1DtYvhKofi/?mibextid=wwXIfr",
+      "instagram": "https://www.instagram.com/torvikhauling?igsh=MXJ1ZDUxcWRvZ2Y4eg%3D%3D&utm_source=qr",
+      "google":    "https://share.google/LHKNG3oyAecUf0itD"
+    }
+  },
+  "serviceAreas": {
+    "primary": ["Lake Zurich", "Hawthorn Woods", "Barrington", "Long Grove", "Palatine", "Arlington Heights", "Buffalo Grove", "Libertyville"],
+    "full": ["Lake Zurich", "Hawthorn Woods", "Kildeer", "Long Grove", "Barrington", "Barrington Hills", "Deer Park", "Palatine", "Arlington Heights", "Buffalo Grove", "Wheeling", "Prospect Heights", "Mount Prospect", "Rolling Meadows", "Vernon Hills", "Libertyville", "Mundelein", "Wauconda", "Round Lake", "Round Lake Beach", "Round Lake Park", "Grayslake", "Gurnee", "Lindenhurst", "Lake Villa", "Crystal Lake", "Cary", "Fox River Grove", "Algonquin", "Lake in the Hills"]
+  },
+  "brand": {
+    "directionName": "warm-trades (cool-blue palette override)",
+    "tone": "Professional & trustworthy, bold & powerful, neighborly. Family-owned.",
+    "colors": {
+      "primary":    { "hex": "#0B2E5B", "role": "trust, headlines, primary CTAs, nav backgrounds" },
+      "secondary":  { "hex": "#3E7CB1", "role": "links, secondary buttons, hover states" },
+      "accent":     { "hex": "#6FA8DC", "role": "highlights, eco-friendly callouts" },
+      "background": { "hex": "#F7F5F0", "role": "page background — warm paper off-white" },
+      "surface":    { "hex": "#FFFFFF", "role": "cards, forms, elevated surfaces" },
+      "text":       { "hex": "#1A2033", "role": "body copy, headlines" },
+      "muted":      { "hex": "#5B6470", "role": "secondary text, captions" },
+      "border":     { "hex": "#E4E4DD", "role": "dividers, form borders" }
+    },
+    "typography": {
+      "display": { "family": "Recoleta", "weights": [400, 600, 700], "source": "custom — fallback to serif stack" },
+      "body":    { "family": "Inter", "weights": [400, 500, 700], "source": "Google Fonts" }
+    },
+    "constraints": [
+      "Accent color (#6FA8DC) ≤ 8% of any viewport",
+      "No orange, yellow, or green anywhere",
+      "No stereotypical junk-removal megaphone copy",
+      "No auto-playing video or carousels",
+      "No purple or rainbow gradients on CTAs"
+    ],
+    "logo": {
+      "primary":  "/logos/Torvik_Hauling_Logo_Exact-01.png",
+      "onLight":  "/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Black.png",
+      "onDark":   "/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_White.png",
+      "markOnly": "/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Solo.png"
+    }
+  },
+  "photos": {
+    "hero":      { "src": "/photos/hero.jpeg",    "alt": "Torvik Hauling truck and branded dump trailer parked on a Lake Zurich residential street under a bright cloudy sky" },
+    "trailer":   { "src": "/photos/trailer.jpeg", "alt": "Side view of the Torvik Hauling dump trailer displaying the full services list and phone number (224) 456-6607" },
+    "owner":     { "src": "/photos/owner.jpeg",   "alt": "Torvik Hauling owner smiling in a branded black Torvik polo and cap beside the Torvik dump trailer" },
+    "action":    { "src": "/photos/action.jpeg",  "alt": "Torvik Hauling owner giving a thumbs-up next to a trailer loaded with boxes, bags, and household junk mid-haul" },
+    "eco":       { "src": "/photos/eco.jpeg",     "alt": "Torvik Hauling dump trailer unloading construction and household debris at a licensed waste transfer station" }
+  },
+  "trustBar": [
+    { "label": "Licensed & Insured", "icon": "shield" },
+    { "label": "1–2 Hour Response",  "icon": "clock" },
+    { "label": "Free Estimates",     "icon": "sparkle" },
+    { "label": "5-Star Rated",       "icon": "star" },
+    { "label": "Family Owned",       "icon": "home" }
+  ],
+  "processSteps": [
+    { "step": 1, "title": "Contact",         "description": "Call, text, or fill out the form for a fast, free estimate. We respond in 1–2 hours — not the next business day.", "icon": "phone" },
+    { "step": 2, "title": "Quote & Schedule", "description": "We confirm pricing up front — typically starting around $125 — and book a pickup that fits your schedule. No surprise fees.", "icon": "clipboard" },
+    { "step": 3, "title": "Haul or Demo",     "description": "We show up on time, do the heavy lifting, and handle the demo if needed. You don't move a thing unless you want to.", "icon": "truck" },
+    { "step": 4, "title": "Clean & Done",     "description": "We leave your space cleaner than we found it — broom-swept, no trace. You pay only when you're satisfied.", "icon": "sparkle" }
+  ],
+  "services": [
+    {
+      "name": "Junk Removal",
+      "slug": "junk-removal",
+      "hasOwnPage": true,
+      "icon": "trash",
+      "shortDescription": "Fast, full-service junk removal for homes and businesses — single items to whole-truck loads.",
+      "fullDescription": "Whether it's one bulky item or a truckload of accumulated stuff, Torvik Hauling takes it off your hands quickly and cleanly. We handle residential and commercial junk: couches, mattresses, appliances, e-waste, furniture, yard debris, construction materials — if it's in the way, we'll get it out. We respond to inquiries within 1–2 hours, arrive on time, lift the heavy things so you don't have to, and leave your space spotless. Items are sorted for recycling or donation whenever possible; the rest goes to a licensed disposal facility.",
+      "features": [
+        "Single-item pickup (sofas, mattresses, appliances, e-waste)",
+        "Whole-truck loads and multi-room clean-outs",
+        "Commercial and office junk removal",
+        "No hidden fees — free estimate before we start",
+        "We sweep up and leave the space cleaner than we found it"
+      ],
+      "benefits": [
+        "1–2 hour response to calls, texts, and web requests",
+        "Licensed & insured — your property is protected",
+        "Eco-friendly: we recycle and donate whenever possible",
+        "Free on-site or phone estimates, typically starting around $125",
+        "Family-owned — you deal with the owner, not a call center"
+      ],
+      "faqs": [
+        { "q": "What items do you take?", "a": "Almost anything non-hazardous: furniture, mattresses, appliances, electronics, yard debris, construction waste, boxes, bagged trash. We can't take liquid paint, chemicals, propane tanks, or asbestos — but we can usually point you to who can." },
+        { "q": "Do I need to prep the junk before you arrive?", "a": "No — leave it where it is. We'll do the lifting, loading, and cleanup. If you've already bagged or stacked things, great; if not, we'll handle it." },
+        { "q": "How is pricing determined?", "a": "Volume-based, not hourly. We give you a firm quote after a quick look (on-site or via photos) before we load anything. Most jobs start around $125 for a single item or small load." },
+        { "q": "How fast can you come out?", "a": "We respond to inquiries in 1–2 hours and can often schedule same-day or next-day pickup for the Lake Zurich / NW Cook County area." }
+      ],
+      "heroImage": "trailer"
+    },
+    {
+      "name": "Property Cleanouts",
+      "slug": "property-cleanouts",
+      "hasOwnPage": true,
+      "icon": "house",
+      "shortDescription": "Full-home, estate, foreclosure, hoarder, and rental turnover cleanouts — empty to broom-swept, start to finish.",
+      "fullDescription": "Cleanouts are heavy emotional work, and we treat them that way. Torvik Hauling handles full-property cleanouts for homeowners, estate executors, property managers, and realtors across the Northwest Chicago suburbs. We take the entire contents: furniture, appliances, clothing, boxes, yard items, anything left behind — and leave the property broom-swept and ready for the next step, whether that's listing, renting, or moving in. We work quickly and privately; neighbors see a clean truck, not chaos.",
+      "features": [
+        "Estate and probate cleanouts — coordinated with executors and realtors",
+        "Foreclosure and bank-owned property cleanouts",
+        "Hoarder and difficult-cleanout situations handled with discretion",
+        "Move-in / move-out and rental turnover cleanouts",
+        "Broom-swept finish — photo-ready for listings"
+      ],
+      "benefits": [
+        "One point of contact — the owner — from quote to final sweep",
+        "Licensed & insured, so property managers and executors are protected",
+        "Fast scheduling — often same-week for full cleanouts",
+        "Donation and recycling routing for usable items",
+        "Written quote before we start; no surprise add-ons"
+      ],
+      "faqs": [
+        { "q": "How quickly can you finish a full-home cleanout?", "a": "Most 2–3 bedroom cleanouts finish in one day. Larger or more cluttered homes run 1–3 days. We'll give you a specific timeline in the quote." },
+        { "q": "Can you handle a hoarder-type situation?", "a": "Yes — we've taken on jobs others declined. We'll walk through with you first, discuss what's worth saving vs. disposing, and handle the job without judgment." },
+        { "q": "Do you coordinate with realtors and estate attorneys?", "a": "Absolutely. We regularly work with realtors preparing listings and executors settling estates. We can schedule around closing dates and provide documentation." },
+        { "q": "What happens to usable items?", "a": "Clothing, furniture in good condition, and household goods are routed to local donation centers whenever possible. If you want items kept for family, mark them before we arrive." }
+      ],
+      "heroImage": "action"
+    },
+    {
+      "name": "Light Demolition",
+      "slug": "light-demolition",
+      "hasOwnPage": true,
+      "icon": "hammer",
+      "shortDescription": "Shed, deck, fence, playset, hot tub, and pool removal — plus interior non-structural demo.",
+      "fullDescription": "Torvik Hauling handles the light-demolition jobs that full-service contractors don't want and DIY homeowners shouldn't attempt. We safely dismantle and remove decks, sheds, fences, playsets, hot tubs, and above-ground pools — plus interior non-structural demo like cabinets, vanities, flooring, and drywall. Every job includes debris haul-away and cleanup, so you're left with a clear footprint ready for whatever's next. We're equipped for heavy loads (concrete, scrap metal) and unusual items most haulers won't touch.",
+      "features": [
+        "Deck, fence, and pergola removal",
+        "Shed and outbuilding demolition + haul-away",
+        "Hot tub and above-ground pool removal",
+        "Playset and swing-set dismantling",
+        "Interior demo: cabinets, vanities, flooring, drywall (non-structural)"
+      ],
+      "benefits": [
+        "One crew for demo + haul-away — no coordinating dumpster rental",
+        "Equipped for heavy items (hot tubs, concrete, steel) others decline",
+        "Insured — your property and neighbors are protected during demo",
+        "Property left level and swept, ready for re-build or re-landscape",
+        "Free on-site estimate — we walk the job with you first"
+      ],
+      "faqs": [
+        { "q": "Do I need a permit for demo work?", "a": "Most residential light demo (decks, sheds, hot tubs) doesn't require a permit in the Lake County / NW Cook County suburbs, but rules vary by municipality. We'll flag anything we think needs one before starting." },
+        { "q": "Can you handle concrete and heavy materials?", "a": "Yes. We have the equipment and hauling capacity for concrete, brick, and scrap metal. Heavy loads are priced separately from standard debris because of disposal costs." },
+        { "q": "Will you break up a hot tub before hauling?", "a": "Usually yes. We dismantle hot tubs on-site and haul the pieces — faster and easier than trying to move a full tub through tight yards or gates." },
+        { "q": "Do you do interior demo during a renovation?", "a": "Yes — kitchen cabinets, bathroom vanities, flooring, and non-structural drywall. We work alongside GCs or directly with homeowners. Structural work (load-bearing walls, roofing) is outside our scope." }
+      ],
+      "heroImage": "action"
+    },
+    {
+      "name": "Garage, Basement & Attic Cleanouts",
+      "slug": "cleanouts",
+      "hasOwnPage": true,
+      "icon": "boxes",
+      "shortDescription": "Top-to-bottom clearouts for garages, basements, attics, and storage units.",
+      "fullDescription": "Years of accumulation don't clear themselves. Torvik Hauling turns a full garage or basement into an empty, broom-swept space — usually in a single visit. We handle the boxes nobody opened, the furniture that's been 'temporary' for a decade, the broken appliances, and the holiday decorations that never made it to the curb. Sort-as-we-go: we can pull out anything you want to keep or donate, and the rest goes to proper disposal. Storage-unit cleanouts also welcome.",
+      "features": [
+        "Full-garage clearouts (one-car to three-car)",
+        "Basement cleanouts — including items movers won't touch",
+        "Attic cleanouts, insulation and all",
+        "Storage-unit emptying (we meet you at the facility)",
+        "Sorting assistance — keep, donate, dispose piles"
+      ],
+      "benefits": [
+        "Single-day turnaround for most residential cleanouts",
+        "We bring the dollies, straps, and manpower — you don't lift a thing",
+        "Donation routing for usable items reduces waste and landfill cost",
+        "Post-cleanout sweep so the space is photo-ready or use-ready",
+        "Free estimate, firm quote — no drive-time or 'while we're here' add-ons"
+      ],
+      "faqs": [
+        { "q": "Can you cleanout a storage unit I can't access easily?", "a": "Yes. We meet you at the storage facility, load the contents, and handle disposal. Bring your key or access code; we bring everything else." },
+        { "q": "What if I want to keep some items?", "a": "Tell us what's staying before we load. We sort as we go and set aside anything you want to keep or donate." },
+        { "q": "Do you clean the space after?", "a": "Every cleanout includes a sweep-out. Most garages and basements look empty and clean when we leave — not empty and grimy." },
+        { "q": "Can you handle heavy items like old treadmills or piano keyboards?", "a": "Yes. Heavy and awkward items are what we do. Bring them on." }
+      ],
+      "heroImage": "action"
+    },
+    {
+      "name": "Outdoor & Yard Cleanup",
+      "slug": "yard-cleanup",
+      "hasOwnPage": true,
+      "icon": "leaf",
+      "shortDescription": "Yard waste, storm debris, brush, dirt, rock, and landscaping haul-away.",
+      "fullDescription": "After a big storm, a landscaping project, or just a season of neglect, yards accumulate. Torvik Hauling clears yard waste, fallen branches, brush piles, storm debris, dirt, rock, and landscaping materials — including the loads most garbage pickups refuse. We show up with the right equipment, load fast, and haul to proper disposal or compost facilities. No dragging bags to the curb for weeks of pickups, no calling the municipality to negotiate large-debris rules.",
+      "features": [
+        "Storm debris and tree-limb cleanup (post-storm emergency available)",
+        "Brush and branch removal from back yards and woodlines",
+        "Dirt, rock, concrete, and paver haul-away",
+        "Landscaping debris after a renovation or re-grade",
+        "Sod removal and disposal"
+      ],
+      "benefits": [
+        "Clears what regular garbage pickup won't — no bag limits, no size limits",
+        "Composting and recycling for organic yard waste when possible",
+        "Fast turnaround after storms (1–2 hour response)",
+        "No repeat trips — one visit, yard cleared",
+        "Insured for working on and around landscaping you want protected"
+      ],
+      "faqs": [
+        { "q": "Can you come right after a storm?", "a": "Yes. Post-storm cleanup is one of our faster-response services — we can usually be out within 24 hours after major weather events." },
+        { "q": "Do you take concrete and rock?", "a": "Yes. Heavy materials are priced by weight because disposal costs more than standard yard waste. We'll give you a firm number first." },
+        { "q": "What about yard waste that's too big for the garbage company?", "a": "That's exactly what we're for. Branches over a few inches, large shrub root-balls, stumps under a certain size — we handle it." },
+        { "q": "Can you remove a fallen tree?", "a": "If it's already down and sectioned, yes. If it needs to be felled and cut, we'd partner you with a tree service for the cutting and then handle the haul-away." }
+      ],
+      "heroImage": "action"
+    },
+    {
+      "name": "Construction & Renovation Debris",
+      "slug": "construction-debris",
+      "hasOwnPage": true,
+      "icon": "brick",
+      "shortDescription": "Job-site debris hauling for contractors, remodelers, and DIY homeowners.",
+      "fullDescription": "Renovations generate more waste than most people expect — old cabinets, ripped-up flooring, drywall, concrete, scrap metal, and packaging. Torvik Hauling handles construction and renovation debris for GCs, remodelers, and homeowners doing DIY projects. Cheaper and more flexible than a roll-off dumpster for small-to-mid jobs: you don't pay for the days it sits in your driveway, and we can come back for repeat loads on a phased project. We're set up for heavy materials (concrete, scrap metal) that weight-based disposal makes expensive.",
+      "features": [
+        "Residential renovation cleanout (kitchen, bath, flooring tear-outs)",
+        "Contractor job-site debris pickup — repeat loads as the job progresses",
+        "Concrete removal and disposal",
+        "Scrap metal haul-away (we route to recyclers)",
+        "Drywall, tile, and flooring haul-off"
+      ],
+      "benefits": [
+        "Flexibility — no dumpster rental, no 'ran out of space' stress",
+        "Repeat-load pricing for multi-phase jobs",
+        "Scrap metal gets recycled, not landfilled",
+        "Insured for working around active job sites",
+        "Fast response so your crew isn't waiting on a dumpster swap"
+      ],
+      "faqs": [
+        { "q": "Is this cheaper than a dumpster rental?", "a": "For small and mid-sized jobs, usually yes — you only pay for what we haul, not rental days. For very large jobs with continuous output, a dumpster is more efficient; we'll tell you honestly which way makes sense." },
+        { "q": "Can you come multiple times during a project?", "a": "Yes. We do phased haul-away for ongoing renos — call when a load is ready, we come get it." },
+        { "q": "Do you work with contractors on job sites?", "a": "Regularly. We can invoice the GC directly, coordinate with site supers, and work around active crews." },
+        { "q": "What about heavy materials like concrete?", "a": "Yes — we're equipped for concrete, masonry, and scrap metal. These are weight-priced separately because of disposal costs." }
+      ],
+      "heroImage": "action"
+    }
+  ],
+  "secondaryServices": [
+    { "name": "Furniture Removal",  "slug": "furniture-removal",   "parentSlug": "junk-removal" },
+    { "name": "Appliance Removal",  "slug": "appliance-removal",   "parentSlug": "junk-removal" },
+    { "name": "Hot Tub Removal",    "slug": "hot-tub-removal",     "parentSlug": "light-demolition" },
+    { "name": "Shed Removal",       "slug": "shed-removal",        "parentSlug": "light-demolition" },
+    { "name": "Deck Removal",       "slug": "deck-removal",        "parentSlug": "light-demolition" },
+    { "name": "Fence Removal",      "slug": "fence-removal",       "parentSlug": "light-demolition" },
+    { "name": "Estate Cleanouts",   "slug": "estate-cleanouts",    "parentSlug": "property-cleanouts" },
+    { "name": "Foreclosure Cleanouts", "slug": "foreclosure-cleanouts", "parentSlug": "property-cleanouts" },
+    { "name": "Office & Commercial Cleanouts", "slug": "commercial-cleanouts", "parentSlug": "property-cleanouts" }
+  ],
+  "testimonials": [
+    {
+      "quote": "They helped me move two sofas and were incredibly professional, timely, and efficient from start to finish. I really appreciated how careful and considerate they were with the space. Matt was great to work with — very responsive and accommodating. I needed the sofas removed within 24 hours, and he made it happen seamlessly.",
+      "author": "Hajira Mohammed",
+      "rating": 5,
+      "source": "Google",
+      "serviceContext": "junk-removal"
+    },
+    {
+      "quote": "Super fast and professional. They took a rather challenging job that I have had others deny in the past. They were well equipped with tools to demo and remove an existing steel furnace drum that was original to a hundred year old house. Glad to finally have my space back in my basement. Torvik will be my go-to contractor in my personal and professional projects.",
+      "author": "Matt M.",
+      "rating": 5,
+      "source": "Google",
+      "serviceContext": "light-demolition"
+    },
+    {
+      "quote": "Prompt, speedy, affordable and a pleasure to work with. Showed up and removed our hot tub and made sure the area was all cleaned up when he was done.",
+      "author": "Isabelle",
+      "rating": 5,
+      "source": "Google",
+      "serviceContext": "light-demolition"
+    }
+  ],
+  "faqs": [
+    { "q": "What items do you take?",          "a": "Almost anything non-hazardous: furniture, mattresses, appliances, electronics, yard debris, construction waste, hot tubs, decks, sheds, and full cleanouts. We don't take liquid paint, chemicals, propane tanks, or asbestos — but we can usually point you to who can." },
+    { "q": "How much does it cost?",           "a": "Volume-based, not hourly. Every job gets a free, firm estimate before we load anything — most jobs start around $125 for a single item or small load. Larger jobs and heavy materials (concrete, scrap metal) are priced by the load or by weight. No surprises after we arrive." },
+    { "q": "How fast can you come out?",       "a": "We respond to calls, texts, and form submissions within 1–2 hours — not the next business day. Same-day or next-day pickup is usually available for the Lake Zurich and Northwest Cook County area." },
+    { "q": "Are you licensed and insured?",    "a": "Yes — fully licensed and insured. Your property, and ours, is protected on every job. Property managers, executors, and realtors can request insurance documentation before we start." },
+    { "q": "Do you clean up after the job?",   "a": "Every job ends with a sweep-out. Garages, basements, and yards look genuinely clean when we leave — not just 'empty.' For property cleanouts, we broom-sweep so the space is photo-ready." },
+    { "q": "What happens to the items you haul away?", "a": "We recycle and donate whenever possible. Usable furniture, clothing, and household goods are routed to local donation centers; scrap metal and e-waste go to recyclers; the rest goes to a licensed disposal facility. Less landfill is good for everyone." }
+  ],
+  "values": [
+    { "title": "Show up on time.",           "body": "When we say 1–2 hour response, we mean it. Not 'next business day.'" },
+    { "title": "Do the job right.",          "body": "Swept clean, not just empty. If it's not the way we'd want it at our own house, it's not done." },
+    { "title": "Handle the hard stuff.",     "body": "Hot tubs, steel drums from 100-year-old basements, hoarder situations. We take on what others decline." },
+    { "title": "Send less to the landfill.", "body": "Donation and recycling first. Disposal last." }
+  ],
+  "aboutStory": "Torvik Hauling was built on a simple idea: show up, work hard, and do the job right.\n\nAfter years in corporate America, I knew I wanted to build something of my own — not just for myself, but to show my daughter that anything is possible with effort and consistency. What started as helping friends and neighbors quickly turned into something more.\n\nThere's nothing better than seeing the look on someone's face after a space is cleared out — that sense of relief and a fresh start. That's what drives me every day. We're not just hauling junk, we're helping people take back their space and feel good about it.",
+  "cityBlurbs": {
+    "Lake Zurich":       "Our most active service area. Same-day pickups common; 1–2 hour estimate response. Home to many of our repeat customers.",
+    "Hawthorn Woods":    "Our home base. If you're in Hawthorn Woods, we can often be there within an hour of your call.",
+    "Barrington":        "Full junk-removal and cleanout coverage across Barrington and Barrington Hills. Larger estate and property cleanouts are common here.",
+    "Long Grove":        "Regular service in Long Grove for junk removal, yard cleanup after storms, and property cleanouts.",
+    "Palatine":          "NW Cook County coverage including Palatine — junk removal, garage cleanouts, light demolition.",
+    "Arlington Heights": "Arlington Heights homeowners and property managers regularly book Torvik for single-item pickups and full cleanouts.",
+    "Buffalo Grove":     "Buffalo Grove service includes residential junk removal, estate cleanouts, and rental turnover work.",
+    "Libertyville":      "Libertyville coverage for junk removal, yard cleanup, and light demolition. Typical response within 1–2 hours."
+  },
+  "seo": {
+    "siteName": "Torvik Hauling",
+    "siteUrl": "https://torvikhauling.com",
+    "defaultTitle": "Torvik Hauling — Junk Removal & Light Demolition | Lake Zurich, IL",
+    "defaultDescription": "Family-owned junk removal & light demolition serving Lake Zurich and the NW Chicago suburbs. Licensed & insured, 1-2 hour response, free estimates from $125.",
+    "twitterHandle": "",
+    "localBusiness": {
+      "schemaType": "HomeAndConstructionBusiness",
+      "name": "Torvik Hauling",
+      "telephone": "+1-224-456-6607",
+      "email": "torvikhauling@gmail.com",
+      "priceRange": "$$",
+      "address": {
+        "addressLocality": "Hawthorn Woods",
+        "addressRegion": "IL",
+        "addressCountry": "US"
+      },
+      "aggregateRating": { "ratingValue": "5.0", "reviewCount": "3" },
+      "sameAs": [
+        "https://www.facebook.com/share/1DtYvhKofi/?mibextid=wwXIfr",
+        "https://www.instagram.com/torvikhauling?igsh=MXJ1ZDUxcWRvZ2Y4eg%3D%3D&utm_source=qr"
+      ]
+    }
+  }
+}

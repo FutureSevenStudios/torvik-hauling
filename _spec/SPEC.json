@@ -1,0 +1,1154 @@
+{
+  "meta": {
+    "version": "1.0",
+    "generatedAt": "2026-04-24",
+    "businessType": "junk removal",
+    "category": "home-improvement",
+    "status": "draft",
+    "clientId": "torvik-hauling",
+    "migrationNeeded": true,
+    "migrationStrategy": "rebuild",
+    "migrationNotes": "Existing torvikhauling.com is a weak Squarespace template. Rebuild from scratch; preserve domain, phone, email, and Google Business Profile. Set up 301 redirects from /services-1 → /services and /appointments → /contact.",
+    "unresolvedQuestions": [
+      "FAQ content not explicitly provided by client — 6 FAQs drafted from common junk-removal objections; confirm at review.",
+      "Owner's name not confirmed — About page written in first person without naming. Testimonial mentions 'Matt'; delivered photos show a single operator (likely Jaron). Confirm before publish.",
+      "Schaumburg service area: existing site lists it, intake does not. Spec drops Schaumburg per intake list. Confirm.",
+      "Google review count: unknown. Display uses '5-star rated' without count; consider live Google Places API pull.",
+      "Before/after photo permission: no before/after photos in delivered pack. Flag if client sends any later.",
+      "Social URLs: delivered as share-links with tracking params; swap to canonical URLs before publish.",
+      "Additional job-site photos: delivered pack is brand/vehicle-heavy. Gallery would benefit from 3-5 in-progress job photos or before/after pairs — request mid-build."
+    ],
+    "contradictions": [
+      {
+        "field": "serviceAreas",
+        "description": "Existing site lists Schaumburg; intake does not.",
+        "resolution": "Drop Schaumburg. Confirm with client before publish."
+      },
+      {
+        "field": "physicalAddress",
+        "description": "Intake: 'service area only, no address'. Existing site: 'Hawthorn Woods, IL'.",
+        "resolution": "Hawthorn Woods, IL in LocalBusiness schema for local SEO. No street address published publicly."
+      }
+    ],
+    "sources": {
+      "context": "_context/CONTEXT.json",
+      "existingSite": "_context/EXISTING_SITE.json",
+      "designPackage": ".design/"
+    }
+  },
+
+  "identity": {
+    "businessName": "Torvik Hauling",
+    "legalName": "Torvik Hauling",
+    "tagline": "Family Owned. Community Focused.",
+    "description": "Torvik Hauling is a local, family-owned junk removal and light demolition company serving the Northwest suburbs of Chicago. We handle everything from single-item pickups to full property cleanouts, always showing up on time and getting the job done right. Our goal is simple: leave every space cleaner than we found it while making the process easy for our neighbors.",
+    "shortDescription": "Family-owned junk removal & light demolition serving Lake Zurich and the Northwest Chicago suburbs. Licensed, insured, 1-2 hour response.",
+    "phone": "(224) 456-6607",
+    "phoneHref": "tel:+12244566607",
+    "email": "torvikhauling@gmail.com",
+    "address": {
+      "street": null,
+      "city": "Hawthorn Woods",
+      "state": "IL",
+      "zip": null,
+      "country": "US",
+      "formatted": "Hawthorn Woods, IL",
+      "displayPublic": false,
+      "useForSchemaOnly": true
+    },
+    "serviceAreas": {
+      "primary": [
+        "Lake Zurich",
+        "Hawthorn Woods",
+        "Barrington",
+        "Long Grove",
+        "Palatine",
+        "Arlington Heights",
+        "Buffalo Grove",
+        "Libertyville"
+      ],
+      "full": [
+        "Lake Zurich",
+        "Hawthorn Woods",
+        "Kildeer",
+        "Long Grove",
+        "Barrington",
+        "Barrington Hills",
+        "Deer Park",
+        "Palatine",
+        "Arlington Heights",
+        "Buffalo Grove",
+        "Wheeling",
+        "Prospect Heights",
+        "Mount Prospect",
+        "Rolling Meadows",
+        "Vernon Hills",
+        "Libertyville",
+        "Mundelein",
+        "Wauconda",
+        "Round Lake",
+        "Round Lake Beach",
+        "Round Lake Park",
+        "Grayslake",
+        "Gurnee",
+        "Lindenhurst",
+        "Lake Villa",
+        "Crystal Lake",
+        "Cary",
+        "Fox River Grove",
+        "Algonquin",
+        "Lake in the Hills"
+      ]
+    },
+    "primaryCity": "Lake Zurich",
+    "primaryRegion": "Lake County & Northwest Cook County, Illinois",
+    "priceRange": "$$",
+    "startingPrice": 125,
+    "estimatesPolicy": "Free estimates — quotes typically starting around $125",
+    "yearsInBusiness": 1,
+    "hoursOfOperation": {
+      "note": "Not confirmed by client; default to standard service hours. Verify before publish.",
+      "monday":    "07:00-19:00",
+      "tuesday":   "07:00-19:00",
+      "wednesday": "07:00-19:00",
+      "thursday":  "07:00-19:00",
+      "friday":    "07:00-19:00",
+      "saturday":  "08:00-17:00",
+      "sunday":    "Closed — text for emergencies"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/share/1DtYvhKofi/?mibextid=wwXIfr",
+      "instagram": "https://www.instagram.com/torvikhauling?igsh=MXJ1ZDUxcWRvZ2Y4eg%3D%3D&utm_source=qr",
+      "google": "https://share.google/LHKNG3oyAecUf0itD",
+      "_preLaunchTask": "Replace share-link URLs with canonical profile URLs before publish."
+    }
+  },
+
+  "brand": {
+    "colors": {
+      "primary":    "#0B2E5B",
+      "secondary":  "#3E7CB1",
+      "accent":     "#6FA8DC",
+      "background": "#F7F5F0",
+      "surface":    "#FFFFFF",
+      "text":       "#1A2033",
+      "muted":      "#5B6470",
+      "border":     "#E4E4DD",
+      "_source": ".design/palette.json (warm-trades aesthetic with cool-blue palette override per client brand direction)"
+    },
+    "fonts": {
+      "display": { "family": "Recoleta", "weights": [400, 600, 700], "source": "Google Fonts (Recoleta) or self-host" },
+      "body":    { "family": "Inter",    "weights": [400, 500, 700], "source": "Google Fonts" },
+      "_source": ".design/typography.json"
+    },
+    "scale": {
+      "base": 17,
+      "ratio": 1.25,
+      "sizes": { "xs": 13, "sm": 15, "base": 17, "lg": 21, "xl": 27, "2xl": 34, "3xl": 53, "4xl": 83 }
+    },
+    "tone": "Professional & trustworthy, bold & powerful, neighborly. Family-owned. No hype, no stereotypical junk-removal megaphone energy.",
+    "styleDirectives": [
+      "Deep navy primary (#0B2E5B) — trust, headlines, primary CTAs",
+      "Cool light-blue accent (#6FA8DC) — ≤8% of any viewport (eco callouts, highlights)",
+      "Warm paper off-white background (#F7F5F0) — grounded, tactile feel",
+      "Chunky slab-serif display (Recoleta), clean sans body (Inter)",
+      "NO orange, yellow, or green (explicit client avoid list)",
+      "NO stereotypical junk-removal aesthetics (no orange trucks, no 'haul it all' megaphone energy, no before/after arrows)",
+      "NO stock people photos — use delivered Torvik photos or photorealistic equipment imagery",
+      "NO auto-playing video or carousels",
+      "Soft 1px borders, 8% opacity shadows on elevated surfaces only"
+    ],
+    "logo": {
+      "primary":    "_intake/assets/logos/Torvik_Hauling_Logo_Exact-01.png",
+      "onLight":    "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Black.png",
+      "onDark":     "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_White.png",
+      "markOnly":   "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Solo.png",
+      "source":     "_intake/assets/logos/Torvik_Hauling_Logo.ai",
+      "_preLaunchTask": "Vectorize to SVG from .ai source for crisp scaling; use 2x PNG as interim."
+    },
+    "favicon": {
+      "source": "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Solo.png",
+      "sizes": ["16", "32", "180", "192", "512"],
+      "appleTouchIcon": "180x180 with warm paper #F7F5F0 background padding"
+    },
+    "ogImage": {
+      "source": "_intake/assets/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Solo.png",
+      "composite": "1200x630 — deep-navy bg, solo mark centered-left, 'Torvik Hauling — Junk Removal & Light Demolition' + 'Lake Zurich, IL' on the right in Recoleta white"
+    }
+  },
+
+  "photos": {
+    "_notes": "All 5 delivered photos are portrait-captured but may render rotated. Respect EXIF orientation during build; crop/orient intentionally per usage.",
+    "hero": {
+      "path": "_intake/assets/photos/IMG_9434.jpeg",
+      "alt": "Torvik Hauling truck and branded dump trailer parked on a Lake Zurich residential street under a bright cloudy sky",
+      "usage": "Primary hero image on home page",
+      "reason": "Wide shot of full truck+trailer combo on residential street with beautiful sky — shows scale, brand, and suburban-residential context. Strongest single hero candidate."
+    },
+    "secondaryHero": {
+      "path": "_intake/assets/photos/IMG_9417.jpeg",
+      "alt": "Side view of the Torvik Hauling dump trailer displaying the full services list and phone number (224) 456-6607",
+      "usage": "Services page hero, CTA band, footer accent",
+      "reason": "Trailer with full branding, phone, website, and services list in frame — doubles as a silent business card."
+    },
+    "owner": {
+      "path": "_intake/assets/photos/IMG_9175 (1).jpeg",
+      "alt": "Torvik Hauling owner smiling in a branded black Torvik polo and cap beside the Torvik dump trailer",
+      "usage": "About page — portrait/origin story section",
+      "reason": "Warm, direct-to-camera owner portrait. Humanizes the 'family-owned' positioning. Caption ambiguity — see unresolvedQuestions about owner name."
+    },
+    "action": {
+      "path": "_intake/assets/photos/IMG_9241.jpeg",
+      "alt": "Torvik Hauling owner giving a thumbs-up next to a trailer loaded with boxes, bags, and household junk mid-haul",
+      "usage": "Gallery lead card, How It Works 'Haul or Demo' step, services grid hover state",
+      "reason": "Action shot mid-job — thumbs-up conveys 'done right', loaded trailer conveys capability."
+    },
+    "eco": {
+      "path": "_intake/assets/photos/IMG_9424.jpeg",
+      "alt": "Torvik Hauling dump trailer unloading construction and household debris at a licensed waste transfer station",
+      "usage": "Eco-friendly disposal section, How It Works 'Clean & Done' step, gallery",
+      "reason": "Direct visual proof of legitimate disposal — supports eco/recycle/donate messaging without greenwashing."
+    },
+    "gallery": [
+      "_intake/assets/photos/IMG_9434.jpeg",
+      "_intake/assets/photos/IMG_9417.jpeg",
+      "_intake/assets/photos/IMG_9241.jpeg",
+      "_intake/assets/photos/IMG_9424.jpeg",
+      "_intake/assets/photos/IMG_9175 (1).jpeg"
+    ],
+    "gallerySupplementNeeded": {
+      "reason": "Delivered pack is brand/vehicle-heavy. Gallery target is 6-10 images with variety. Missing: in-progress job photos at customer properties, before/after pairs, demolition action shots, cleanout interior shots.",
+      "requestToClient": "Can you send 3-5 photos of actual jobs in progress — mid-cleanout rooms, deck/shed demo, before/after if any? These convert much harder than vehicle shots."
+    }
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Services", "href": "/services" },
+      { "label": "Gallery", "href": "/gallery" },
+      { "label": "Service Areas", "href": "/service-areas" },
+      { "label": "About", "href": "/about" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "primaryCTA": { "label": "Get Free Estimate", "href": "/contact#quote" },
+    "secondaryCTA": { "label": "Call (224) 456-6607", "href": "tel:+12244566607" },
+    "phone": "(224) 456-6607",
+    "stickyOnScroll": true,
+    "mobileBehavior": "hamburger menu, sticky phone button visible on all viewports <768px"
+  },
+
+  "footer": {
+    "columns": [
+      {
+        "heading": "Torvik Hauling",
+        "items": [
+          "Family Owned. Community Focused.",
+          "Licensed & Insured",
+          "Serving Lake County & NW Cook County, IL"
+        ]
+      },
+      {
+        "heading": "Services",
+        "items": [
+          { "label": "Junk Removal", "href": "/services/junk-removal" },
+          { "label": "Property Cleanouts", "href": "/services/property-cleanouts" },
+          { "label": "Light Demolition", "href": "/services/light-demolition" },
+          { "label": "Garage & Basement Cleanouts", "href": "/services/cleanouts" },
+          { "label": "Yard Cleanup", "href": "/services/yard-cleanup" },
+          { "label": "Construction Debris", "href": "/services/construction-debris" }
+        ]
+      },
+      {
+        "heading": "Contact",
+        "items": [
+          { "label": "(224) 456-6607", "href": "tel:+12244566607" },
+          { "label": "torvikhauling@gmail.com", "href": "mailto:torvikhauling@gmail.com" },
+          { "label": "Get Free Estimate", "href": "/contact#quote" }
+        ]
+      },
+      {
+        "heading": "Follow",
+        "socials": [
+          { "platform": "facebook",  "href": "https://www.facebook.com/share/1DtYvhKofi/?mibextid=wwXIfr", "_preLaunch": "replace with canonical URL" },
+          { "platform": "instagram", "href": "https://www.instagram.com/torvikhauling?igsh=MXJ1ZDUxcWRvZ2Y4eg%3D%3D&utm_source=qr", "_preLaunch": "replace with canonical URL" },
+          { "platform": "google",    "href": "https://share.google/LHKNG3oyAecUf0itD", "label": "Read Google Reviews" }
+        ]
+      }
+    ],
+    "bottom": {
+      "copyright": "© 2026 Torvik Hauling. All rights reserved.",
+      "disclaimer": "Licensed & Insured. Serving Lake Zurich, Hawthorn Woods, Barrington, and the Northwest Chicago suburbs."
+    }
+  },
+
+  "services": {
+    "primary": [
+      {
+        "name": "Junk Removal",
+        "slug": "junk-removal",
+        "hasOwnPage": true,
+        "shortDescription": "Fast, full-service junk removal for homes and businesses — single items to whole-truck loads. We do the lifting, sweep up after, and haul everything away responsibly.",
+        "fullDescription": "Whether it's one bulky item or a truckload of accumulated stuff, Torvik Hauling takes it off your hands quickly and cleanly. We handle residential and commercial junk: couches, mattresses, appliances, e-waste, furniture, yard debris, construction materials — if it's in the way, we'll get it out. We respond to inquiries within 1-2 hours, arrive on time, lift the heavy things so you don't have to, and leave your space spotless. Items are sorted for recycling or donation whenever possible; the rest goes to a licensed disposal facility.",
+        "features": [
+          "Single-item pickup (sofas, mattresses, appliances, e-waste)",
+          "Whole-truck loads and multi-room clean-outs",
+          "Commercial and office junk removal",
+          "No hidden fees — free estimate before we start",
+          "We sweep up and leave the space cleaner than we found it"
+        ],
+        "benefits": [
+          "1-2 hour response to calls, texts, and web requests",
+          "Licensed & insured — your property is protected",
+          "Eco-friendly: we recycle and donate whenever possible",
+          "Free on-site or phone estimates, typically starting around $125",
+          "Family-owned — you deal with the owner, not a call center"
+        ],
+        "faqs": [
+          { "q": "What items do you take?", "a": "Almost anything non-hazardous: furniture, mattresses, appliances, electronics, yard debris, construction waste, boxes, bagged trash. We can't take liquid paint, chemicals, propane tanks, or asbestos — but we can usually point you to who can." },
+          { "q": "Do I need to prep the junk before you arrive?", "a": "No — leave it where it is. We'll do the lifting, loading, and cleanup. If you've already bagged or stacked things, great; if not, we'll handle it." },
+          { "q": "How is pricing determined?", "a": "Volume-based, not hourly. We give you a firm quote after a quick look (on-site or via photos) before we load anything. Most jobs start around $125 for a single item or small load." },
+          { "q": "How fast can you come out?", "a": "We respond to inquiries in 1-2 hours and can often schedule same-day or next-day pickup for the Lake Zurich / NW Cook County area." }
+        ],
+        "hero": {
+          "headline": "Junk Removal in Lake Zurich & Northwest Chicago",
+          "subheadline": "One-item pickups to full-truck loads. 1-2 hour response, free estimates starting around $125.",
+          "image": "secondaryHero"
+        }
+      },
+      {
+        "name": "Property Cleanouts",
+        "slug": "property-cleanouts",
+        "hasOwnPage": true,
+        "shortDescription": "Full-home, estate, foreclosure, hoarder, and rental turnover cleanouts handled discreetly and thoroughly — empty to broom-swept, start to finish.",
+        "fullDescription": "Cleanouts are heavy emotional work, and we treat them that way. Torvik Hauling handles full-property cleanouts for homeowners, estate executors, property managers, and realtors across the Northwest Chicago suburbs. We take the entire contents: furniture, appliances, clothing, boxes, yard items, anything left behind — and leave the property broom-swept and ready for the next step, whether that's listing, renting, or moving in. We work quickly and privately; neighbors see a clean truck, not chaos.",
+        "features": [
+          "Estate and probate cleanouts — coordinated with executors and realtors",
+          "Foreclosure and bank-owned property cleanouts",
+          "Hoarder and difficult-cleanout situations handled with discretion",
+          "Move-in / move-out and rental turnover cleanouts",
+          "Broom-swept finish — photo-ready for listings"
+        ],
+        "benefits": [
+          "One point of contact — the owner — from quote to final sweep",
+          "Licensed & insured, so property managers and executors are protected",
+          "Fast scheduling — often same-week for full cleanouts",
+          "Donation and recycling routing for usable items",
+          "Written quote before we start; no surprise add-ons"
+        ],
+        "faqs": [
+          { "q": "How quickly can you finish a full-home cleanout?", "a": "Most 2-3 bedroom cleanouts finish in one day. Larger or more cluttered homes run 1-3 days. We'll give you a specific timeline in the quote." },
+          { "q": "Can you handle a hoarder-type situation?", "a": "Yes — we've taken on jobs others declined. We'll walk through with you first, discuss what's worth saving vs. disposing, and handle the job without judgment." },
+          { "q": "Do you coordinate with realtors and estate attorneys?", "a": "Absolutely. We regularly work with realtors preparing listings and executors settling estates. We can schedule around closing dates and provide documentation." },
+          { "q": "What happens to usable items?", "a": "Clothing, furniture in good condition, and household goods are routed to local donation centers whenever possible. If you want items kept for family, mark them before we arrive." }
+        ],
+        "hero": {
+          "headline": "Full Property Cleanouts — Estate, Foreclosure, Rental Turnover",
+          "subheadline": "Discreet, thorough, broom-swept finish. One call from quote to done.",
+          "image": "action"
+        }
+      },
+      {
+        "name": "Light Demolition",
+        "slug": "light-demolition",
+        "hasOwnPage": true,
+        "shortDescription": "Shed, deck, fence, playset, hot tub, and above-ground pool removal — plus interior non-structural demo. We tear it down, haul it out, clean it up.",
+        "fullDescription": "Torvik Hauling handles the light-demolition jobs that full-service contractors don't want and DIY homeowners shouldn't attempt. We safely dismantle and remove decks, sheds, fences, playsets, hot tubs, and above-ground pools — plus interior non-structural demo like cabinets, vanities, flooring, and drywall. Every job includes debris haul-away and cleanup, so you're left with a clear footprint ready for whatever's next. We're equipped for heavy loads (concrete, scrap metal) and unusual items most haulers won't touch.",
+        "features": [
+          "Deck, fence, and pergola removal",
+          "Shed and outbuilding demolition + haul-away",
+          "Hot tub and above-ground pool removal",
+          "Playset and swing-set dismantling",
+          "Interior demo: cabinets, vanities, flooring, drywall (non-structural)"
+        ],
+        "benefits": [
+          "One crew for demo + haul-away — no coordinating dumpster rental",
+          "Equipped for heavy items (hot tubs, concrete, steel) others decline",
+          "Insured — your property and neighbors are protected during demo",
+          "Property left level and swept, ready for re-build or re-landscape",
+          "Free on-site estimate — we walk the job with you first"
+        ],
+        "faqs": [
+          { "q": "Do I need a permit for demo work?", "a": "Most residential light demo (decks, sheds, hot tubs) doesn't require a permit in the Lake County / NW Cook County suburbs, but rules vary by municipality. We'll flag anything we think needs one before starting." },
+          { "q": "Can you handle concrete and heavy materials?", "a": "Yes. We have the equipment and hauling capacity for concrete, brick, and scrap metal. Heavy loads are priced separately from standard debris because of disposal costs." },
+          { "q": "Will you break up a hot tub before hauling?", "a": "Usually yes. We dismantle hot tubs on-site and haul the pieces — faster and easier than trying to move a full tub through tight yards or gates." },
+          { "q": "Do you do interior demo during a renovation?", "a": "Yes — kitchen cabinets, bathroom vanities, flooring, and non-structural drywall. We work alongside GCs or directly with homeowners. Structural work (load-bearing walls, roofing) is outside our scope." }
+        ],
+        "hero": {
+          "headline": "Light Demolition & Heavy-Item Removal",
+          "subheadline": "Decks, sheds, hot tubs, pools, interior demo. We tear down, haul out, clean up — all under one crew.",
+          "image": "action"
+        }
+      },
+      {
+        "name": "Garage, Basement & Attic Cleanouts",
+        "slug": "cleanouts",
+        "hasOwnPage": true,
+        "shortDescription": "Top-to-bottom clearouts for garages, basements, attics, and storage units. We sort, haul, and sweep so you get your space back.",
+        "fullDescription": "Years of accumulation don't clear themselves. Torvik Hauling turns a full garage or basement into an empty, broom-swept space — usually in a single visit. We handle the boxes nobody opened, the furniture that's been 'temporary' for a decade, the broken appliances, and the holiday decorations that never made it to the curb. Sort-as-we-go: we can pull out anything you want to keep or donate, and the rest goes to proper disposal. Storage-unit cleanouts also welcome.",
+        "features": [
+          "Full-garage clearouts (one-car to three-car)",
+          "Basement cleanouts — including items movers won't touch",
+          "Attic cleanouts, insulation and all",
+          "Storage-unit emptying (we meet you at the facility)",
+          "Sorting assistance — keep, donate, dispose piles"
+        ],
+        "benefits": [
+          "Single-day turnaround for most residential cleanouts",
+          "We bring the dollies, straps, and manpower — you don't lift a thing",
+          "Donation routing for usable items reduces waste and landfill cost",
+          "Post-cleanout sweep so the space is photo-ready or use-ready",
+          "Free estimate, firm quote — no drive-time or 'while we're here' add-ons"
+        ],
+        "faqs": [
+          { "q": "Can you cleanout a storage unit I can't access easily?", "a": "Yes. We meet you at the storage facility, load the contents, and handle disposal. Bring your key or access code; we bring everything else." },
+          { "q": "What if I want to keep some items?", "a": "Tell us what's staying before we load. We sort as we go and set aside anything you want to keep or donate." },
+          { "q": "Do you clean the space after?", "a": "Every cleanout includes a sweep-out. Most garages and basements look empty and clean when we leave — not empty and grimy." },
+          { "q": "Can you handle heavy items like old treadmills or piano keyboards?", "a": "Yes. Heavy and awkward items are what we do. Bring them on." }
+        ],
+        "hero": {
+          "headline": "Garage, Basement & Attic Cleanouts",
+          "subheadline": "Get the space back. One-day turnaround, swept clean, free estimate.",
+          "image": "action"
+        }
+      },
+      {
+        "name": "Outdoor & Yard Cleanup",
+        "slug": "yard-cleanup",
+        "hasOwnPage": true,
+        "shortDescription": "Yard waste, storm debris, brush, branches, dirt, rock, and landscaping haul-away. We clear the yard so you can use it again.",
+        "fullDescription": "After a big storm, a landscaping project, or just a season of neglect, yards accumulate. Torvik Hauling clears yard waste, fallen branches, brush piles, storm debris, dirt, rock, and landscaping materials — including the loads most garbage pickups refuse. We show up with the right equipment, load fast, and haul to proper disposal or compost facilities. No dragging bags to the curb for weeks of pickups, no calling the municipality to negotiate large-debris rules.",
+        "features": [
+          "Storm debris and tree-limb cleanup (post-storm emergency available)",
+          "Brush and branch removal from back yards and woodlines",
+          "Dirt, rock, concrete, and paver haul-away",
+          "Landscaping debris after a renovation or re-grade",
+          "Sod removal and disposal"
+        ],
+        "benefits": [
+          "Clears what regular garbage pickup won't — no bag limits, no size limits",
+          "Composting and recycling for organic yard waste when possible",
+          "Fast turnaround after storms (1-2 hour response)",
+          "No repeat trips — one visit, yard cleared",
+          "Insured for working on and around landscaping you want protected"
+        ],
+        "faqs": [
+          { "q": "Can you come right after a storm?", "a": "Yes. Post-storm cleanup is one of our faster-response services — we can usually be out within 24 hours after major weather events." },
+          { "q": "Do you take concrete and rock?", "a": "Yes. Heavy materials (concrete, rock, brick, pavers) are priced by weight because disposal costs more than standard yard waste. We'll give you a firm number first." },
+          { "q": "What about yard waste that's too big for the garbage company?", "a": "That's exactly what we're for. Branches over a few inches, large shrub root-balls, stumps under a certain size — we handle it." },
+          { "q": "Can you remove a fallen tree?", "a": "If it's already down and sectioned, yes. If it needs to be felled and cut, we'd partner you with a tree service for the cutting and then handle the haul-away." }
+        ],
+        "hero": {
+          "headline": "Yard & Outdoor Cleanup",
+          "subheadline": "Storm debris, brush, dirt, rock, landscaping waste. We haul what your garbage company won't.",
+          "image": "action"
+        }
+      },
+      {
+        "name": "Construction & Renovation Debris",
+        "slug": "construction-debris",
+        "hasOwnPage": true,
+        "shortDescription": "Job-site debris hauling for contractors, remodelers, and DIY homeowners. Concrete, scrap metal, drywall, flooring — gone.",
+        "fullDescription": "Renovations generate more waste than most people expect — old cabinets, ripped-up flooring, drywall, concrete, scrap metal, and packaging. Torvik Hauling handles construction and renovation debris for GCs, remodelers, and homeowners doing DIY projects. Cheaper and more flexible than a roll-off dumpster for small-to-mid jobs: you don't pay for the days it sits in your driveway, and we can come back for repeat loads on a phased project. We're set up for heavy materials (concrete, scrap metal) that weight-based disposal makes expensive.",
+        "features": [
+          "Residential renovation cleanout (kitchen, bath, flooring tear-outs)",
+          "Contractor job-site debris pickup — repeat loads as the job progresses",
+          "Concrete removal and disposal",
+          "Scrap metal haul-away (we route to recyclers)",
+          "Drywall, tile, and flooring haul-off"
+        ],
+        "benefits": [
+          "Flexibility — no dumpster rental, no 'ran out of space' stress",
+          "Repeat-load pricing for multi-phase jobs",
+          "Scrap metal gets recycled, not landfilled",
+          "Insured for working around active job sites",
+          "Fast response so your crew isn't waiting on a dumpster swap"
+        ],
+        "faqs": [
+          { "q": "Is this cheaper than a dumpster rental?", "a": "For small and mid-sized jobs, usually yes — you only pay for what we haul, not rental days. For very large jobs with continuous output, a dumpster is more efficient; we'll tell you honestly which way makes sense." },
+          { "q": "Can you come multiple times during a project?", "a": "Yes. We do phased haul-away for ongoing renos — call when a load is ready, we come get it." },
+          { "q": "Do you work with contractors on job sites?", "a": "Regularly. We can invoice the GC directly, coordinate with site supers, and work around active crews." },
+          { "q": "What about heavy materials like concrete?", "a": "Yes — we're equipped for concrete, masonry, and scrap metal. These are weight-priced separately because of disposal costs." }
+        ],
+        "hero": {
+          "headline": "Construction & Renovation Debris Haul-Away",
+          "subheadline": "For GCs, remodelers, and DIY homeowners. Cheaper than a dumpster for most jobs.",
+          "image": "action"
+        }
+      }
+    ],
+    "secondary": [
+      { "name": "Furniture Removal", "slug": "furniture-removal", "hasOwnPage": false, "parentService": "junk-removal" },
+      { "name": "Appliance Removal", "slug": "appliance-removal", "hasOwnPage": false, "parentService": "junk-removal" },
+      { "name": "Hot Tub Removal", "slug": "hot-tub-removal", "hasOwnPage": false, "parentService": "light-demolition" },
+      { "name": "Shed Removal", "slug": "shed-removal", "hasOwnPage": false, "parentService": "light-demolition" },
+      { "name": "Deck Removal", "slug": "deck-removal", "hasOwnPage": false, "parentService": "light-demolition" },
+      { "name": "Fence Removal", "slug": "fence-removal", "hasOwnPage": false, "parentService": "light-demolition" },
+      { "name": "Estate Cleanouts", "slug": "estate-cleanouts", "hasOwnPage": false, "parentService": "property-cleanouts" },
+      { "name": "Foreclosure Cleanouts", "slug": "foreclosure-cleanouts", "hasOwnPage": false, "parentService": "property-cleanouts" },
+      { "name": "Office & Commercial Cleanouts", "slug": "commercial-cleanouts", "hasOwnPage": false, "parentService": "property-cleanouts" }
+    ]
+  },
+
+  "testimonials": [
+    {
+      "quote": "They helped me move two sofas and were incredibly professional, timely, and efficient from start to finish. I really appreciated how careful and considerate they were with the space. Matt was great to work with — very responsive and accommodating. I needed the sofas removed within 24 hours, and he made it happen seamlessly.",
+      "author": "Hajira Mohammed",
+      "rating": 5,
+      "source": "Google",
+      "serviceContext": "furniture-removal",
+      "useOn": ["home", "junk-removal"]
+    },
+    {
+      "quote": "Super fast and professional. They took a rather challenging job that I have had others deny in the past. They were well equipped with tools to demo and remove an existing steel furnace drum that was original to a hundred year old house. Glad to finally have my space back in my basement. Torvik will be my go-to contractor in my personal and professional projects.",
+      "author": "Matt M.",
+      "rating": 5,
+      "source": "Google",
+      "serviceContext": "light-demolition",
+      "useOn": ["home", "light-demolition", "cleanouts"]
+    },
+    {
+      "quote": "Prompt, speedy, affordable and a pleasure to work with. Showed up and removed our hot tub and made sure the area was all cleaned up when he was done.",
+      "author": "Isabelle",
+      "rating": 5,
+      "source": "Google",
+      "serviceContext": "hot-tub-removal",
+      "useOn": ["home", "light-demolition"]
+    }
+  ],
+
+  "trustBar": {
+    "items": [
+      { "label": "Licensed & Insured",  "icon": "shield-check", "note": "Client-confirmed 2026-04-24" },
+      { "label": "1-2 Hour Response",   "icon": "clock" },
+      { "label": "Free Estimates",      "icon": "sparkle",      "note": "Typically starting around $125" },
+      { "label": "5-Star Rated",         "icon": "star",         "note": "Google reviews — count TBD or pulled live" },
+      { "label": "Family Owned",         "icon": "home" }
+    ]
+  },
+
+  "processSteps": [
+    {
+      "step": 1,
+      "title": "Contact",
+      "description": "Call, text, or fill out the form for a fast, free estimate. We respond in 1-2 hours — not the next business day.",
+      "icon": "phone",
+      "cta": { "label": "Get Free Estimate", "href": "/contact#quote" }
+    },
+    {
+      "step": 2,
+      "title": "Quote & Schedule",
+      "description": "We confirm pricing up front — typically starting around $125 — and book a pickup that fits your schedule. No surprise fees after we arrive.",
+      "icon": "clipboard"
+    },
+    {
+      "step": 3,
+      "title": "Haul or Demo",
+      "description": "We show up on time, do the heavy lifting, and handle the demo if needed. You don't move a thing unless you want to.",
+      "icon": "truck",
+      "photo": "action"
+    },
+    {
+      "step": 4,
+      "title": "Clean & Done",
+      "description": "We leave your space cleaner than we found it — broom-swept, no trace. You pay only when you're satisfied.",
+      "icon": "sparkle",
+      "photo": "eco"
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "What items do you take?",
+      "a": "Almost anything non-hazardous: furniture, mattresses, appliances, electronics, yard debris, construction waste, hot tubs, decks, sheds, and full cleanouts. We don't take liquid paint, chemicals, propane tanks, or asbestos — but we can usually point you to who can."
+    },
+    {
+      "q": "How much does it cost?",
+      "a": "Volume-based, not hourly. Every job gets a free, firm estimate before we load anything — most jobs start around $125 for a single item or small load. Larger jobs and heavy materials (concrete, scrap metal) are priced by the load or by weight. No surprises after we arrive."
+    },
+    {
+      "q": "How fast can you come out?",
+      "a": "We respond to calls, texts, and form submissions within 1-2 hours — not the next business day. Same-day or next-day pickup is usually available for the Lake Zurich and Northwest Cook County area."
+    },
+    {
+      "q": "Are you licensed and insured?",
+      "a": "Yes — fully licensed and insured. Your property, and ours, is protected on every job. Property managers, executors, and realtors can request insurance documentation before we start."
+    },
+    {
+      "q": "Do you clean up after the job?",
+      "a": "Every job ends with a sweep-out. Garages, basements, and yards look genuinely clean when we leave — not just 'empty.' For property cleanouts, we broom-sweep so the space is photo-ready."
+    },
+    {
+      "q": "What happens to the items you haul away?",
+      "a": "We recycle and donate whenever possible. Usable furniture, clothing, and household goods are routed to local donation centers; scrap metal and e-waste go to recyclers; the rest goes to a licensed disposal facility. Less landfill is good for everyone."
+    }
+  ],
+
+  "pages": [
+    {
+      "slug": "/",
+      "type": "home",
+      "title": "Home",
+      "seo": {
+        "metaTitle": "Torvik Hauling — Junk Removal & Light Demolition | Lake Zurich, IL",
+        "metaDescription": "Family-owned junk removal & light demolition serving Lake Zurich and the NW Chicago suburbs. Licensed & insured, 1-2 hour response, free estimates from $125.",
+        "canonical": "/",
+        "ogType": "website",
+        "h1": "Junk Removed. Space Restored."
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "eyebrow": "Lake Zurich & Northwest Chicago Suburbs",
+          "headline": "Junk Removed. Space Restored.",
+          "subheadline": "Family-owned junk removal, property cleanouts, and light demolition. Licensed & insured, 1-2 hour response, free estimates typically starting around $125.",
+          "primaryCTA": { "label": "Get Free Estimate", "href": "#quote" },
+          "secondaryCTA": { "label": "Call (224) 456-6607", "href": "tel:+12244566607" },
+          "image": "hero",
+          "leadForm": {
+            "id": "hero-quote",
+            "fields": ["name", "phone", "service", "city"],
+            "submitLabel": "Get My Estimate",
+            "placement": "right side on desktop, below hero copy on mobile"
+          },
+          "trustMicrocopy": "Responds in 1-2 hours · Licensed & Insured · 5-star rated on Google"
+        },
+        {
+          "id": "trust-bar",
+          "type": "trust-bar",
+          "items": "$.trustBar.items",
+          "background": "surface"
+        },
+        {
+          "id": "services-grid",
+          "type": "services-grid",
+          "eyebrow": "What we do",
+          "headline": "Six ways we get your space back",
+          "subheadline": "From a single couch to a full estate cleanout to a shed demo — one team, one call.",
+          "items": [
+            { "serviceSlug": "junk-removal" },
+            { "serviceSlug": "property-cleanouts" },
+            { "serviceSlug": "light-demolition" },
+            { "serviceSlug": "cleanouts" },
+            { "serviceSlug": "yard-cleanup" },
+            { "serviceSlug": "construction-debris" }
+          ],
+          "cta": { "label": "See all services", "href": "/services" }
+        },
+        {
+          "id": "gallery-preview",
+          "type": "gallery-preview",
+          "eyebrow": "On the job",
+          "headline": "The work, not the promises",
+          "subheadline": "Real photos of real Torvik jobs — from the suburbs to the disposal facility.",
+          "images": "$.photos.gallery[0:4]",
+          "cta": { "label": "See the full gallery", "href": "/gallery" }
+        },
+        {
+          "id": "how-it-works",
+          "type": "how-it-works",
+          "eyebrow": "How it works",
+          "headline": "Simple, fast, swept clean",
+          "steps": "$.processSteps"
+        },
+        {
+          "id": "eco",
+          "type": "feature-split",
+          "eyebrow": "Eco-friendly disposal",
+          "headline": "Less landfill. More donation and recycling.",
+          "body": "Before anything heads to disposal, we sort for donation and recycling. Usable furniture and household goods go to local donation centers. Scrap metal and e-waste are routed to recyclers. What can't be saved goes to a licensed disposal facility — never to a curb, a ditch, or a vacant lot.",
+          "image": "eco",
+          "imageSide": "right"
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "What neighbors are saying",
+          "headline": "5-star service from Lake Zurich to Gurnee",
+          "items": "$.testimonials",
+          "cta": { "label": "Read more Google reviews", "href": "$.identity.social.google" }
+        },
+        {
+          "id": "service-areas-preview",
+          "type": "service-areas-preview",
+          "eyebrow": "Where we serve",
+          "headline": "Lake County & Northwest Cook County, Illinois",
+          "subheadline": "Headquartered in Hawthorn Woods. 30+ communities covered. If you're near Lake Zurich, we're nearby.",
+          "primaryCities": "$.identity.serviceAreas.primary",
+          "cta": { "label": "See full service area", "href": "/service-areas" },
+          "map": { "type": "custom", "impl": "Mapbox GL JS or Leaflet with GeoJSON of Lake County + NW Cook County cities; highlight full service-area list", "fallback": "Styled static SVG map" }
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "eyebrow": "Quick answers",
+          "headline": "Frequently asked",
+          "items": "$.faqs",
+          "cta": { "label": "Still have a question? Call us", "href": "tel:+12244566607" }
+        },
+        {
+          "id": "cta-band",
+          "type": "cta-band",
+          "headline": "Ready to take back your space?",
+          "subheadline": "Free estimate in minutes, pickup as soon as today.",
+          "primaryCTA": { "label": "Get Free Estimate", "href": "#quote" },
+          "secondaryCTA": { "label": "Call (224) 456-6607", "href": "tel:+12244566607" },
+          "background": "primary",
+          "image": "secondaryHero"
+        },
+        {
+          "id": "contact-block",
+          "type": "contact-block",
+          "anchor": "quote",
+          "eyebrow": "Get your free estimate",
+          "headline": "Tell us about the job",
+          "subheadline": "Name, phone, and a quick description — we'll respond in 1-2 hours with a firm quote. No pressure, no hidden fees.",
+          "formId": "quote",
+          "sideInfo": {
+            "phone": "(224) 456-6607",
+            "email": "torvikhauling@gmail.com",
+            "hours": "Mon-Fri 7a-7p · Sat 8a-5p · Sun text for emergencies",
+            "responsePromise": "We respond within 1-2 hours during business hours."
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "/services",
+      "type": "services-index",
+      "title": "Services",
+      "seo": {
+        "metaTitle": "Services — Torvik Hauling | Junk Removal, Cleanouts & Light Demo",
+        "metaDescription": "Junk removal, property cleanouts, light demolition, garage/basement/attic cleanouts, yard cleanup, and construction debris hauling across NW Chicago suburbs.",
+        "h1": "Our Services"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero-compact",
+          "eyebrow": "What we do",
+          "headline": "Our Services",
+          "subheadline": "Six core services under one family-owned roof. From a single-item pickup to a full shed demo, we handle the jobs others split between three vendors.",
+          "image": "secondaryHero"
+        },
+        {
+          "id": "services-full-grid",
+          "type": "services-grid",
+          "items": "$.services.primary",
+          "showDescriptions": true,
+          "showFeatures": true
+        },
+        {
+          "id": "secondary-services",
+          "type": "tag-cloud",
+          "eyebrow": "Also available",
+          "headline": "Common specific asks",
+          "items": "$.services.secondary"
+        },
+        { "id": "trust-bar", "type": "trust-bar", "items": "$.trustBar.items" },
+        { "id": "cta-band", "type": "cta-band", "headline": "Not sure which service fits?", "subheadline": "Call or text and we'll sort it out in 5 minutes.", "primaryCTA": { "label": "Get Free Estimate", "href": "/contact#quote" }, "secondaryCTA": { "label": "Call (224) 456-6607", "href": "tel:+12244566607" } }
+      ]
+    },
+
+    {
+      "slug": "/services/:slug",
+      "type": "service-detail",
+      "title": "Service Detail (dynamic)",
+      "generator": "one page per $.services.primary[*] where hasOwnPage == true",
+      "seo": {
+        "metaTitleTemplate": "{{serviceName}} in Lake Zurich & NW Chicago | Torvik Hauling",
+        "metaDescriptionTemplate": "{{serviceShortDescription}} Licensed & insured, 1-2 hour response, free estimates.",
+        "h1Template": "{{serviceName}} in Lake Zurich & Northwest Chicago"
+      },
+      "sections": [
+        { "id": "hero", "type": "service-hero", "from": "$.services.primary[slug].hero" },
+        { "id": "trust-bar", "type": "trust-bar", "items": "$.trustBar.items" },
+        { "id": "service-detail", "type": "service-detail", "headline": "What's included", "fullDescription": "$.fullDescription", "features": "$.features" },
+        { "id": "benefits", "type": "benefits", "headline": "Why homeowners pick Torvik", "items": "$.benefits" },
+        { "id": "gallery", "type": "gallery-strip", "images": "$.photos.gallery[0:3]" },
+        { "id": "how-it-works", "type": "how-it-works-compact", "steps": "$.processSteps" },
+        { "id": "faq", "type": "faq", "items": "$.faqs" },
+        { "id": "testimonials", "type": "testimonials-filtered", "filterByService": true, "max": 2 },
+        { "id": "cta-band", "type": "cta-band", "headline": "Ready to clear it out?", "primaryCTA": { "label": "Get Free Estimate", "href": "/contact#quote" }, "secondaryCTA": { "label": "Call (224) 456-6607", "href": "tel:+12244566607" } }
+      ]
+    },
+
+    {
+      "slug": "/gallery",
+      "type": "gallery",
+      "title": "Gallery",
+      "seo": {
+        "metaTitle": "Gallery — Torvik Hauling Junk Removal & Demo Jobs",
+        "metaDescription": "Photos of Torvik Hauling's work across the Northwest Chicago suburbs — junk removal, cleanouts, demolition, and eco-friendly disposal.",
+        "h1": "The Work"
+      },
+      "sections": [
+        { "id": "hero", "type": "hero-compact", "eyebrow": "The work", "headline": "Real jobs, real trucks, real results", "subheadline": "A look at what a Torvik Hauling job actually looks like — from the curb to the disposal facility.", "image": "hero" },
+        {
+          "id": "gallery-grid",
+          "type": "gallery-grid",
+          "images": "$.photos.gallery",
+          "layout": "masonry",
+          "lightbox": true,
+          "captions": "alt-from-photos-block"
+        },
+        {
+          "id": "gallery-gap-note",
+          "type": "hidden-implementor-note",
+          "content": "Client delivered 5 photos — all brand/vehicle-heavy. Request 3-5 in-progress job photos (interior cleanouts, demo, before/after) to strengthen this page before publish."
+        },
+        { "id": "cta-band", "type": "cta-band", "headline": "Could be your space next.", "primaryCTA": { "label": "Get Free Estimate", "href": "/contact#quote" } }
+      ]
+    },
+
+    {
+      "slug": "/service-areas",
+      "type": "service-areas",
+      "title": "Service Areas",
+      "seo": {
+        "metaTitle": "Service Areas — Lake County & NW Cook County | Torvik Hauling",
+        "metaDescription": "Torvik Hauling serves 30+ Northwest Chicago suburbs including Lake Zurich, Hawthorn Woods, Barrington, Palatine, Libertyville, Arlington Heights and more.",
+        "h1": "Service Areas"
+      },
+      "sections": [
+        { "id": "hero", "type": "hero-compact", "eyebrow": "Where we work", "headline": "Serving Lake County & Northwest Cook County", "subheadline": "Based in Hawthorn Woods. 30+ communities covered across the Northwest Chicago suburbs.", "image": "hero" },
+        {
+          "id": "service-area-map",
+          "type": "service-area-map",
+          "impl": "Mapbox GL JS or Leaflet with GeoJSON of Lake County + NW Cook County cities",
+          "fallback": "Styled static SVG map of the two counties with pins/highlights on all 30 service cities",
+          "centerOn": "Hawthorn Woods, IL",
+          "highlight": "$.identity.serviceAreas.full"
+        },
+        {
+          "id": "primary-cities",
+          "type": "city-cards",
+          "eyebrow": "Core service area",
+          "headline": "Where we work most often",
+          "items": [
+            { "city": "Lake Zurich",         "blurb": "Our most active service area. Same-day pickups common; 1-2 hour estimate response. Home to many of our repeat customers." },
+            { "city": "Hawthorn Woods",      "blurb": "Our home base. If you're in Hawthorn Woods, we can often be there within an hour of your call." },
+            { "city": "Barrington",          "blurb": "Full junk-removal and cleanout coverage across Barrington and Barrington Hills. Larger estate and property cleanouts are common here." },
+            { "city": "Long Grove",          "blurb": "Regular service in Long Grove for junk removal, yard cleanup after storms, and property cleanouts." },
+            { "city": "Palatine",            "blurb": "NW Cook County coverage including Palatine — junk removal, garage cleanouts, light demolition." },
+            { "city": "Arlington Heights",   "blurb": "Arlington Heights homeowners and property managers regularly book Torvik for single-item pickups and full cleanouts." },
+            { "city": "Buffalo Grove",       "blurb": "Buffalo Grove service includes residential junk removal, estate cleanouts, and rental turnover work." },
+            { "city": "Libertyville",        "blurb": "Libertyville coverage for junk removal, yard cleanup, and light demolition. Typical response within 1-2 hours." }
+          ]
+        },
+        {
+          "id": "full-city-list",
+          "type": "city-list",
+          "eyebrow": "Full service area",
+          "headline": "All communities we serve",
+          "items": "$.identity.serviceAreas.full"
+        },
+        { "id": "cta-band", "type": "cta-band", "headline": "Near one of these? We're 1-2 hours away.", "primaryCTA": { "label": "Get Free Estimate", "href": "/contact#quote" }, "secondaryCTA": { "label": "Call (224) 456-6607", "href": "tel:+12244566607" } }
+      ]
+    },
+
+    {
+      "slug": "/about",
+      "type": "about",
+      "title": "About",
+      "seo": {
+        "metaTitle": "About Torvik Hauling — Family-Owned Junk Removal in Lake Zurich",
+        "metaDescription": "Torvik Hauling is a family-owned junk removal & demolition company serving NW Chicago suburbs. Our story, our approach, and why we do this work.",
+        "h1": "Family Owned. Community Focused."
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero-compact",
+          "eyebrow": "Our story",
+          "headline": "Family Owned. Community Focused.",
+          "subheadline": "We're not a franchise. We're a local family-owned hauling company working one neighborhood at a time.",
+          "image": "owner"
+        },
+        {
+          "id": "origin-story",
+          "type": "text-block",
+          "headline": "Why we do this work",
+          "body": "Torvik Hauling was built on a simple idea: show up, work hard, and do the job right.\n\nAfter years in corporate America, I knew I wanted to build something of my own — not just for myself, but to show my daughter that anything is possible with effort and consistency. What started as helping friends and neighbors quickly turned into something more.\n\nThere's nothing better than seeing the look on someone's face after a space is cleared out — that sense of relief and a fresh start. That's what drives me every day. We're not just hauling junk, we're helping people take back their space and feel good about it.",
+          "image": "owner",
+          "imageSide": "left",
+          "_note": "First-person until owner name is confirmed."
+        },
+        {
+          "id": "values",
+          "type": "values-grid",
+          "eyebrow": "How we work",
+          "headline": "The Torvik way",
+          "items": [
+            { "title": "Show up on time.",           "body": "When we say 1-2 hour response, we mean it. Not 'next business day.'" },
+            { "title": "Do the job right.",          "body": "Swept clean, not just empty. If it's not the way we'd want it at our own house, it's not done." },
+            { "title": "Handle the hard stuff.",      "body": "Hot tubs, steel drums from 100-year-old basements, hoarder situations. We take on what others decline." },
+            { "title": "Send less to the landfill.",  "body": "Donation and recycling first. Disposal last." }
+          ]
+        },
+        { "id": "trust-bar", "type": "trust-bar", "items": "$.trustBar.items" },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "eyebrow": "What neighbors say",
+          "headline": "5-star service, 3 real stories",
+          "items": "$.testimonials"
+        },
+        { "id": "cta-band", "type": "cta-band", "headline": "Let's get your space back.", "primaryCTA": { "label": "Get Free Estimate", "href": "/contact#quote" }, "secondaryCTA": { "label": "Call (224) 456-6607", "href": "tel:+12244566607" } }
+      ]
+    },
+
+    {
+      "slug": "/contact",
+      "type": "contact",
+      "title": "Contact",
+      "seo": {
+        "metaTitle": "Contact Torvik Hauling — Free Estimate | (224) 456-6607",
+        "metaDescription": "Get a free estimate for junk removal, cleanouts, or light demolition. Call or text (224) 456-6607. 1-2 hour response across the NW Chicago suburbs.",
+        "h1": "Get a Free Estimate"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero-compact",
+          "eyebrow": "Free estimates",
+          "headline": "Get a Free Estimate",
+          "subheadline": "Tell us about the job. We'll respond in 1-2 hours with a firm quote — no hidden fees, typically starting around $125."
+        },
+        {
+          "id": "contact-layout",
+          "type": "contact-split",
+          "form": {
+            "id": "quote",
+            "anchor": "quote",
+            "fields": [
+              { "name": "name",        "label": "Your name",         "type": "text",     "required": true },
+              { "name": "phone",       "label": "Phone",             "type": "tel",      "required": true },
+              { "name": "email",       "label": "Email (optional)",  "type": "email",    "required": false },
+              { "name": "service",     "label": "Service needed",    "type": "select",   "required": true, "options": ["Junk Removal", "Property Cleanout", "Light Demolition", "Garage/Basement/Attic Cleanout", "Yard Cleanup", "Construction Debris", "Not sure — need advice"] },
+              { "name": "city",        "label": "City / area",       "type": "text",     "required": true,  "placeholder": "e.g. Lake Zurich, Palatine" },
+              { "name": "description", "label": "Describe the job",  "type": "textarea", "required": true,  "placeholder": "Rough idea of what needs to go, any access concerns, preferred timing..." },
+              { "name": "preferredDate", "label": "Preferred pickup date (optional)", "type": "date", "required": false }
+            ],
+            "submitLabel": "Get My Estimate",
+            "successMessage": "Thanks — we'll respond within 1-2 hours during business hours. For fastest response, feel free to call or text (224) 456-6607.",
+            "spamProtection": "honeypot",
+            "notifyEmail": "torvikhauling@gmail.com",
+            "_futureIntegration": "When client adopts Jobber, wire this to Jobber's lead intake webhook in addition to email."
+          },
+          "sideInfo": {
+            "heading": "Other ways to reach us",
+            "items": [
+              { "label": "Call or text",  "value": "(224) 456-6607",           "href": "tel:+12244566607" },
+              { "label": "Email",          "value": "torvikhauling@gmail.com",  "href": "mailto:torvikhauling@gmail.com" },
+              { "label": "Hours",          "value": "Mon-Fri 7a-7p · Sat 8a-5p · Sun text for emergencies" },
+              { "label": "Service area",   "value": "Lake County & NW Cook County, IL" },
+              { "label": "Response time",  "value": "1-2 hours during business hours" },
+              { "label": "Google Reviews", "value": "Read all our Google reviews",  "href": "https://share.google/LHKNG3oyAecUf0itD" }
+            ]
+          }
+        },
+        {
+          "id": "map",
+          "type": "service-area-map-compact",
+          "impl": "Embedded Mapbox/Leaflet centered on Hawthorn Woods showing service-area boundary",
+          "note": "No storefront address — service-area only"
+        },
+        { "id": "trust-bar", "type": "trust-bar", "items": "$.trustBar.items" }
+      ]
+    }
+  ],
+
+  "forms": {
+    "quote": {
+      "id": "quote",
+      "fields": [
+        { "name": "name", "type": "text", "required": true },
+        { "name": "phone", "type": "tel", "required": true },
+        { "name": "email", "type": "email", "required": false },
+        { "name": "service", "type": "select", "required": true, "options": ["Junk Removal", "Property Cleanout", "Light Demolition", "Garage/Basement/Attic Cleanout", "Yard Cleanup", "Construction Debris", "Not sure — need advice"] },
+        { "name": "city", "type": "text", "required": true },
+        { "name": "description", "type": "textarea", "required": true },
+        { "name": "preferredDate", "type": "date", "required": false }
+      ],
+      "submitLabel": "Get My Estimate",
+      "notifyEmail": "torvikhauling@gmail.com",
+      "successMessage": "Thanks — we'll respond within 1-2 hours.",
+      "spamProtection": "honeypot",
+      "futureCRM": "Jobber lead-intake webhook — add as secondary destination when client signs up"
+    },
+    "heroQuote": {
+      "id": "hero-quote",
+      "fields": [
+        { "name": "name", "type": "text", "required": true },
+        { "name": "phone", "type": "tel", "required": true },
+        { "name": "service", "type": "select", "required": true },
+        { "name": "city", "type": "text", "required": true }
+      ],
+      "submitLabel": "Get My Estimate",
+      "notifyEmail": "torvikhauling@gmail.com",
+      "onSubmit": "scroll to /contact#quote with prefilled fields, OR submit directly + show success state"
+    }
+  },
+
+  "seo": {
+    "schema": {
+      "type": "HomeAndConstructionBusiness",
+      "additionalType": "https://schema.org/MovingCompany",
+      "name": "Torvik Hauling",
+      "description": "Family-owned junk removal and light demolition company serving the Northwest Chicago suburbs.",
+      "telephone": "+1-224-456-6607",
+      "email": "torvikhauling@gmail.com",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Hawthorn Woods",
+        "addressRegion": "IL",
+        "addressCountry": "US"
+      },
+      "geo": null,
+      "areaServed": "$.identity.serviceAreas.full",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "itemListElement": "generate from $.services.primary"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "3",
+        "_note": "Update reviewCount when live Google count is known or pulled via Places API"
+      },
+      "review": "generate from $.testimonials",
+      "sameAs": [
+        "https://www.facebook.com/share/1DtYvhKofi/?mibextid=wwXIfr",
+        "https://www.instagram.com/torvikhauling?igsh=MXJ1ZDUxcWRvZ2Y4eg%3D%3D&utm_source=qr"
+      ],
+      "openingHoursSpecification": "generate from $.identity.hoursOfOperation once confirmed"
+    },
+    "targetKeywords": {
+      "home": [
+        "junk removal lake zurich",
+        "junk removal near me",
+        "hawthorn woods junk removal",
+        "northwest chicago junk removal",
+        "light demolition lake zurich",
+        "property cleanout lake county il",
+        "family owned junk removal",
+        "licensed insured junk removal il"
+      ],
+      "junk-removal":        ["junk removal lake zurich", "junk pickup near me", "furniture removal barrington", "appliance removal palatine"],
+      "property-cleanouts":  ["estate cleanout lake county il", "foreclosure cleanout chicago suburbs", "hoarder cleanout lake zurich", "rental turnover cleanout"],
+      "light-demolition":    ["hot tub removal lake zurich", "deck demolition barrington", "shed removal arlington heights", "playset removal il"],
+      "cleanouts":           ["garage cleanout lake zurich", "basement cleanout arlington heights", "attic cleanout barrington", "storage unit cleanout"],
+      "yard-cleanup":        ["storm debris cleanup lake county", "brush removal lake zurich", "yard waste haul away il", "dirt rock disposal"],
+      "construction-debris": ["construction debris removal lake zurich", "renovation debris haul away", "concrete removal barrington", "scrap metal pickup il"],
+      "about":               ["torvik hauling", "family owned junk removal chicago", "local junk removal lake zurich"],
+      "service-areas":       ["junk removal lake county il", "junk removal northwest cook county", "junk removal libertyville", "junk removal palatine"]
+    },
+    "internalLinkRecommendations": [
+      { "from": "home", "to": ["/services", "/services/junk-removal", "/services/property-cleanouts", "/gallery", "/contact"] },
+      { "from": "/services", "to": ["all service-detail pages", "/contact"] },
+      { "from": "/services/:slug", "to": ["/contact", "/service-areas", "/services (parent)"] },
+      { "from": "/gallery", "to": ["/services", "/contact"] },
+      { "from": "/service-areas", "to": ["/services/junk-removal", "/services/property-cleanouts", "/contact"] },
+      { "from": "/about", "to": ["/services", "/contact"] },
+      { "from": "footer", "to": ["all service pages", "/contact", "/service-areas"] }
+    ],
+    "aiDiscoverabilityNotes": [
+      "Add FAQ structured data (schema.org/FAQPage) to homepage and all service-detail pages.",
+      "Add Service schema (schema.org/Service) on each service-detail page linked to the LocalBusiness.",
+      "Use HowTo schema (schema.org/HowTo) on the 'How It Works' section for rich-result eligibility.",
+      "Every H1 includes the primary city + service combination (e.g., 'Junk Removal in Lake Zurich & Northwest Chicago').",
+      "Keep NAP (name, address, phone) consistent: 'Torvik Hauling' · 'Hawthorn Woods, IL' · '(224) 456-6607' on every page (footer is canonical).",
+      "Individual service-detail pages + service-areas page together give Torvik city-specific landing coverage — the biggest gap on the existing Squarespace site.",
+      "Add robots.txt + sitemap.xml at build time; submit to Google Search Console after launch.",
+      "Verify Google Business Profile matches the new site's NAP exactly after launch.",
+      "Set up 301 redirects: /services-1 → /services, /appointments → /contact#quote."
+    ]
+  },
+
+  "analytics": {
+    "_note": "Client uses Google Ads. Recommend implementing these before publish.",
+    "googleTagManager": { "enabled": true, "containerId": "TBD — create and provide to client" },
+    "googleAnalytics4":  { "enabled": true, "measurementId": "TBD — create and provide to client" },
+    "googleAdsConversion": { "enabled": true, "notes": "Set up conversion tracking on form submits and phone-click events to measure paid-ad ROI." },
+    "metaPixel": { "enabled": false, "notes": "Add only if client starts Meta ads." },
+    "events": [
+      { "name": "quote_submit",       "trigger": "successful quote form submission" },
+      { "name": "hero_quote_submit",  "trigger": "successful hero-form submission" },
+      { "name": "phone_click",        "trigger": "click on tel: link (desktop + mobile)" },
+      { "name": "email_click",        "trigger": "click on mailto: link" },
+      { "name": "service_page_view",  "trigger": "view of any /services/:slug page" },
+      { "name": "gallery_view",       "trigger": "view of /gallery" }
+    ]
+  },
+
+  "performance": {
+    "targets": {
+      "lighthousePerformance": 90,
+      "lighthouseSEO": 100,
+      "lighthouseAccessibility": 95,
+      "largestContentfulPaint": "< 2.5s",
+      "firstInputDelay": "< 100ms",
+      "cumulativeLayoutShift": "< 0.1"
+    },
+    "imageHandling": {
+      "format": "AVIF with WebP fallback",
+      "delivery": "next/image or equivalent responsive component",
+      "lazyLoad": "below-the-fold only",
+      "hero": "eager-load, blur placeholder"
+    }
+  },
+
+  "accessibility": {
+    "standard": "WCAG 2.1 AA",
+    "requirements": [
+      "All images have descriptive alt text (see $.photos for written alts)",
+      "Color contrast ≥ 4.5:1 for body text, ≥ 3:1 for large text",
+      "Forms have labels associated with inputs, visible focus states",
+      "Keyboard navigation works for all interactive elements including gallery lightbox and mobile nav",
+      "Phone numbers in tel: links; email in mailto: links",
+      "Map has text-list fallback ($.identity.serviceAreas.full) for screen readers",
+      "Honor prefers-reduced-motion — disable scroll parallax and reveal animations"
+    ]
+  },
+
+  "techStack": {
+    "recommended": {
+      "framework": "Next.js 15 (App Router) — per localbiz starter",
+      "styling": "Tailwind CSS with design tokens from $.brand",
+      "deployment": "Vercel",
+      "cms": "none (content lives in SPEC.json + MDX if needed)",
+      "formHandling": "Vercel serverless function → email via Resend + honeypot",
+      "analytics": "GTM + GA4 + Google Ads conversion tracking",
+      "imageOptimization": "next/image with AVIF/WebP"
+    },
+    "domain": {
+      "current": "torvikhauling.com (Squarespace)",
+      "migration": "Point DNS to Vercel once new site is production-ready. Keep domain registration; migrate DNS only.",
+      "redirects": [
+        { "from": "/services-1", "to": "/services", "status": 301 },
+        { "from": "/appointments", "to": "/contact#quote", "status": 301 }
+      ]
+    }
+  },
+
+  "launchChecklist": [
+    "Replace Instagram/Facebook share-links with canonical profile URLs",
+    "Confirm FAQ copy with client (6 drafted)",
+    "Confirm Schaumburg dropped from service areas",
+    "Confirm hours of operation (default values used)",
+    "Confirm owner name / About-page attribution",
+    "Vectorize logo .ai → SVG for crisp scaling",
+    "Obtain Google review count OR wire live Places API call",
+    "Request 3-5 more in-progress job photos to strengthen gallery",
+    "Verify Google Business Profile NAP matches site",
+    "Set up GTM + GA4 + Google Ads conversion tracking IDs",
+    "Test quote form notifies torvikhauling@gmail.com",
+    "Configure 301 redirects at DNS cutover (/services-1, /appointments)",
+    "Submit sitemap.xml to Google Search Console",
+    "Run Lighthouse + Axe accessibility audit pre-publish",
+    "If Jobber active by launch: add Jobber lead-intake webhook as secondary form destination"
+  ]
+}

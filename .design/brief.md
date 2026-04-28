@@ -39,14 +39,34 @@ grid-strict. Max content width 1200px. Section rhythm: generous — 96-128px ver
 - **NO Inter or Arial as display type.** Inter is body-only.
 - **NO stereotypical junk-removal aesthetics** — no orange trucks as hero imagery, no "We'll haul it all!" megaphone energy, no "before/after" arrows
 - **NO purple gradients, rainbow gradients, or any gradient on primary CTAs**
-- **NO stock photos of generic cleaning / family / "teamwork" tropes** — use real Torvik photos when available, or photorealistic mockup imagery of actual equipment/trucks
+- **Use the 5 delivered Torvik photos** in `_intake/assets/photos/` as primary imagery. NO stock photos of generic cleaning / family / "teamwork" tropes. If real photos don't cover a specific slot, use photorealistic mockup imagery of actual equipment/trucks — never stock people.
 - **NO auto-playing video or carousel** on hero
 - **Accent (#6FA8DC) gets ≤8% of any viewport's pixel area** — scarcity creates intensity
 - **Trust messaging must feel earned** — show the reviews, show the response time, show the eco practices. Don't say "best junk removal" or "#1 in the area"
 
 ## Notes for implementer
+- **Logo delivered** (2026-04-24). Use assets in `_intake/assets/logos/`:
+  - `Torvik_Hauling_Logo_Exact_Torvik_Hauling_Black.png` — header on light bg, footer on light bg
+  - `Torvik_Hauling_Logo_Exact_Torvik_Hauling_White.png` — dark-navy footer, dark hero overlays
+  - `Torvik_Hauling_Logo_Exact_Torvik_Hauling_Solo.png` — favicon, square OG, app icon, tight spaces
+  - `Torvik_Hauling_Logo_Exact-01.png` — primary marketing usage
+  - `Torvik_Hauling_Logo.ai` — source. Extract SVG for crisp scaling before publish; use 2x PNG interim.
+- **Photos delivered & categorized** (2026-04-24, 5 files in `_intake/assets/photos/`):
+  - `IMG_9434.jpeg` — **Hero candidate #1.** Black F-150 + branded dump trailer rig parked on residential street, big sky, clean composition. Best for landing-page hero. Crop wide.
+  - `IMG_9417.jpeg` — **Hero candidate #2 / "what we do" section header.** Trailer side panel with full service list + phone painted on. Sells the whole pitch in one shot. Strong fallback hero or use as a "Services" section header crop.
+  - `IMG_9175.jpeg` — **About-page portrait.** Owner in branded polo + cap, trailer behind. Use on About page hero, "Meet the Owner" card, or About-page secondary slot.
+  - `IMG_9241.jpeg` — **Trust / proof shot.** Owner thumbs-up next to loaded trailer of cardboard and trash. Use mid-page near testimonials, or in the How-It-Works "Done" step (4 of 4).
+  - `IMG_9424.jpeg` — **Eco / disposal section.** Trailer dumping at transfer station with dramatic lens flare. Use exclusively in the eco-friendly disposal section.
+  - **Owner identity:** Photos confirm a single owner-operator (same person in 9175 + 9241). Likely **Matt** — matches one Google review author. Confirm with Jaron before naming on the About page.
+  - **All 5 are landscape, shot on phone, vertical-rotated in storage.** Auto-rotate via EXIF when serving on the site (Next.js `<Image>` handles this; if using bare `<img>`, fix orientation explicitly).
+  - **Gallery is light on job-site/before-after variety.** Flag to Jaron mid-build for 3-5 more action shots if the gallery section feels thin. Target: 6-10 total.
+- **Licensed & Insured — confirmed.** Add "Licensed & Insured" badge to hero trust bar alongside "1-2 hour response" and 5-star rating. This is a high-converting trust signal for junk/demo work; don't bury it.
+- **Pricing copy — confirmed.** Use the line **"Free estimates — quotes typically starting around $125"** in the hero near-CTA area and on any pricing section. Client took our recommendation; this is the canonical phrasing.
+- **Social links — confirmed.** Instagram `@torvikhauling`, Facebook page live. URLs in `_context/CONTEXT.json`. Note: current URLs are share-links with tracking params — swap to canonical URLs in footer before publish.
+- **No video** delivered. Don't plan a video hero or about-page video block — static imagery only.
 - Torvik has 3 strong Google reviews — use them verbatim on the site
 - Process has 4 steps (Contact → Quote & Schedule → Haul or Demo → Clean & Done) — these go in the How It Works section
 - Eco messaging is real (recycles, donates) — not greenwashing. Give it real estate.
 - Response time promise is 1-2 hours — put this in the hero trust bar, not buried in the FAQ
 - Service-area page needs a map (30+ cities) — components.json will flag this as a gap since 21st.dev doesn't have a strong map component
+- CRM: client doesn't have one yet; plans to adopt Jobber Core (~$39/mo) soon. Lead form submits to `torvikhauling@gmail.com` initially; design the form so a later Jobber lead-intake webhook can slot in without redesign.

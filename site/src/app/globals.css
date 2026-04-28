@@ -1,0 +1,187 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #0B2E5B;
+  --color-brand-secondary: #3E7CB1;
+  --color-brand-accent: #6FA8DC;
+  --color-brand-bg: #F7F5F0;
+  --color-brand-surface: #FFFFFF;
+  --color-brand-text: #1A2033;
+  --color-brand-muted: #5B6470;
+  --color-brand-border: #E4E4DD;
+
+  --font-display: "Recoleta", "Playfair Display", ui-serif, Georgia, serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --text-xs: 13px;
+  --text-sm: 15px;
+  --text-base: 17px;
+  --text-lg: 21px;
+  --text-xl: 27px;
+  --text-2xl: 34px;
+  --text-3xl: 53px;
+  --text-4xl: 83px;
+
+  --leading-tight: 1.1;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.7;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 20px;
+
+  --shadow-soft: 0 1px 2px rgba(26, 32, 51, 0.04), 0 4px 12px rgba(26, 32, 51, 0.06);
+  --shadow-lifted: 0 2px 4px rgba(26, 32, 51, 0.06), 0 12px 32px rgba(26, 32, 51, 0.08);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  font-size: 17px;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  font-family: var(--font-body);
+  line-height: var(--leading-normal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+  line-height: var(--leading-tight);
+  letter-spacing: -0.01em;
+}
+
+.paper-texture {
+  background-image:
+    radial-gradient(rgba(11, 46, 91, 0.018) 1px, transparent 1px),
+    radial-gradient(rgba(11, 46, 91, 0.018) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+.container-page {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media (min-width: 768px) {
+  .container-page { padding-left: 40px; padding-right: 40px; }
+}
+
+.section-rhythm {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  .section-rhythm {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--color-brand-primary);
+  color: #fff;
+  font-family: var(--font-body);
+  font-weight: 600;
+  padding: 14px 24px;
+  border-radius: var(--radius-md);
+  transition: background 0.15s ease, transform 0.1s ease;
+  white-space: nowrap;
+  box-shadow: var(--shadow-soft);
+}
+
+.btn-primary:hover { background: #082247; }
+.btn-primary:active { transform: translateY(1px); }
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--color-brand-primary);
+  font-family: var(--font-body);
+  font-weight: 600;
+  padding: 14px 24px;
+  border: 1.5px solid var(--color-brand-primary);
+  border-radius: var(--radius-md);
+  transition: background 0.15s ease;
+  white-space: nowrap;
+}
+
+.btn-secondary:hover { background: rgba(11, 46, 91, 0.05); }
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-brand-primary);
+  font-weight: 600;
+  transition: color 0.15s ease;
+}
+
+.btn-ghost:hover { color: var(--color-brand-secondary); }
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-brand-secondary);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  animation: reveal 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+@keyframes reveal {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: local("Recoleta"), local("Recoleta-Regular");
+  font-display: swap;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Recoleta";
+  src: local("Recoleta SemiBold"), local("Recoleta-SemiBold");
+  font-display: swap;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Recoleta";
+  src: local("Recoleta Bold"), local("Recoleta-Bold");
+  font-display: swap;
+  font-weight: 700;
+}
