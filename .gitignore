@@ -1,20 +1,7 @@
-# OS
 .DS_Store
-*.swp
-*.swo
-Thumbs.db
-
-# Editor
-.vscode/
-.idea/
-
-# Project-level (most ignores live in site/.gitignore)
-site/node_modules/
-site/.next/
-site/.env
-site/.env.local
-site/.env.*.local
-
-# Intake leftovers we don't want tracked
-_intake/**/.DS_Store
-.design/.DS_Store
+_intake/.DS_Store
+_handoff/*.html
+node_modules/
+.next/
+.env.local
+.vercel
