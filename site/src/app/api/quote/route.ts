@@ -31,7 +31,7 @@ export async function POST(req: Request) {
   const data = parsed.data
 
   const apiKey = process.env.RESEND_API_KEY
-  const notifyEmail = process.env.NOTIFY_EMAIL || site.identity.email
+  const notifyEmail = process.env.TORVIK_NOTIFY_EMAIL || site.identity.email
 
   if (!apiKey) {
     console.warn("[quote] RESEND_API_KEY not set — submission received but not emailed", {
