@@ -30,6 +30,10 @@
   color-scheme: light;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }

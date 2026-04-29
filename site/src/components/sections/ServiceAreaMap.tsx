@@ -37,12 +37,11 @@ const cityCoords: Record<string, { x: number; y: number }> = {
 }
 
 export function ServiceAreaMap({ compact = false }: { compact?: boolean }) {
-  const h = compact ? "320px" : "460px"
-
   return (
     <div
-      className="relative rounded-2xl overflow-hidden border border-[color:var(--color-brand-border)] bg-[color:var(--color-brand-surface)] shadow-[var(--shadow-soft)]"
-      style={{ aspectRatio: "4/3", minHeight: h }}
+      className={`relative w-full max-w-full rounded-2xl overflow-hidden border border-[color:var(--color-brand-border)] bg-[color:var(--color-brand-surface)] shadow-[var(--shadow-soft)] ${
+        compact ? "aspect-[4/3] md:aspect-[5/4]" : "aspect-[4/3] md:aspect-[5/4]"
+      }`}
     >
       <svg
         viewBox="0 0 100 80"
