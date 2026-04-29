@@ -30,7 +30,7 @@ export async function POST(req: Request) {
   }
   const data = parsed.data
 
-  const apiKey = process.env.RESEND_API_KEY
+  const apiKey = process.env.TORVIK_RESEND_API_KEY || process.env.RESEND_API_KEY
   const notifyEmail = process.env.TORVIK_NOTIFY_EMAIL || site.identity.email
 
   if (!apiKey) {
