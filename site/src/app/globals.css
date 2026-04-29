@@ -13,15 +13,6 @@
   --font-display: "Recoleta", "Playfair Display", ui-serif, Georgia, serif;
   --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
 
-  --text-xs: 13px;
-  --text-sm: 15px;
-  --text-base: 17px;
-  --text-lg: 21px;
-  --text-xl: 27px;
-  --text-2xl: 34px;
-  --text-3xl: 53px;
-  --text-4xl: 83px;
-
   --leading-tight: 1.1;
   --leading-normal: 1.5;
   --leading-relaxed: 1.7;
@@ -40,7 +31,6 @@
 }
 
 html {
-  font-size: 17px;
   scroll-behavior: smooth;
 }
 

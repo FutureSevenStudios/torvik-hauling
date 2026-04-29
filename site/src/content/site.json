@@ -70,7 +70,7 @@
     }
   },
   "photos": {
-    "hero":      { "src": "/photos/hero.jpeg",    "alt": "Torvik Hauling truck and branded dump trailer parked on a Lake Zurich residential street under a bright cloudy sky" },
+    "hero":      { "src": "/photos/hero.jpeg",    "alt": "The Torvik Hauling team kneeling beside their branded dump trailer with services list and phone number on the panel" },
     "trailer":   { "src": "/photos/trailer.jpeg", "alt": "Side view of the Torvik Hauling dump trailer displaying the full services list and phone number (224) 456-6607" },
     "owner":     { "src": "/photos/owner.jpeg",   "alt": "Torvik Hauling owner smiling in a branded black Torvik polo and cap beside the Torvik dump trailer" },
     "action":    { "src": "/photos/action.jpeg",  "alt": "Torvik Hauling owner giving a thumbs-up next to a trailer loaded with boxes, bags, and household junk mid-haul" },
