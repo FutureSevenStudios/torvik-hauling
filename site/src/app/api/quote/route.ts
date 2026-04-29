@@ -112,33 +112,43 @@ export async function POST(req: Request) {
     </div>
   `
 
+  type SendArgs = Parameters<typeof resend.emails.send>[0]
+  const sendOrThrow = async (args: SendArgs, label: string) => {
+    const { data: sent, error } = await resend.emails.send(args)
+    if (error) {
+      console.error(`[quote] ${label} send error`, error)
+      throw new Error(`${label}: ${error.name || "send failed"} — ${error.message || JSON.stringify(error)}`)
+    }
+    return sent
+  }
+
   try {
     const sends: Promise<unknown>[] = [
-      resend.emails.send({
+      sendOrThrow({
         from: fromAddress,
         to: [notifyEmail],
         replyTo: data.email || undefined,
         subject: `New lead — ${data.service} in ${data.city} (${data.name})`,
         html: internalHtml,
-      }),
+      }, "internal"),
     ]
 
     if (data.email) {
       sends.push(
-        resend.emails.send({
+        sendOrThrow({
           from: fromAddress,
           to: [data.email],
           replyTo: notifyEmail,
           subject: `We got your request — Torvik Hauling`,
           html: customerHtml,
-        })
+        }, "customer")
       )
     }
 
     const results = await Promise.allSettled(sends)
     const failures = results.filter((r) => r.status === "rejected")
     if (failures.length === results.length) {
-      throw failures[0].status === "rejected" ? failures[0].reason : new Error("All sends failed")
+      throw (failures[0] as PromiseRejectedResult).reason
     }
     failures.forEach((f) => console.warn("[quote] partial email failure", (f as PromiseRejectedResult).reason))
 
