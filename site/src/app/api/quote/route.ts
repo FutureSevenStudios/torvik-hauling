@@ -155,8 +155,12 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: true })
   } catch (e) {
     console.error("[quote] email send failed", e)
+    const debugDetail = e instanceof Error ? e.message : String(e)
     return NextResponse.json(
-      { error: "We couldn't send your request. Please call (224) 456-6607." },
+      {
+        error: "We couldn't send your request. Please call (224) 456-6607.",
+        debug: debugDetail,
+      },
       { status: 500 }
     )
   }
