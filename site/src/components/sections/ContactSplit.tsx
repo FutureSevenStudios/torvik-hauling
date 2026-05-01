@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { site } from "@/lib/content"
 import { Container } from "@/components/ui/Container"
 import { Icon } from "@/components/ui/Icon"
@@ -17,7 +18,25 @@ export function ContactSplit() {
           <div className="lg:col-span-7">
             <QuoteForm />
           </div>
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-5 space-y-6">
+            <figure className="bg-[color:var(--color-brand-surface)] border border-[color:var(--color-brand-border)] rounded-2xl overflow-hidden">
+              <div className="relative aspect-[4/5]">
+                <Image
+                  src={site.photos.daughter.src}
+                  alt={site.photos.daughter.alt}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 420px"
+                  className="object-cover"
+                />
+              </div>
+              <figcaption className="px-5 py-4 text-sm text-[color:var(--color-brand-muted)] leading-relaxed">
+                <span className="block font-display text-base font-semibold text-[color:var(--color-brand-text)] mb-0.5">
+                  Family owned. Community focused.
+                </span>
+                When you call Torvik Hauling, you're calling a real family in the NW Chicago suburbs — not a national chain.
+              </figcaption>
+            </figure>
+
             <div className="bg-[color:var(--color-brand-surface)] border border-[color:var(--color-brand-border)] rounded-2xl p-6 md:p-8">
               <h3 className="font-display text-xl font-semibold text-[color:var(--color-brand-text)] mb-5">
                 Other ways to reach us

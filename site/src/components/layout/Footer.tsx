@@ -23,7 +23,7 @@ export function Footer() {
               <br />
               Licensed &amp; insured.
               <br />
-              Serving Lake County &amp; NW Cook County, IL.
+              Serving NW Suburbs of Chicago.
             </p>
           </div>
 

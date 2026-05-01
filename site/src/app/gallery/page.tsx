@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { HeroCompact } from "@/components/sections/HeroCompact"
 import { GalleryGrid } from "@/components/sections/GalleryGrid"
+import { BeforeAfterSection } from "@/components/sections/BeforeAfterSection"
 import { Testimonials } from "@/components/sections/Testimonials"
 import { CTABand } from "@/components/sections/CTABand"
 
@@ -20,6 +21,7 @@ export default function GalleryPage() {
         imageKey="hero"
       />
       <GalleryGrid />
+      <BeforeAfterSection background="surface" />
       <Testimonials showGoogleLink />
       <CTABand headline="Could be your space next." imageKey="action" />
     </>

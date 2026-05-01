@@ -2,6 +2,7 @@ import { Hero } from "@/components/sections/Hero"
 import { TrustBar } from "@/components/sections/TrustBar"
 import { ServicesGrid } from "@/components/sections/ServicesGrid"
 import { GalleryPreview } from "@/components/sections/GalleryPreview"
+import { BeforeAfterSection } from "@/components/sections/BeforeAfterSection"
 import { HowItWorks } from "@/components/sections/HowItWorks"
 import { FeatureSplit } from "@/components/sections/FeatureSplit"
 import { Testimonials } from "@/components/sections/Testimonials"
@@ -21,6 +22,7 @@ export default function HomePage() {
         subheadline="From a single couch to a full estate cleanout to a shed demo — one team, one call."
       />
       <GalleryPreview />
+      <BeforeAfterSection background="surface" />
       <HowItWorks />
       <FeatureSplit
         eyebrow="Eco-friendly disposal"

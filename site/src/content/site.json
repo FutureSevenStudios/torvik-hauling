@@ -74,7 +74,11 @@
     "trailer":   { "src": "/photos/trailer.jpeg", "alt": "Side view of the Torvik Hauling dump trailer displaying the full services list and phone number (224) 456-6607" },
     "owner":     { "src": "/photos/owner.jpeg",   "alt": "Torvik Hauling owner smiling in a branded black Torvik polo and cap beside the Torvik dump trailer" },
     "action":    { "src": "/photos/action.jpeg",  "alt": "Torvik Hauling owner giving a thumbs-up next to a trailer loaded with boxes, bags, and household junk mid-haul" },
-    "eco":       { "src": "/photos/eco.jpeg",     "alt": "Torvik Hauling dump trailer unloading construction and household debris at a licensed waste transfer station" }
+    "eco":       { "src": "/photos/eco.jpeg",     "alt": "Torvik Hauling dump trailer unloading construction and household debris at a licensed waste transfer station" },
+    "cleanout":  { "src": "/photos/gallery-extra/cleanout-driveway.jpeg", "alt": "Torvik Hauling crew member breaking down a worn-out hot tub on a suburban patio during a cleanout" },
+    "truckTrailer": { "src": "/photos/gallery-extra/truck-trailer.jpeg", "alt": "Branded Torvik Hauling pickup truck pulling the dump trailer through a Northwest Chicago suburb under a dramatic cloudy sky" },
+    "trailerDriveway": { "src": "/photos/gallery-extra/trailer-driveway.jpeg", "alt": "Front view of the Torvik Hauling dump trailer parked in a suburban driveway, ready for a load" },
+    "daughter":  { "src": "/photos/daughter.jpeg", "alt": "The owner's young daughter wearing a Torvik Hauling cap, smiling on the family couch — family-owned and community-focused" }
   },
   "trustBar": [
     { "label": "Licensed & Insured", "icon": "shield" },
