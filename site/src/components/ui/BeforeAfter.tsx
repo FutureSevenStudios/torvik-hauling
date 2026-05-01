@@ -74,10 +74,10 @@ export function BeforeAfter({
         ref={containerRef}
         className={`relative w-full ${aspect} select-none rounded-2xl overflow-hidden border border-[color:var(--color-brand-border)] shadow-[var(--shadow-soft)] bg-[color:var(--color-brand-surface)] touch-none`}
       >
-        {/* Before image (full width, bottom layer) */}
+        {/* After image (full width, bottom layer — revealed on the right) */}
         <Image
-          src={beforeSrc}
-          alt={beforeAlt}
+          src={afterSrc}
+          alt={afterAlt}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
           priority={priority}
@@ -85,14 +85,14 @@ export function BeforeAfter({
           className="object-cover pointer-events-none"
         />
 
-        {/* After image (top layer, clipped) */}
+        {/* Before image (top layer, clipped from the right — visible on the left) */}
         <div
           className="absolute inset-0 overflow-hidden"
           style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
         >
           <Image
-            src={afterSrc}
-            alt={afterAlt}
+            src={beforeSrc}
+            alt={beforeAlt}
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
             priority={priority}
