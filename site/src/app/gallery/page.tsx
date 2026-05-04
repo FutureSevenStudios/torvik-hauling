@@ -18,7 +18,6 @@ export default function GalleryPage() {
         eyebrow="The work"
         headline="Real jobs, real trucks, real results."
         subheadline="A look at what a Torvik Hauling job actually looks like — from the curb to the disposal facility."
-        imageKey="hero"
       />
       <GalleryGrid />
       <BeforeAfterSection background="surface" />
