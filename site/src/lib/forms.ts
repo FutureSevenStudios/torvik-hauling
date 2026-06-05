@@ -8,6 +8,7 @@ export const quoteSchema = z.object({
   city: z.string().min(2, "Please tell us your city or area"),
   description: z.string().min(10, "Please describe the job briefly"),
   preferredDate: z.string().optional(),
+  smsConsent: z.literal(true, { message: "You must agree to receive SMS messages to continue" }),
   website: z.string().optional(), // honeypot
 })
 
@@ -16,6 +17,7 @@ export const heroQuoteSchema = z.object({
   phone: z.string().min(7, "Please enter a valid phone number"),
   service: z.string().min(1, "Please select a service"),
   city: z.string().min(2, "Please tell us your city"),
+  smsConsent: z.literal(true, { message: "You must agree to receive SMS messages to continue" }),
   website: z.string().optional(), // honeypot
 })
 

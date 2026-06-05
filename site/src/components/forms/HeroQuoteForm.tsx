@@ -3,6 +3,7 @@
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useState } from "react"
+import Link from "next/link"
 import { heroQuoteSchema, type HeroQuoteInput, serviceOptions } from "@/lib/forms"
 import { TextField, SelectField } from "./FormField"
 import { Icon } from "@/components/ui/Icon"
@@ -99,6 +100,26 @@ export function HeroQuoteForm() {
         style={{ position: "absolute", left: "-10000px", width: "1px", height: "1px", opacity: 0 }}
         {...register("website")}
       />
+
+      <div>
+        <label className="flex gap-3 items-start cursor-pointer">
+          <input
+            type="checkbox"
+            className="mt-0.5 h-4 w-4 shrink-0 rounded border-[color:var(--color-brand-border)] accent-[color:var(--color-brand-primary)]"
+            {...register("smsConsent")}
+          />
+          <span className="text-xs text-[color:var(--color-brand-muted)] leading-relaxed">
+            I agree to receive SMS messages from Torvik Hauling regarding my inquiry, appointments, estimates,
+            and service updates. Message and data rates may apply. Reply STOP to opt out.{" "}
+            <Link href="/privacy" className="underline hover:text-[color:var(--color-brand-primary)]">
+              Privacy Policy
+            </Link>
+          </span>
+        </label>
+        {errors.smsConsent && (
+          <p className="mt-1.5 text-xs text-red-600">{errors.smsConsent.message}</p>
+        )}
+      </div>
 
       <button
         type="submit"
