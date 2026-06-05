@@ -45,6 +45,33 @@ export default function PrivacyPage() {
               site traffic. You can disable cookies in your browser settings.
             </p>
 
+            <h2 className="font-display text-2xl font-semibold">SMS Communications &amp; Consent</h2>
+            <p>
+              By providing your phone number and submitting a form on this website, you consent to receive
+              text messages from Torvik Hauling regarding estimates, appointments, project updates, customer
+              service communications, and other non-marketing business-related communications.
+            </p>
+            <p>
+              Message frequency may vary. Message and data rates may apply. Reply <strong>STOP</strong> at
+              any time to opt out of future text messages. Reply <strong>HELP</strong> for assistance.
+            </p>
+            <p>
+              If you separately opt in to receive marketing communications, you may receive promotional
+              messages regarding special offers, seasonal services, company updates, and other marketing
+              content from Torvik Hauling. Message frequency may vary. Message and data rates may apply.
+              Reply <strong>STOP</strong> at any time to opt out.
+            </p>
+            <p>
+              Torvik Hauling respects your privacy. Mobile information will not be shared, sold, rented, or
+              transferred to third parties or affiliates for marketing or promotional purposes. Information
+              sharing with subcontractors or service providers is limited to what is necessary to operate our
+              business and provide services to our customers.
+            </p>
+            <p>
+              For additional information regarding how we collect, use, and protect your information, please
+              review the remainder of this Privacy Policy.
+            </p>
+
             <h2 className="font-display text-2xl font-semibold">Your rights</h2>
             <p>
               You can request deletion of any personal information we hold about you at any time. Call{" "}
