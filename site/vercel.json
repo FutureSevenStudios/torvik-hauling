@@ -4,6 +4,14 @@
   "buildCommand": "next build",
   "installCommand": "npm install",
   "outputDirectory": ".next",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.torvikhauling.com" }],
+      "destination": "https://torvikhauling.com/:path*",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
