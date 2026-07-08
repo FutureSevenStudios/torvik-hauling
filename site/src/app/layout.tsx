@@ -53,10 +53,6 @@ export const metadata: Metadata = {
     title: site.seo.defaultTitle,
     description: site.seo.defaultDescription,
   },
-  icons: {
-    icon: "/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Solo.png",
-    apple: "/logos/Torvik_Hauling_Logo_Exact_Torvik_Hauling_Solo.png",
-  },
   robots: { index: true, follow: true },
   alternates: { canonical: SITE_URL },
 }
