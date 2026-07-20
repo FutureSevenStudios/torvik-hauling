@@ -9,6 +9,7 @@ import { Icon } from "@/components/ui/Icon"
 const navLinks = [
   { href: "/services", label: "Services" },
   { href: "/removal", label: "What We Remove" },
+  { href: "/cleanouts", label: "Cleanouts" },
   { href: "/service-areas", label: "Service Areas" },
   { href: "/gallery", label: "Gallery" },
   { href: "/about", label: "About" },

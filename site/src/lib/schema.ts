@@ -2,6 +2,7 @@ import { site } from "./content"
 import type { Service, FAQ } from "@/types/site"
 import type { City } from "@/content/cities"
 import type { Item } from "@/content/items"
+import type { Cleanout } from "@/content/cleanouts"
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || site.seo.siteUrl
 
@@ -97,6 +98,25 @@ export function getItemServiceSchema(item: Item) {
     url: `${SITE_URL}/removal/${item.slug}`,
     provider: { "@id": `${SITE_URL}/#business` },
     serviceType: item.name,
+    areaServed: site.serviceAreas.full.map((city) => ({
+      "@type": "City",
+      name: city,
+      containedInPlace: { "@type": "State", name: "Illinois" },
+    })),
+  }
+}
+
+/** Service schema for a cleanout-type page. */
+export function getCleanoutServiceSchema(cleanout: Cleanout) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: cleanout.name,
+    description: cleanout.intro,
+    url: `${SITE_URL}/cleanouts/${cleanout.slug}`,
+    provider: { "@id": `${SITE_URL}/#business` },
+    serviceType: cleanout.name,
+    audience: { "@type": "Audience", audienceType: cleanout.customer },
     areaServed: site.serviceAreas.full.map((city) => ({
       "@type": "City",
       name: city,
