@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { site } from "@/lib/content"
+import { cities } from "@/content/cities"
 import { Icon } from "@/components/ui/Icon"
 
 export function Footer() {
@@ -9,7 +10,7 @@ export function Footer() {
   return (
     <footer className="bg-[color:var(--color-brand-primary)] text-white">
       <div className="container-page py-16 md:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
           <div>
             <Image
               src={site.brand.logo.onDark}
@@ -37,6 +38,27 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-display text-lg mb-4">Service Areas</h3>
+            <ul className="space-y-2 text-sm">
+              {cities.map((c) => (
+                <li key={c.slug}>
+                  <Link
+                    href={`/junk-removal/${c.slug}`}
+                    className="text-white/80 hover:text-white transition-colors"
+                  >
+                    {c.name}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link href="/service-areas" className="text-[color:var(--color-brand-accent)] hover:text-white">
+                  All 30 communities
+                </Link>
+              </li>
             </ul>
           </div>
 

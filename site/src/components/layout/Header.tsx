@@ -8,8 +8,9 @@ import { Icon } from "@/components/ui/Icon"
 
 const navLinks = [
   { href: "/services", label: "Services" },
-  { href: "/gallery", label: "Gallery" },
+  { href: "/removal", label: "What We Remove" },
   { href: "/service-areas", label: "Service Areas" },
+  { href: "/gallery", label: "Gallery" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ]

@@ -1,6 +1,10 @@
+import Link from "next/link"
 import { site } from "@/lib/content"
+import { cities } from "@/content/cities"
 import { Container } from "@/components/ui/Container"
 import { Icon } from "@/components/ui/Icon"
+
+const cityPageByName = new Map(cities.map((c) => [c.name, c.slug]))
 
 export function CityList() {
   return (
@@ -13,12 +17,24 @@ export function CityList() {
           </h2>
         </div>
         <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-2.5">
-          {site.serviceAreas.full.map((city) => (
-            <li key={city} className="flex items-center gap-2 text-[color:var(--color-brand-text)]">
-              <Icon name="map-pin" size={12} className="text-[color:var(--color-brand-secondary)] shrink-0" />
-              <span>{city}</span>
-            </li>
-          ))}
+          {site.serviceAreas.full.map((city) => {
+            const slug = cityPageByName.get(city)
+            return (
+              <li key={city} className="flex items-center gap-2 text-[color:var(--color-brand-text)]">
+                <Icon name="map-pin" size={12} className="text-[color:var(--color-brand-secondary)] shrink-0" />
+                {slug ? (
+                  <Link
+                    href={`/junk-removal/${slug}`}
+                    className="underline underline-offset-2 hover:text-[color:var(--color-brand-secondary)] transition-colors"
+                  >
+                    {city}
+                  </Link>
+                ) : (
+                  <span>{city}</span>
+                )}
+              </li>
+            )
+          })}
         </ul>
         <p className="mt-8 text-sm text-[color:var(--color-brand-muted)]">
           Not on the list? We may still be able to help — give us a call.
