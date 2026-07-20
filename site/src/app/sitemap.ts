@@ -3,6 +3,7 @@ import { site } from "@/lib/content"
 import { cities } from "@/content/cities"
 import { items } from "@/content/items"
 import { cleanouts } from "@/content/cleanouts"
+import { guides } from "@/content/guides"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = process.env.NEXT_PUBLIC_SITE_URL || site.seo.siteUrl
@@ -15,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/service-areas`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/removal`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/cleanouts`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/guides`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/guides/bulk-pickup-rules`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/about`, lastModified: now, changeFrequency: "yearly", priority: 0.6 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.9 },
@@ -49,11 +51,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
+  const guidePages: MetadataRoute.Sitemap = guides.map((g) => ({
+    url: `${base}/guides/${g.slug}`,
+    lastModified: now,
+    changeFrequency: "yearly",
+    priority: 0.6,
+  }))
+
   return [
     ...staticPages,
     ...servicePages,
     ...cityPages,
     ...itemPages,
     ...cleanoutPages,
+    ...guidePages,
   ]
 }

@@ -496,27 +496,31 @@ export const cities: City[] = [
     localContext:
       "Deer Park is small and low-density on the residential side, with large lots and mature trees, alongside a substantial retail corridor. That mix means household cleanouts and yard work on one hand, and retail fixture removal, build-out debris, and commercial clearing on the other.",
     hauler: {
-      name: "Varies by property",
-      phone: "(224) 456-6607",
+      name: "Groot",
+      phone: "(800) 244-1977",
       bulkRule:
-        "Deer Park does not have a single village-wide residential bulk program the way its larger neighbors do, and arrangements differ between subdivisions, homeowners associations, and individually contracted properties. Check with the village or your own hauler for what your address includes.",
-      gap: "Where there is no uniform village program, there is no reliable free option to fall back on. That is the situation private removal is simplest for, and it is why a lot of Deer Park calls skip the curbside question entirely.",
-      sourceUrl: "https://www.swalco.org/101/SERVICES",
-      verified: "2026-07-19",
+        "Groot is the contracted residential hauler for the Village of Deer Park. Like Groot's other area contracts, service centers on a weekly cart plus a limited bulk-item allowance, with heavier or oversized items arranged as a paid special pickup. Confirm your specific tier and allowance with Groot directly.",
+      gap: "Deer Park's large lots produce more than a cart-based program is built to absorb. A cleared garage, a torn-out deck, or brush along a wooded property line arrives as a load rather than a weekly item, and the retail corridor generates fixture and build-out debris no residential program touches at all.",
+      sourceUrl: "https://www.villageofdeerpark.com/178/Waste-and-Recycling-Services",
+      verified: "2026-07-20",
     },
     priorityServices: ["junk-removal", "cleanouts", "yard-cleanup", "property-cleanouts"],
     faqs: [
       {
         q: "Who is my hauler in Deer Park?",
-        a: "It depends on your address and whether your subdivision or association arranges it. We would rather tell you to check with the village than guess on your behalf.",
+        a: "The village contracts with Groot for residential collection. Groot handles a weekly cart and a limited bulk allowance; we handle everything past that, plus the commercial work Groot's residential service does not cover.",
       },
       {
         q: "Do you handle retail and commercial work near Deer Park Town Center?",
-        a: "Yes. Fixture removal, build-out debris, and after-hours clearing are all in scope, and we can invoice the business directly.",
+        a: "Yes. Fixture removal, build-out debris, and after-hours clearing are all in scope, and we can invoice the business directly with a certificate of insurance where the property requires one.",
+      },
+      {
+        q: "I have a large wooded lot. Can you clear brush and an old shed together?",
+        a: "Yes, and combining them into one visit usually prices better than booking separately. Larger Deer Park lots often mean gate access and soft ground, so we walk the site before quoting.",
       },
       {
         q: "How fast can you get to Deer Park?",
-        a: "It is one of our shortest drives. Same-day is often possible if you call early.",
+        a: "It is one of our shortest drives, a few minutes from our Hawthorn Woods base, so same-day pickup is realistic here more often than in most of our area.",
       },
     ],
   },
@@ -530,27 +534,31 @@ export const cities: City[] = [
     localContext:
       "Barrington Hills is defined by its large-lot zoning, with properties measured in acres rather than feet and a strong equestrian character. That means barns, run-in sheds, paddock fencing, and long wooded property lines. It also means the debris from any project here arrives in quantities a residential cart cannot absorb.",
     hauler: {
-      name: "Individually contracted",
+      name: "Private, resident-contracted",
       phone: "(224) 456-6607",
       bulkRule:
-        "Barrington Hills residents generally arrange hauling individually rather than through a single village-wide contract, so what you get depends on the hauler you signed with. There is no uniform bulk allowance to rely on across the village.",
-      gap: "Without a village-wide program there is no free fallback, and the scale here would overwhelm one regardless. Barn cleanouts, fence line removal, and brush clearing across acreage are private-hauler work by default.",
-      sourceUrl: "https://www.barringtonhills-il.gov/",
-      verified: "2026-07-19",
+        "Barrington Hills has no municipal garbage pickup. The village confirms residents must contract individually with a private hauler, and each carrier sets its own containers, schedule, recycling, and what waste it will take, including yard waste and, given the equestrian character here, manure. There is no village-wide bulk allowance because there is no village-wide program.",
+      gap: "With no municipal program, there is no free curbside fallback, and the scale of an acreage property would overwhelm a standard residential contract regardless. Barn and outbuilding teardowns, paddock fence removal, and brush clearing along wooded property lines are private-hauler work by default.",
+      sourceUrl: "https://barringtonhills-il.gov/water-septic-waste-management/",
+      verified: "2026-07-20",
     },
     priorityServices: ["property-cleanouts", "light-demolition", "yard-cleanup", "cleanouts"],
     faqs: [
       {
+        q: "Is there village garbage pickup in Barrington Hills?",
+        a: "No. The village has no municipal collection, so every household contracts its own hauler. That is one reason large one-time jobs here go straight to a private removal service rather than through a curbside program.",
+      },
+      {
         q: "Do you handle barns and outbuildings?",
-        a: "Yes. Barns, run-in sheds, and outbuildings get dismantled and hauled. Large structures may need a demolition permit, and we flag anything we think does before starting.",
+        a: "Yes. Barns, run-in sheds, and outbuildings get dismantled and hauled. Large structures may need a demolition permit given the acreage and zoning here, and we flag anything we think does before starting.",
       },
       {
         q: "Can you clear fence line and brush across acreage?",
-        a: "Yes, and it is common here. Paddock fencing and wooded property lines are volume work, so we walk the property before quoting rather than pricing from a description.",
+        a: "Yes, and it is common here. Paddock fencing and long wooded property lines are volume work, so we walk the property before quoting rather than pricing from a description.",
       },
       {
         q: "Will your truck damage the property?",
-        a: "We plan for it. Acreage means soft ground, narrow lanes, and turf you care about. Tell us where we can and cannot drive and we will work to it.",
+        a: "We plan for it. Acreage means soft ground, narrow lanes, mature landscaping, and turf you care about. Tell us where we can and cannot drive and we will work to it.",
       },
     ],
   },
@@ -975,27 +983,31 @@ export const cities: City[] = [
     localContext:
       "Cary is built across rolling terrain near the Fox River, with a historic downtown around the Metra station and subdivisions spreading into the hills. The topography means walk-out basements, split levels, long stair runs, and steep drives, all of which matter more to a cleanout than square footage does.",
     hauler: {
-      name: "Check with the village",
-      phone: "(224) 456-6607",
+      name: "Flood Brothers",
+      phone: "(630) 261-0578",
       bulkRule:
-        "Residential collection in Cary is provided under the village's hauling arrangement, and the specifics of bulk allowances are best confirmed directly with the village or your hauler, since McHenry County contracts have changed hands in recent years. We would rather point you to the source than quote a rule that may have moved.",
-      gap: "Whatever the current allowance is, it will be built around a cart at the curb. Carrying a basement's worth of contents up a walk-out stair run and down a steep drive is not a curbside problem, it is a labor problem.",
-      sourceUrl: "https://www.caryillinois.com/",
-      verified: "2026-07-19",
+        "The Village of Cary contracts with Flood Brothers for refuse and recycling. Bulk items like household furniture are collected, but each one has to have a pre-paid Cary refuse bag attached to it. So every piece you set out is a sticker cost, and the item still has to get itself to the curb.",
+      gap: "A pre-paid bag per item is fine for one chair. For a cleared basement it is a stack of bags and a stack of trips. And on Cary's hillside lots, the harder part is not the fee, it is carrying a basement's worth of contents up a walk-out stair run and down a steep drive.",
+      sourceUrl: "https://www.caryillinois.com/253/Refuse-Recycling",
+      verified: "2026-07-20",
     },
     priorityServices: ["cleanouts", "junk-removal", "light-demolition", "yard-cleanup"],
     faqs: [
       {
-        q: "My house is a split level on a hill. Does that change the price?",
-        a: "Yes, more than the volume usually does. Stair runs and how far we carry to the truck are the main factors, so mention both when you call.",
+        q: "Do I really need a pre-paid bag on every bulk item?",
+        a: "For Flood Brothers curbside collection in Cary, yes, one pre-paid Cary refuse bag per item. For a single piece that is cheap and easy. For a whole cleanout it adds up fast, and you are still doing all the carrying.",
       },
       {
-        q: "Who is my hauler in Cary?",
-        a: "Confirm with the village. McHenry County hauling contracts have changed hands recently and we would rather you check than take our word for it.",
+        q: "My house is a split level on a hill. Does that change the price?",
+        a: "Yes, more than the volume usually does. Stair runs and how far we carry to the truck are the main factors on Cary's terrain, so mention both when you call.",
+      },
+      {
+        q: "Do you handle walk-out basements?",
+        a: "Yes, and Cary has a lot of them. A walk-out can actually help, since it sometimes gives us a ground-level exit closer to where we can park.",
       },
       {
         q: "Do you serve Cary regularly?",
-        a: "Yes, about 25 minutes from our base. Same-week scheduling is normal.",
+        a: "Yes, about 25 minutes from our base. Same-week scheduling is normal and we answer calls and texts within 1 to 2 hours.",
       },
     ],
   },
@@ -1044,27 +1056,31 @@ export const cities: City[] = [
     localContext:
       "Lake in the Hills went from a small village to one of McHenry County's larger communities in about two decades, built out mostly through the 1990s and 2000s. Those subdivisions are now 20 to 30 years old, which is precisely when original decks, fences, sheds, playsets, and above-ground pools reach the end of their lives.",
     hauler: {
-      name: "Check with the village",
-      phone: "(224) 456-6607",
+      name: "Flood Brothers",
+      phone: "(630) 261-0578",
       bulkRule:
-        "Residential collection is provided under the village's hauling arrangement, and current bulk allowances are best confirmed with the village or your hauler. McHenry County contracts have shifted in recent years, and we would rather send you to the source than quote a rule that has changed.",
-      gap: "Whatever the current allowance is, the pattern here works against it. When a whole subdivision replaces its decks and pools within a few years of each other, the debris arrives in loads rather than in single weekly items.",
-      sourceUrl: "https://www.lith.org/",
-      verified: "2026-07-19",
+        "The Village of Lake in the Hills contracts with Flood Brothers for all residential collection, with refuse, recycling, and landscape waste picked up once a week on a designated day. Bulk and oversized items beyond standard cart service are arranged with Flood Brothers directly.",
+      gap: "Weekly cart collection is built for a steady household trickle, not for a subdivision hitting its replacement cycle all at once. When the original decks, pools, fences, and playsets across a 1990s neighborhood wear out within a few years of each other, that debris arrives as a load, not a weekly item.",
+      sourceUrl: "https://www.lith.org/government/departments/public-works/garbage-recycling",
+      verified: "2026-07-20",
     },
     priorityServices: ["light-demolition", "junk-removal", "yard-cleanup", "cleanouts"],
     faqs: [
       {
+        q: "Who is my hauler in Lake in the Hills?",
+        a: "The village contracts with Flood Brothers for weekly refuse, recycling, and landscape waste. They handle the cart; we handle the deck, pool, shed, and cleanout jobs that a weekly program is not built for.",
+      },
+      {
         q: "Do you remove above-ground pools here?",
-        a: "Yes, and it is one of the more common calls from Lake in the Hills. That covers the liner, wall, pump, surround deck if it is in scope, and grading out the sand base.",
+        a: "Yes, and it is one of the more common calls from Lake in the Hills given the age of the subdivisions. That covers the liner, wall, pump, the surround deck if it is in scope, and grading out the sand base.",
       },
       {
         q: "Everyone on my street is replacing their deck. Do you do multiple?",
-        a: "Yes, and neighboring jobs booked together usually price better, since we save a mobilization.",
+        a: "Yes, and neighboring jobs booked together usually price better, since we save a mobilization between them.",
       },
       {
-        q: "Who is my hauler?",
-        a: "Confirm with the village. McHenry County contracts have changed recently and we would rather you check than rely on us.",
+        q: "How far out is Lake in the Hills for you?",
+        a: "About 30 minutes, one of our furthest regular areas. Same-week scheduling is normal and we answer calls and texts within 1 to 2 hours.",
       },
     ],
   },

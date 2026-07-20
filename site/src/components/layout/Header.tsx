@@ -28,6 +28,7 @@ const navLinks: NavItem[] = [
     ],
   },
   { href: "/service-areas", label: "Locations" },
+  { href: "/guides", label: "Guides" },
   { href: "/gallery", label: "Gallery" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },

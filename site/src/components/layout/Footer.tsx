@@ -124,6 +124,7 @@ export function Footer() {
               <li><Link href="/about" className="text-white/80 hover:text-white">About</Link></li>
               <li><Link href="/service-areas" className="text-white/80 hover:text-white">Service Areas</Link></li>
               <li><Link href="/gallery" className="text-white/80 hover:text-white">Gallery</Link></li>
+              <li><Link href="/guides" className="text-white/80 hover:text-white">Guides</Link></li>
               <li><Link href="/guides/bulk-pickup-rules" className="text-white/80 hover:text-white">Bulk Pickup Rules</Link></li>
               <li><Link href="/privacy" className="text-white/80 hover:text-white">Privacy Policy</Link></li>
             </ul>
@@ -134,6 +135,17 @@ export function Footer() {
           <p>© {year} {site.identity.businessName}. All rights reserved.</p>
           <p>
             Serving Lake Zurich, Hawthorn Woods, Barrington, Libertyville, Palatine &amp; the NW Chicago suburbs.
+          </p>
+          <p>
+            Site by{" "}
+            <a
+              href="https://futuresevenstudios.com"
+              target="_blank"
+              rel="noopener"
+              className="text-white/80 hover:text-white underline underline-offset-2"
+            >
+              Future Seven Studios
+            </a>
           </p>
         </div>
       </div>
