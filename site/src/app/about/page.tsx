@@ -8,7 +8,7 @@ import { CTABand } from "@/components/sections/CTABand"
 import { site } from "@/lib/content"
 
 export const metadata: Metadata = {
-  title: "About — Family-Owned Junk Removal in Lake Zurich",
+  title: "About | Family-Owned Junk Removal in Lake Zurich",
   description:
     "Torvik Hauling is a family-owned junk removal & demolition company serving NW Chicago suburbs. Our story, our approach, and why we do this work.",
   alternates: { canonical: "/about" },
@@ -23,7 +23,7 @@ export default function AboutPage() {
       <HeroCompact
         eyebrow="Our story"
         headline="Family Owned. Community Focused."
-        subheadline="We're not a franchise. We're a local family-owned hauling company working one neighborhood at a time."
+        subheadline="A local family-owned hauling company working one neighborhood at a time."
         imageKey="owner"
       />
       <TextBlock

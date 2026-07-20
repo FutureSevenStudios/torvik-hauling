@@ -37,7 +37,7 @@ export function FAQ({
               {headline}
             </h2>
             <p className="mt-5 text-[color:var(--color-brand-muted)]">
-              Still have a question? Give us a call — we pick up.
+              Still have a question? Give us a call, we pick up.
             </p>
           </div>
           <div className="lg:col-span-8">

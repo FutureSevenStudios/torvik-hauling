@@ -37,7 +37,7 @@ export function CityList() {
           })}
         </ul>
         <p className="mt-8 text-sm text-[color:var(--color-brand-muted)]">
-          Not on the list? We may still be able to help — give us a call.
+          Not on the list? We may still be able to help, give us a call.
         </p>
       </Container>
     </section>

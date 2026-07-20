@@ -29,7 +29,7 @@ export function HeroQuoteForm() {
         body: JSON.stringify({
           ...data,
           source: "hero",
-          description: "(from hero quick-quote form — customer will describe job on follow-up call)",
+          description: "(from hero quick-quote form, customer will describe job on follow-up call)",
         }),
       })
       if (!res.ok) throw new Error((await res.json()).error || "Submission failed")
@@ -47,9 +47,9 @@ export function HeroQuoteForm() {
         <span className="w-10 h-10 rounded-full bg-[color:var(--color-brand-accent)]/20 text-[color:var(--color-brand-primary)] flex items-center justify-center">
           <Icon name="check" size={22} />
         </span>
-        <h3 className="font-display text-xl text-[color:var(--color-brand-text)]">Got it — talk soon.</h3>
+        <h3 className="font-display text-xl text-[color:var(--color-brand-text)]">Got it, talk soon.</h3>
         <p className="text-sm text-[color:var(--color-brand-muted)]">
-          We&rsquo;ll respond within 1&ndash;2 hours during business hours. For fastest service, call or text{" "}
+          We&rsquo;ll respond within 1 to 2 hours during business hours. For fastest service, call or text{" "}
           <a href="tel:+12244566607" className="font-semibold text-[color:var(--color-brand-primary)]">(224) 456-6607</a>.
         </p>
       </div>
@@ -135,7 +135,7 @@ export function HeroQuoteForm() {
       )}
 
       <p className="text-xs text-[color:var(--color-brand-muted)] text-center">
-        No spam, no pressure. 1&ndash;2 hour response.
+        No spam, no pressure. 1 to 2 hour response.
       </p>
     </form>
   )

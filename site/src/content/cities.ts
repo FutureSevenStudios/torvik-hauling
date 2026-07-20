@@ -261,7 +261,7 @@ export const cities: City[] = [
       phone: "(847) 693-2700",
       bulkRule:
         "Groot serves Long Grove. Residents get one bulk item a week, under 50 pounds, and specifically one that a single Groot collector can safely handle alone. Anything past that first item costs extra. Yard waste and food scrap collection runs April 1 through November 30 on a sticker program.",
-      gap: "The rule is not just weight, it is whether one person can lift it alone. That single condition rules out most furniture, appliances, and anything awkward. And with yard waste collection stopping November 30, December through March storm debris has nowhere to go.",
+      gap: "Weight is only half of it. The rule is whether a single collector can lift the item alone, which rules out most furniture, appliances, and anything awkward. And with yard waste collection stopping November 30, December through March storm debris has nowhere to go.",
       sourceUrl: "https://www.longgroveil.gov/community/page/recycling-and-waste-services-0",
       verified: "2026-07-19",
     },

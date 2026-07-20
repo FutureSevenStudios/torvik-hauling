@@ -20,7 +20,7 @@ export default function PrivacyPage() {
 
             <h2 className="font-display text-2xl font-semibold">What we collect</h2>
             <p>
-              When you submit a quote or contact form on this site, we collect the information you provide —
+              When you submit a quote or contact form on this site, we collect the information you provide, 
               typically your name, phone number, email (optional), city, service needed, and a description of
               the job. This information is sent to us by email and used only to respond to your request.
             </p>

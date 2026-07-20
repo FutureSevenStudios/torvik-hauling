@@ -29,7 +29,7 @@ export async function generateMetadata({
   if (!city) return {}
 
   return {
-    title: `Junk Removal in ${city.name}, IL — Same-Week Pickup`,
+    title: `Junk Removal in ${city.name}, IL | Same-Week Pickup`,
     description: `${city.hauler.name} takes limited bulk items in ${city.name}. Torvik Hauling takes the rest. Licensed, insured, 1-2 hour response, free estimates from $125.`,
     alternates: { canonical: `/junk-removal/${city.slug}` },
     openGraph: {

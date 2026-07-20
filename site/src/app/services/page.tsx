@@ -7,7 +7,7 @@ import { Testimonials } from "@/components/sections/Testimonials"
 import { CTABand } from "@/components/sections/CTABand"
 
 export const metadata: Metadata = {
-  title: "Services — Junk Removal, Cleanouts & Light Demolition",
+  title: "Services | Junk Removal, Cleanouts & Light Demolition",
   description:
     "Junk removal, property cleanouts, light demolition, garage/basement/attic cleanouts, yard cleanup, and construction debris hauling across NW Chicago suburbs.",
   alternates: { canonical: "/services" },

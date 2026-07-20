@@ -82,7 +82,7 @@ export function Footer() {
                 <span>
                   {site.identity.address.formatted}
                   <br />
-                  <span className="text-white/60 text-xs">Service-area only — no storefront</span>
+                  <span className="text-white/60 text-xs">Service-area only, no storefront</span>
                 </span>
               </li>
               <li>
@@ -96,8 +96,9 @@ export function Footer() {
 
           <div>
             <h3 className="font-display text-lg mb-4">Follow</h3>
-            {/* TODO: replace social URLs with canonical (non-share-link) URLs before publish.
-                Current values are share-links with tracking params from spec.identity.social. */}
+            {/* Google is now the canonical CID URL. Facebook and Instagram are
+                still share-links with tracking params; replace when the client
+                supplies canonical profile URLs. */}
             <div className="flex gap-3 mb-6">
               <a href={site.identity.social.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors">
                 <Icon name="facebook" size={18} />
@@ -113,6 +114,7 @@ export function Footer() {
               <li><Link href="/about" className="text-white/80 hover:text-white">About</Link></li>
               <li><Link href="/service-areas" className="text-white/80 hover:text-white">Service Areas</Link></li>
               <li><Link href="/gallery" className="text-white/80 hover:text-white">Gallery</Link></li>
+              <li><Link href="/guides/bulk-pickup-rules" className="text-white/80 hover:text-white">Bulk Pickup Rules</Link></li>
               <li><Link href="/privacy" className="text-white/80 hover:text-white">Privacy Policy</Link></li>
             </ul>
           </div>

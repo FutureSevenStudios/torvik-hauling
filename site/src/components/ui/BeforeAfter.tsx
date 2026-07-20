@@ -74,7 +74,7 @@ export function BeforeAfter({
         ref={containerRef}
         className={`relative w-full ${aspect} select-none rounded-2xl overflow-hidden border border-[color:var(--color-brand-border)] shadow-[var(--shadow-soft)] bg-[color:var(--color-brand-surface)] touch-none`}
       >
-        {/* After image (full width, bottom layer — revealed on the right) */}
+        {/* After image (full width, bottom layer, revealed on the right) */}
         <Image
           src={afterSrc}
           alt={afterAlt}
@@ -85,7 +85,7 @@ export function BeforeAfter({
           className="object-cover pointer-events-none"
         />
 
-        {/* Before image (top layer, clipped from the right — visible on the left) */}
+        {/* Before image (top layer, clipped from the right, visible on the left) */}
         <div
           className="absolute inset-0 overflow-hidden"
           style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}

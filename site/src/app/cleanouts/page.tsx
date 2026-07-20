@@ -7,7 +7,7 @@ import { Container } from "@/components/ui/Container"
 import { CTABand } from "@/components/sections/CTABand"
 
 export const metadata: Metadata = {
-  title: "Cleanouts — Estate, Foreclosure, Garage, Basement & Commercial",
+  title: "Cleanouts | Estate, Foreclosure, Garage, Basement & Commercial",
   description:
     "Estate, foreclosure, hoarding, rental turnover, garage, basement, storage unit, and commercial cleanouts across Lake County and NW Cook County, Illinois.",
   alternates: { canonical: "/cleanouts" },

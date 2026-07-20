@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/service-areas`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/removal`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/cleanouts`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/guides/bulk-pickup-rules`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/about`, lastModified: now, changeFrequency: "yearly", priority: 0.6 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.9 },
     { url: `${base}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },

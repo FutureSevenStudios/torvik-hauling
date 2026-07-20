@@ -7,7 +7,7 @@ import { Container } from "@/components/ui/Container"
 import { CTABand } from "@/components/sections/CTABand"
 
 export const metadata: Metadata = {
-  title: "Service Areas — Lake County & NW Cook County",
+  title: "Service Areas | Lake County & NW Cook County",
   description:
     "Torvik Hauling serves 30+ Northwest Chicago suburbs including Lake Zurich, Hawthorn Woods, Barrington, Palatine, Libertyville, Arlington Heights and more.",
   alternates: { canonical: "/service-areas" },
@@ -29,7 +29,7 @@ export default function ServiceAreasPage() {
       <CityCards />
       <CityList />
       <CTABand
-        headline="Near one of these? We're 1–2 hours away."
+        headline="Near one of these? We're 1 to 2 hours away."
         subheadline="Free estimate, no pressure."
         imageKey="hero"
       />

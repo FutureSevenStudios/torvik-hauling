@@ -71,7 +71,7 @@ export async function POST(req: Request) {
         <div style="color:#5B6470;font-size:13px;margin-bottom:6px;">Job description</div>
         <div style="white-space:pre-wrap;">${escape(data.description)}</div>
       </div>
-      <p style="margin-top:24px;color:#5B6470;font-size:13px;">Reminder: client expects 1–2 hour response during business hours.</p>
+      <p style="margin-top:24px;color:#5B6470;font-size:13px;">Reminder: client expects 1 to 2 hour response during business hours.</p>
     </div>
   `
 
@@ -79,7 +79,7 @@ export async function POST(req: Request) {
     <div style="font-family:Inter,system-ui,sans-serif;color:#1A2033;max-width:600px;margin:0 auto;background:#F7F5F0;padding:32px 24px;">
       <div style="background:#FFFFFF;border:1px solid #E4E4DD;border-radius:16px;padding:32px;">
         <h1 style="font-family:Georgia,serif;color:#0B2E5B;margin:0 0 8px;font-size:24px;line-height:1.2;">Thanks, ${escape(data.name.split(" ")[0] || data.name)} — we got it.</h1>
-        <p style="color:#5B6470;margin:0 0 24px;line-height:1.6;">Your request is in. A member of the Torvik Hauling team will reach out within <strong style="color:#0B2E5B;">1–2 hours during business hours</strong> with a free estimate. If you need us sooner, call or text <a href="tel:+12244566607" style="color:#0B2E5B;font-weight:600;">(224) 456-6607</a>.</p>
+        <p style="color:#5B6470;margin:0 0 24px;line-height:1.6;">Your request is in. A member of the Torvik Hauling team will reach out within <strong style="color:#0B2E5B;">1 to 2 hours during business hours</strong> with a free estimate. If you need us sooner, call or text <a href="tel:+12244566607" style="color:#0B2E5B;font-weight:600;">(224) 456-6607</a>.</p>
 
         <div style="border-top:1px solid #E4E4DD;border-bottom:1px solid #E4E4DD;padding:20px 0;margin:20px 0;">
           <div style="color:#3E7CB1;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;font-weight:700;margin-bottom:12px;">Your request</div>

@@ -7,7 +7,7 @@ import { Container } from "@/components/ui/Container"
 import { CTABand } from "@/components/sections/CTABand"
 
 export const metadata: Metadata = {
-  title: "What We Remove — Hot Tubs, Appliances, Furniture & More",
+  title: "What We Remove | Hot Tubs, Appliances, Furniture & More",
   description:
     "Hot tubs, appliances, mattresses, sheds, decks, fences, playsets, pools, pianos, and e-waste. What each item costs, where it ends up, and when your village will take it free.",
   alternates: { canonical: "/removal" },

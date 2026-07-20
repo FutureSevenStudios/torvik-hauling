@@ -44,7 +44,7 @@ export const metadata: Metadata = {
         url: "/photos/hero.jpeg",
         width: 1200,
         height: 630,
-        alt: `${site.identity.businessName} — ${site.identity.tagline}`,
+        alt: `${site.identity.businessName}, ${site.identity.tagline}`,
       },
     ],
   },

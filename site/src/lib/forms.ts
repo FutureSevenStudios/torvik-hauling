@@ -31,5 +31,5 @@ export const serviceOptions = [
   "Garage/Basement/Attic Cleanout",
   "Yard Cleanup",
   "Construction Debris",
-  "Not sure — need advice",
+  "Not sure, need advice",
 ]

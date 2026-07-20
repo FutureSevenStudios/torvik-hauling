@@ -16,15 +16,15 @@ const pairs: Pair[] = [
     afterSrc: "/photos/before-after/ba1-after.jpeg",
     beforeAlt: "Old toilet and construction debris piled against the side of a house",
     afterAlt: "The same side-yard, cleared and clean after Torvik Hauling's cleanout",
-    caption: "Side-Yard Cleanout — Toilet & Debris Removed",
+    caption: "Side-Yard Cleanout, Toilet & Debris Removed",
     aspect: "aspect-[3/4]",
   },
   {
     beforeSrc: "/photos/before-after/ba2-before.jpeg",
     afterSrc: "/photos/before-after/ba2-after.jpeg",
-    beforeAlt: "Pile of household junk — cooler, boxes, fan, and bagged debris stacked against a brick wall",
+    beforeAlt: "Pile of household junk, cooler, boxes, fan, and bagged debris stacked against a brick wall",
     afterAlt: "Same brick exterior, fully cleared after the cleanout",
-    caption: "Garage Cleanout — Furniture, Boxes & Yard Debris",
+    caption: "Garage Cleanout, Furniture, Boxes & Yard Debris",
     aspect: "aspect-[3/4]",
   },
   {
@@ -32,7 +32,7 @@ const pairs: Pair[] = [
     afterSrc: "/photos/before-after/ba3-after.jpeg",
     beforeAlt: "Construction tile boxes, packaging, and renovation debris stacked in a small drywalled room",
     afterAlt: "Same room emptied, swept, and ready for the next phase",
-    caption: "Renovation Cleanout — Tile, Boxes & Construction Materials",
+    caption: "Renovation Cleanout, Tile, Boxes & Construction Materials",
     aspect: "aspect-[3/4]",
   },
   {
@@ -40,7 +40,7 @@ const pairs: Pair[] = [
     afterSrc: "/photos/before-after/ba5-after.jpeg",
     beforeAlt: "Basement full of bookshelves, boxes, and household clutter",
     afterAlt: "Same basement after Torvik cleared every shelf and bin",
-    caption: "Estate Cleanout — Books, Shelving & Storage Cleared",
+    caption: "Estate Cleanout, Books, Shelving & Storage Cleared",
     aspect: "aspect-[3/4]",
   },
   {
@@ -48,7 +48,7 @@ const pairs: Pair[] = [
     afterSrc: "/photos/before-after/ba4-after.jpeg",
     beforeAlt: "Cluttered basement living area with sofa, totes, and household items",
     afterAlt: "Same basement, fully cleared and swept clean",
-    caption: "Basement Cleanout — Living Area Reclaimed",
+    caption: "Basement Cleanout, Living Area Reclaimed",
     aspect: "aspect-[3/4]",
   },
 ]

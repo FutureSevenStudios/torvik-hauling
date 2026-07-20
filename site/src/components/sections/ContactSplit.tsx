@@ -33,7 +33,7 @@ export function ContactSplit() {
                 <span className="block font-display text-base font-semibold text-[color:var(--color-brand-text)] mb-0.5">
                   Family owned. Community focused.
                 </span>
-                When you call Torvik Hauling, you're calling a real family in the NW Chicago suburbs — not a national chain.
+                When you call Torvik Hauling, you're calling a real family in the NW Chicago suburbs, not a national chain.
               </figcaption>
             </figure>
 
@@ -70,9 +70,9 @@ export function ContactSplit() {
                   </span>
                   <div>
                     <div className="text-[color:var(--color-brand-muted)] text-xs uppercase tracking-wider font-semibold">Hours</div>
-                    <div className="text-[color:var(--color-brand-text)]">Mon&ndash;Fri 7:00 AM &ndash; 7:00 PM</div>
-                    <div className="text-[color:var(--color-brand-text)]">Sat 8:00 AM &ndash; 5:00 PM</div>
-                    <div className="text-[color:var(--color-brand-muted)] text-xs mt-0.5">Sun — text for emergencies</div>
+                    <div className="text-[color:var(--color-brand-text)]">Mon to Fri, 7:00 AM to 7:00 PM</div>
+                    <div className="text-[color:var(--color-brand-text)]">Sat, 8:00 AM to 5:00 PM</div>
+                    <div className="text-[color:var(--color-brand-muted)] text-xs mt-0.5">Sun, text for emergencies</div>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -82,7 +82,7 @@ export function ContactSplit() {
                   <div>
                     <div className="text-[color:var(--color-brand-muted)] text-xs uppercase tracking-wider font-semibold">Service area</div>
                     <div className="text-[color:var(--color-brand-text)]">{site.identity.primaryRegion}</div>
-                    <div className="text-[color:var(--color-brand-muted)] text-xs mt-0.5">Based in Hawthorn Woods — service-area only, no storefront</div>
+                    <div className="text-[color:var(--color-brand-muted)] text-xs mt-0.5">Based in Hawthorn Woods, service-area only, no storefront</div>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -91,7 +91,7 @@ export function ContactSplit() {
                   </span>
                   <div>
                     <div className="text-[color:var(--color-brand-muted)] text-xs uppercase tracking-wider font-semibold">Response time</div>
-                    <div className="text-[color:var(--color-brand-text)]">1&ndash;2 hours during business hours</div>
+                    <div className="text-[color:var(--color-brand-text)]">1 to 2 hours during business hours</div>
                   </div>
                 </li>
               </ul>

@@ -50,7 +50,7 @@ export function ServiceAreaMap({ compact = false }: { compact?: boolean }) {
         aria-labelledby="service-area-map-title"
         role="img"
       >
-        <title id="service-area-map-title">Torvik Hauling service area — Lake County and Northwest Cook County, Illinois</title>
+        <title id="service-area-map-title">Torvik Hauling service area, Lake County and Northwest Cook County, Illinois</title>
         <defs>
           <pattern id="dotgrid" width="4" height="4" patternUnits="userSpaceOnUse">
             <circle cx="2" cy="2" r="0.3" fill="#0B2E5B" opacity="0.08" />
@@ -65,7 +65,7 @@ export function ServiceAreaMap({ compact = false }: { compact?: boolean }) {
         <rect width="100" height="80" fill="url(#dotgrid)" />
         <circle cx="35" cy="40" r="35" fill="url(#coverage)" />
 
-        {/* Boundary hint — Lake County + NW Cook */}
+        {/* Boundary hint, Lake County + NW Cook */}
         <path
           d="M 2 10 Q 20 5, 42 8 T 80 12 L 84 50 Q 70 70, 40 72 T 4 70 Z"
           fill="none"
@@ -117,7 +117,7 @@ export function ServiceAreaMap({ compact = false }: { compact?: boolean }) {
       <div className="absolute bottom-4 left-4 bg-[color:var(--color-brand-surface)]/95 backdrop-blur-sm rounded-lg px-3 py-2 border border-[color:var(--color-brand-border)] text-xs">
         <div className="flex items-center gap-2 mb-1">
           <span className="w-2 h-2 rounded-full bg-[color:var(--color-brand-primary)]" />
-          <span className="text-[color:var(--color-brand-text)] font-medium">Home base — Hawthorn Woods</span>
+          <span className="text-[color:var(--color-brand-text)] font-medium">Home base, Hawthorn Woods</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="w-1.5 h-1.5 rounded-full bg-[color:var(--color-brand-secondary)]" />

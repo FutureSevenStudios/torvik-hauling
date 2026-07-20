@@ -17,7 +17,7 @@ export function GalleryPreview() {
               The work, not the promises.
             </h2>
             <p className="mt-4 text-lg text-[color:var(--color-brand-muted)] leading-relaxed">
-              Real photos of real Torvik jobs — from the suburbs to the disposal facility.
+              Real photos of real Torvik jobs, from the suburbs to the disposal facility.
             </p>
           </div>
           <Link href="/gallery" className="btn-ghost shrink-0">

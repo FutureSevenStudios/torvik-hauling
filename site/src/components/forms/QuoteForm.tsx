@@ -43,9 +43,9 @@ export function QuoteForm() {
         <span className="w-12 h-12 rounded-full bg-[color:var(--color-brand-accent)]/20 text-[color:var(--color-brand-primary)] flex items-center justify-center mb-5">
           <Icon name="check" size={26} />
         </span>
-        <h3 className="font-display text-2xl text-[color:var(--color-brand-text)] mb-3">Got it — we&rsquo;ll be in touch.</h3>
+        <h3 className="font-display text-2xl text-[color:var(--color-brand-text)] mb-3">Got it, we&rsquo;ll be in touch.</h3>
         <p className="text-[color:var(--color-brand-muted)] leading-relaxed mb-4">
-          We&rsquo;ll respond within 1&ndash;2 hours during business hours with a firm quote.
+          We&rsquo;ll respond within 1 to 2 hours during business hours with a firm quote.
           For fastest response, feel free to call or text us directly.
         </p>
         <a href="tel:+12244566607" className="btn-secondary">
@@ -173,7 +173,7 @@ export function QuoteForm() {
       )}
 
       <p className="text-xs text-[color:var(--color-brand-muted)] text-center mt-4">
-        We respond in 1&ndash;2 hours during business hours. Free estimate, no pressure.
+        We respond in 1 to 2 hours during business hours. Free estimate, no pressure.
       </p>
     </form>
   )

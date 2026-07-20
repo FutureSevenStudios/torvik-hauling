@@ -13,14 +13,25 @@ export function Hero() {
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           <div className="lg:col-span-7">
             <p className="eyebrow mb-5">Lake Zurich &amp; Northwest Chicago Suburbs</p>
+
+            {/* Proof first, per the copy rules: a real result before any claim. */}
+            <p className="flex items-center gap-2 text-sm font-semibold text-[color:var(--color-brand-primary)] mb-4">
+              <Icon name="star" size={16} />
+              5.0 from 47 Google reviews
+            </p>
+
             <h1 className="font-display text-[clamp(42px,7vw,83px)] font-bold leading-[1.02] tracking-tight text-[color:var(--color-brand-text)] mb-6">
-              Junk Removed.
+              We take the jobs
               <br />
-              <span className="text-[color:var(--color-brand-primary)]">Space Restored.</span>
+              <span className="text-[color:var(--color-brand-primary)]">others turn down.</span>
             </h1>
-            <p className="text-lg md:text-xl text-[color:var(--color-brand-muted)] leading-relaxed max-w-2xl mb-8">
-              Family-owned junk removal, property cleanouts, and light demolition. Licensed &amp;
-              insured, 1&ndash;2 hour response, free estimates typically starting around $125.
+            <p className="text-lg md:text-xl text-[color:var(--color-brand-muted)] leading-relaxed max-w-2xl mb-6">
+              Family-owned junk removal, cleanouts, and light demolition across Lake
+              County and Northwest Cook County.
+            </p>
+            <p className="text-lg text-[color:var(--color-brand-text)] leading-relaxed max-w-2xl mb-8">
+              Send a photo of what needs to go. You get a firm price in 1 to 2 hours,
+              and most jobs start around $125.
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 mb-8">
@@ -37,7 +48,7 @@ export function Hero() {
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-[color:var(--color-brand-muted)]">
               <span className="inline-flex items-center gap-2">
                 <Icon name="check" size={14} className="text-[color:var(--color-brand-secondary)]" />
-                Responds in 1&ndash;2 hours
+                Answers in 1 to 2 hours
               </span>
               <span className="inline-flex items-center gap-2">
                 <Icon name="check" size={14} className="text-[color:var(--color-brand-secondary)]" />
@@ -45,7 +56,7 @@ export function Hero() {
               </span>
               <span className="inline-flex items-center gap-2">
                 <Icon name="check" size={14} className="text-[color:var(--color-brand-secondary)]" />
-                5.0 from 47 Google reviews
+                Family owned
               </span>
             </div>
           </div>
@@ -54,7 +65,7 @@ export function Hero() {
             <div id="quote" className="bg-[color:var(--color-brand-surface)] border border-[color:var(--color-brand-border)] rounded-2xl p-6 md:p-7 shadow-[var(--shadow-lifted)]">
               <div className="mb-4">
                 <h2 className="font-display text-2xl text-[color:var(--color-brand-text)] mb-1">Get a free estimate</h2>
-                <p className="text-sm text-[color:var(--color-brand-muted)]">1&ndash;2 hour response during business hours.</p>
+                <p className="text-sm text-[color:var(--color-brand-muted)]">We answer in 1 to 2 hours during business hours.</p>
               </div>
               <HeroQuoteForm />
             </div>

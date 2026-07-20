@@ -58,7 +58,14 @@ export function CityHaulerGap({ city }: { city: City }) {
             >
               the {city.name} waste page
             </a>{" "}
-            before you rely on them.
+            before you rely on them. We keep{" "}
+            <a
+              href="/guides/bulk-pickup-rules"
+              className="underline text-[color:var(--color-brand-secondary)]"
+            >
+              the rules for every village we serve
+            </a>{" "}
+            in one place.
           </p>
         </div>
       </Container>

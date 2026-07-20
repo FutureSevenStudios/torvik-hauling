@@ -11,7 +11,7 @@ export function TagCloud() {
             Common specific asks
           </h2>
           <p className="mt-3 text-[color:var(--color-brand-muted)]">
-            These fall under the services above — call or text if you&rsquo;re not sure which one fits.
+            These fall under the services above, call or text if you&rsquo;re not sure which one fits.
           </p>
         </div>
         <ul className="flex flex-wrap gap-2.5">
