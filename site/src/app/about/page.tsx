@@ -36,7 +36,7 @@ export default function AboutPage() {
       <TrustBar />
       <Testimonials
         eyebrow="What neighbors say"
-        headline="5-star service, 3 real stories."
+        headline="47 five-star reviews. Here are three of them."
       />
       <CTABand headline="Let's get your space back." imageKey="trailer" />
     </>

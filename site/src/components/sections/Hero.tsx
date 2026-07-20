@@ -45,7 +45,7 @@ export function Hero() {
               </span>
               <span className="inline-flex items-center gap-2">
                 <Icon name="check" size={14} className="text-[color:var(--color-brand-secondary)]" />
-                5&#8209;star rated
+                5.0 from 47 Google reviews
               </span>
             </div>
           </div>

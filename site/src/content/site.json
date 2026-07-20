@@ -31,7 +31,7 @@
     "social": {
       "facebook":  "https://www.facebook.com/share/1DtYvhKofi/?mibextid=wwXIfr",
       "instagram": "https://www.instagram.com/torvikhauling?igsh=MXJ1ZDUxcWRvZ2Y4eg%3D%3D&utm_source=qr",
-      "google":    "https://share.google/LHKNG3oyAecUf0itD"
+      "google":    "https://maps.google.com/?cid=4121724509003938481"
     }
   },
   "serviceAreas": {
@@ -84,7 +84,7 @@
     { "label": "Licensed & Insured", "icon": "shield" },
     { "label": "1–2 Hour Response",  "icon": "clock" },
     { "label": "Free Estimates",     "icon": "sparkle" },
-    { "label": "5-Star Rated",       "icon": "star" },
+    { "label": "5.0 from 47 Google Reviews", "icon": "star" },
     { "label": "Family Owned",       "icon": "home" }
   ],
   "processSteps": [
@@ -345,8 +345,9 @@
         "addressRegion": "IL",
         "addressCountry": "US"
       },
-      "aggregateRating": { "ratingValue": "5.0", "reviewCount": "3" },
+      "aggregateRating": { "ratingValue": "5.0", "reviewCount": "47" },
       "sameAs": [
+        "https://maps.google.com/?cid=4121724509003938481",
         "https://www.facebook.com/share/1DtYvhKofi/?mibextid=wwXIfr",
         "https://www.instagram.com/torvikhauling?igsh=MXJ1ZDUxcWRvZ2Y4eg%3D%3D&utm_source=qr"
       ]

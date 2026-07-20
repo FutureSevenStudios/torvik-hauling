@@ -16,7 +16,7 @@ function Stars({ rating = 5 }: { rating?: number }) {
 
 export function Testimonials({
   eyebrow = "What neighbors are saying",
-  headline = "5-star service from Lake Zurich to Gurnee",
+  headline = "47 reviews. Every one of them five stars.",
   items,
   showGoogleLink = true,
 }: {
