@@ -7,6 +7,7 @@ import Link from "next/link"
 import { quoteSchema, type QuoteInput, serviceOptions } from "@/lib/forms"
 import { TextField, TextareaField, SelectField } from "./FormField"
 import { Icon } from "@/components/ui/Icon"
+import { trackLead } from "@/lib/analytics"
 
 export function QuoteForm() {
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle")
@@ -29,6 +30,7 @@ export function QuoteForm() {
         body: JSON.stringify({ ...data, source: "contact-page" }),
       })
       if (!res.ok) throw new Error((await res.json()).error || "Submission failed")
+      trackLead("contact")
       setStatus("success")
       reset()
     } catch (e) {

@@ -7,6 +7,7 @@ import Link from "next/link"
 import { heroQuoteSchema, type HeroQuoteInput, serviceOptions } from "@/lib/forms"
 import { TextField, SelectField } from "./FormField"
 import { Icon } from "@/components/ui/Icon"
+import { trackLead } from "@/lib/analytics"
 
 export function HeroQuoteForm() {
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle")
@@ -33,6 +34,7 @@ export function HeroQuoteForm() {
         }),
       })
       if (!res.ok) throw new Error((await res.json()).error || "Submission failed")
+      trackLead("hero")
       setStatus("success")
       reset()
     } catch (e) {
