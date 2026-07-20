@@ -49,7 +49,7 @@ export function HeroQuoteForm() {
         </span>
         <h3 className="font-display text-xl text-[color:var(--color-brand-text)]">Got it, talk soon.</h3>
         <p className="text-sm text-[color:var(--color-brand-muted)]">
-          We&rsquo;ll respond within 1 to 2 hours during business hours. For fastest service, call or text{" "}
+          We&rsquo;ll respond within 1 to 2 hours. For fastest service, call or text{" "}
           <a href="tel:+12244566607" className="font-semibold text-[color:var(--color-brand-primary)]">(224) 456-6607</a>.
         </p>
       </div>

@@ -34,6 +34,25 @@ export function getLocalBusinessSchema() {
       ratingValue: lb.aggregateRating.ratingValue,
       reviewCount: lb.aggregateRating.reviewCount,
     },
+    // Mirrors the Google Business Profile, which lists Open 24 hours. Keep the
+    // two in sync; inconsistent hours between a site and its GBP is a trust
+    // signal problem and sends customers away when they think you are closed.
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday",
+        ],
+        opens: "00:00",
+        closes: "23:59",
+      },
+    ],
     sameAs: lb.sameAs,
     hasOfferCatalog: {
       "@type": "OfferCatalog",

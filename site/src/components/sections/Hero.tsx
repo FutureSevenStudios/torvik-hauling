@@ -65,7 +65,7 @@ export function Hero() {
             <div id="quote" className="bg-[color:var(--color-brand-surface)] border border-[color:var(--color-brand-border)] rounded-2xl p-6 md:p-7 shadow-[var(--shadow-lifted)]">
               <div className="mb-4">
                 <h2 className="font-display text-2xl text-[color:var(--color-brand-text)] mb-1">Get a free estimate</h2>
-                <p className="text-sm text-[color:var(--color-brand-muted)]">We answer in 1 to 2 hours during business hours.</p>
+                <p className="text-sm text-[color:var(--color-brand-muted)]">We answer in 1 to 2 hours, any time.</p>
               </div>
               <HeroQuoteForm />
             </div>

@@ -20,14 +20,15 @@
     "estimatesPolicy": "Free estimates, quotes typically starting around $125",
     "yearsInBusiness": 1,
     "hours": {
-      "monday":    "7:00 AM to 7:00 PM",
-      "tuesday":   "7:00 AM to 7:00 PM",
-      "wednesday": "7:00 AM to 7:00 PM",
-      "thursday":  "7:00 AM to 7:00 PM",
-      "friday":    "7:00 AM to 7:00 PM",
-      "saturday":  "8:00 AM to 5:00 PM",
-      "sunday":    "Text for emergencies"
+      "monday":    "Open 24 hours",
+      "tuesday":   "Open 24 hours",
+      "wednesday": "Open 24 hours",
+      "thursday":  "Open 24 hours",
+      "friday":    "Open 24 hours",
+      "saturday":  "Open 24 hours",
+      "sunday":    "Open 24 hours"
     },
+    "hoursNote": "Matched to the Google Business Profile, which lists Open 24 hours. Keep these in sync; if the profile changes, change this too.",
     "social": {
       "facebook":  "https://www.facebook.com/share/1DtYvhKofi/?mibextid=wwXIfr",
       "instagram": "https://www.instagram.com/torvikhauling?igsh=MXJ1ZDUxcWRvZ2Y4eg%3D%3D&utm_source=qr",

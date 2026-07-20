@@ -4,12 +4,6 @@ import { Container } from "@/components/ui/Container"
 import { Icon } from "@/components/ui/Icon"
 import { QuoteForm } from "@/components/forms/QuoteForm"
 
-const hoursEntries = [
-  ["Mon", "Friday"],
-  ["Sat", "Saturday"],
-  ["Sun", "Sunday"],
-] as const
-
 export function ContactSplit() {
   return (
     <section className="pb-16 md:pb-24">
@@ -70,9 +64,8 @@ export function ContactSplit() {
                   </span>
                   <div>
                     <div className="text-[color:var(--color-brand-muted)] text-xs uppercase tracking-wider font-semibold">Hours</div>
-                    <div className="text-[color:var(--color-brand-text)]">Mon to Fri, 7:00 AM to 7:00 PM</div>
-                    <div className="text-[color:var(--color-brand-text)]">Sat, 8:00 AM to 5:00 PM</div>
-                    <div className="text-[color:var(--color-brand-muted)] text-xs mt-0.5">Sun, text for emergencies</div>
+                    <div className="text-[color:var(--color-brand-text)]">Open 24 hours, 7 days a week</div>
+                    <div className="text-[color:var(--color-brand-muted)] text-xs mt-0.5">Call or text any time. We answer in 1 to 2 hours.</div>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -91,7 +84,7 @@ export function ContactSplit() {
                   </span>
                   <div>
                     <div className="text-[color:var(--color-brand-muted)] text-xs uppercase tracking-wider font-semibold">Response time</div>
-                    <div className="text-[color:var(--color-brand-text)]">1 to 2 hours during business hours</div>
+                    <div className="text-[color:var(--color-brand-text)]">1 to 2 hours, any time</div>
                   </div>
                 </li>
               </ul>
