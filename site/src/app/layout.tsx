@@ -54,6 +54,14 @@ export const metadata: Metadata = {
     description: site.seo.defaultDescription,
   },
   robots: { index: true, follow: true },
+  // Search Console URL-prefix verification for https://torvikhauling.com.
+  // Set NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION in Vercel (or below) to the token
+  // from Search Console's "HTML tag" method. Verification tokens are public by
+  // design, so this is not a secret. Leave verified once set — removing the tag
+  // un-verifies the property and drops access to the data.
+  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+    : undefined,
   // NOTE: do not set `alternates.canonical` here. App Router metadata inherits
   // down the tree, so a canonical on the root layout is emitted verbatim on
   // every page that doesn't override it — which told Google all 12 inner pages
