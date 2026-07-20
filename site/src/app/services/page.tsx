@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Services — Junk Removal, Cleanouts & Light Demolition",
   description:
     "Junk removal, property cleanouts, light demolition, garage/basement/attic cleanouts, yard cleanup, and construction debris hauling across NW Chicago suburbs.",
+  alternates: { canonical: "/services" },
 }
 
 export default function ServicesPage() {

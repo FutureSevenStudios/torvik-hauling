@@ -25,6 +25,7 @@ export async function generateMetadata(
   return {
     title: `${service.name} in Lake Zurich & NW Chicago`,
     description: `${service.shortDescription} Licensed & insured, 1-2 hour response, free estimates.`,
+    alternates: { canonical: `/services/${service.slug}` },
   }
 }
 

@@ -54,7 +54,10 @@ export const metadata: Metadata = {
     description: site.seo.defaultDescription,
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: SITE_URL },
+  // NOTE: do not set `alternates.canonical` here. App Router metadata inherits
+  // down the tree, so a canonical on the root layout is emitted verbatim on
+  // every page that doesn't override it — which told Google all 12 inner pages
+  // were duplicates of the homepage. Each page declares its own canonical.
 }
 
 export const viewport: Viewport = {

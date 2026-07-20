@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Contact — Get a Free Estimate",
   description:
     "Get a free estimate for junk removal, cleanouts, or light demolition. Call or text (224) 456-6607. 1–2 hour response across the NW Chicago suburbs.",
+  alternates: { canonical: "/contact" },
 }
 
 export default function ContactPage() {

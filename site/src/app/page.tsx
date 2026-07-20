@@ -10,6 +10,11 @@ import { ServiceAreasPreview } from "@/components/sections/ServiceAreasPreview"
 import { FAQ } from "@/components/sections/FAQ"
 import { CTABand } from "@/components/sections/CTABand"
 import { site } from "@/lib/content"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+}
 
 export default function HomePage() {
   return (

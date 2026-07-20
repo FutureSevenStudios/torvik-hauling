@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Gallery — Junk Removal & Demo Jobs",
   description:
     "Photos of Torvik Hauling's work across the Northwest Chicago suburbs — junk removal, cleanouts, demolition, and eco-friendly disposal.",
+  alternates: { canonical: "/gallery" },
 }
 
 export default function GalleryPage() {

@@ -6,6 +6,7 @@ import { site } from "@/lib/content"
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "How Torvik Hauling handles your information.",
+  alternates: { canonical: "/privacy" },
 }
 
 export default function PrivacyPage() {

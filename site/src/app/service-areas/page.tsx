@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Service Areas — Lake County & NW Cook County",
   description:
     "Torvik Hauling serves 30+ Northwest Chicago suburbs including Lake Zurich, Hawthorn Woods, Barrington, Palatine, Libertyville, Arlington Heights and more.",
+  alternates: { canonical: "/service-areas" },
 }
 
 export default function ServiceAreasPage() {

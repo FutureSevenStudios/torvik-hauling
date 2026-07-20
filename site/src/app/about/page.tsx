@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "About — Family-Owned Junk Removal in Lake Zurich",
   description:
     "Torvik Hauling is a family-owned junk removal & demolition company serving NW Chicago suburbs. Our story, our approach, and why we do this work.",
+  alternates: { canonical: "/about" },
 }
 
 // TODO: confirm owner name with client (likely "Matt" — confirm with Jaron before
