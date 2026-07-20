@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next"
 import { site } from "@/lib/content"
+import { cities } from "@/content/cities"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = process.env.NEXT_PUBLIC_SITE_URL || site.seo.siteUrl
@@ -22,5 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }))
 
-  return [...staticPages, ...servicePages]
+  const cityPages: MetadataRoute.Sitemap = cities.map((c) => ({
+    url: `${base}/junk-removal/${c.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }))
+
+  return [...staticPages, ...servicePages, ...cityPages]
 }
