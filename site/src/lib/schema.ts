@@ -1,6 +1,7 @@
 import { site } from "./content"
 import type { Service, FAQ } from "@/types/site"
 import type { City } from "@/content/cities"
+import type { Item } from "@/content/items"
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || site.seo.siteUrl
 
@@ -83,6 +84,24 @@ export function getCityServiceSchema(city: City) {
         name: `${city.county} County, Illinois`,
       },
     },
+  }
+}
+
+/** Service schema for a single-item removal page. */
+export function getItemServiceSchema(item: Item) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: item.name,
+    description: item.intro,
+    url: `${SITE_URL}/removal/${item.slug}`,
+    provider: { "@id": `${SITE_URL}/#business` },
+    serviceType: item.name,
+    areaServed: site.serviceAreas.full.map((city) => ({
+      "@type": "City",
+      name: city,
+      containedInPlace: { "@type": "State", name: "Illinois" },
+    })),
   }
 }
 
