@@ -38,6 +38,16 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li className="pt-2">
+                <Link href="/removal" className="text-[color:var(--color-brand-accent)] hover:text-white">
+                  What We Remove
+                </Link>
+              </li>
+              <li>
+                <Link href="/cleanouts" className="text-[color:var(--color-brand-accent)] hover:text-white">
+                  Cleanouts
+                </Link>
+              </li>
             </ul>
           </div>
 
